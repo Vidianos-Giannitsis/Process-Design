@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg1639"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   sodipodi:docname="info_diagram.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1641"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.04"
+     inkscape:cx="598.07692"
+     inkscape:cy="384.61538"
+     inkscape:window-width="1916"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1636" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:4.93888889px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000"
+       x="9.8898373"
+       y="7.7696762"
+       id="text1697"><tspan
+         sodipodi:role="line"
+         id="tspan1695"
+         style="stroke-width:0.275934px;font-size:4.93888889px"
+         x="9.8898373"
+         y="7.7696762" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000"
+       x="122.22932"
+       y="9.2736406"
+       id="text1701"><tspan
+         sodipodi:role="line"
+         id="tspan1699"
+         style="font-size:4.93889px;stroke-width:0.275934px"
+         x="122.22932"
+         y="9.2736406">Παραγωγή Γλυκερόλης</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.93889px;stroke-width:0.275934px"
+         x="122.22932"
+         y="15.447253"
+         id="tspan1870">από βιομάζα</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.606921"
+       id="rect1818"
+       width="57.239544"
+       height="14.469422"
+       x="119.15349"
+       y="3.1610441" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:normal;font-family:sans-serif;text-align:center;text-decoration-color:#000000;letter-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000"
+       x="182.57516"
+       y="37.255356"
+       id="text1874"><tspan
+         sodipodi:role="line"
+         id="tspan1872"
+         style="text-align:center;text-anchor:middle;stroke-width:0.275934px"
+         x="182.57516"
+         y="37.255356">Παραγωγή τριγλυκεριδίων</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.275934px"
+         x="182.57516"
+         y="43.428982"
+         id="tspan1876">από βιομάζα και μετεστεροποίηση</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.275934px"
+         x="182.57516"
+         y="49.602608"
+         id="tspan1878">για παραγωγή γλυκερόλης</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.576001"
+       id="rect1880"
+       width="77.685211"
+       height="17.735832"
+       x="144.34076"
+       y="33.566517" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000;text-anchor:middle;text-align:center"
+       x="109.94187"
+       y="37.579617"
+       id="text1884"><tspan
+         sodipodi:role="line"
+         id="tspan1882"
+         style="stroke-width:0.275934px;text-anchor:middle;text-align:center"
+         x="81.115143"
+         y="37.579617">Παραγωγή προπυλενίου</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px;text-anchor:middle;text-align:center"
+         x="81.115143"
+         y="43.753242"
+         id="tspan1886">και χημική μετατροπή του</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px;text-anchor:middle;text-align:center"
+         x="81.115143"
+         y="49.926865"
+         id="tspan1888">σε γλυκερόλη</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px;text-anchor:middle;text-align:center"
+         x="81.115143"
+         y="56.100491"
+         id="tspan1890" /></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.576001"
+       id="rect1892"
+       width="62.569923"
+       height="19.248724"
+       x="78.066086"
+       y="32.912739" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000;text-anchor:middle;text-align:center"
+       x="260.6123"
+       y="35.195431"
+       id="text1896"><tspan
+         sodipodi:role="line"
+         id="tspan1894"
+         style="stroke-width:0.275934px;text-anchor:middle;text-align:center"
+         x="232.14731"
+         y="35.195431">Χρήση Sacharomyces</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px;text-anchor:middle;text-align:center"
+         x="232.14731"
+         y="41.369057"
+         id="tspan1898">cerevisiae για παραγωγή</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px;text-anchor:middle;text-align:center"
+         x="232.14731"
+         y="47.542679"
+         id="tspan1900">γλυκερόλης, παραπροιόν</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px;text-anchor:middle;text-align:center"
+         x="232.14731"
+         y="53.716305"
+         id="tspan1902">της αλκοολικής ζύμωσης`</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.576001"
+       id="rect1904"
+       width="58.963844"
+       height="25.285095"
+       x="229.9996"
+       y="30.752275" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000;text-anchor:middle;text-align:center"
+       x="36.522312"
+       y="38.416241"
+       id="text1908"><tspan
+         sodipodi:role="line"
+         id="tspan1906"
+         style="stroke-width:0.275934px;text-anchor:middle;text-align:center"
+         x="6.3113427"
+         y="38.416241">Χρήση οσμοφιλικών ζυμών</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px;text-anchor:middle;text-align:center"
+         x="6.3113427"
+         y="44.589867"
+         id="tspan1910">για παραγωγή γλυκερόλης</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.576001"
+       id="rect1912"
+       width="63.344063"
+       height="16.224152"
+       x="4.5207505"
+       y="33.20351" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 121.66534,17.630466 65.466852,33.20351"
+       id="path2013"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect1818"
+       inkscape:connection-end="#rect1912" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 139.12479,17.630466 120.85614,32.912739"
+       id="path2015"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect1818"
+       inkscape:connection-end="#rect1892" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 155.76928,17.630466 17.613,15.936051"
+       id="path2017"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect1818"
+       inkscape:connection-end="#rect1880" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 172.26417,17.630466 57.73543,17.05528"
+       id="path2019"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect1818"
+       inkscape:connection-end="#rect1904" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:normal;font-family:sans-serif;text-align:center;text-decoration-color:#000000;letter-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000"
+       x="260.35672"
+       y="71.846756"
+       id="text2023"><tspan
+         sodipodi:role="line"
+         id="tspan2021"
+         style="text-align:center;text-anchor:middle;stroke-width:0.275934px"
+         x="260.35672"
+         y="71.846756">Δεν επιλέχθηκε καθώς έχει</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.275934px"
+         x="260.35672"
+         y="78.020378"
+         id="tspan2025">πολύ χαμηλή αποδοτικότητα</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:normal;font-family:sans-serif;text-align:center;text-decoration-color:#000000;letter-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000"
+       x="150.40315"
+       y="71.379692"
+       id="text2029"><tspan
+         sodipodi:role="line"
+         id="tspan2027"
+         style="text-align:center;text-anchor:middle;stroke-width:0.275934px"
+         x="150.40315"
+         y="71.379692">Δεν επιλέχθηκαν λόγω πολυπλοκότητας</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.275934px"
+         x="150.40315"
+         y="77.553314"
+         id="tspan2031">(εμπλέκονται πολλές διεργασίες)</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.576001"
+       id="rect2033"
+       width="95.386902"
+       height="14.551656"
+       x="101.73079"
+       y="66.666435" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.54877"
+       id="rect2037"
+       width="68.200851"
+       height="19.031286"
+       x="226.47644"
+       y="65.014229" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:normal;font-family:sans-serif;text-align:center;text-decoration-color:#000000;letter-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000"
+       x="45.076733"
+       y="71.317505"
+       id="text2041"><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.275934px"
+         x="45.076736"
+         y="71.317505"
+         id="tspan2151">Απευθείας μετατροπή σε γλυκερόλη</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.275934px"
+         x="45.076733"
+         y="77.491127"
+         id="tspan2155">Διεργασία που δύναται να</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.275934px"
+         x="45.076733"
+         y="83.664757"
+         id="tspan2157">βιομηχανικοποιηθεί</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.929514"
+       id="rect2047"
+       width="84.274673"
+       height="21.868326"
+       x="2.787931"
+       y="65.291725" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 38.221942,49.427662 3.968247,15.864063"
+       id="path2049"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect1912"
+       inkscape:connection-end="#rect2047" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 121.6318,52.161463 18.50844,14.504972"
+       id="path2051"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect1892"
+       inkscape:connection-end="#rect2033" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 173.68182,51.302349 157.21994,66.666435"
+       id="path2053"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect1880"
+       inkscape:connection-end="#rect2033" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 259.92629,56.037371 0.31581,8.976858"
+       id="path2055"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect1904"
+       inkscape:connection-end="#rect2037" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000"
+       x="5.2058578"
+       y="101.45516"
+       id="text2059"><tspan
+         sodipodi:role="line"
+         id="tspan2057"
+         style="stroke-width:0.275934px"
+         x="5.2058578"
+         y="101.45516">Candida glycerinogenes</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.576001"
+       id="rect2061"
+       width="54.203159"
+       height="10.011323"
+       x="4.6213603"
+       y="95.62114" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000"
+       x="68.448158"
+       y="96.385849"
+       id="text2065"><tspan
+         sodipodi:role="line"
+         id="tspan2063"
+         style="stroke-width:0.275934px"
+         x="68.448158"
+         y="96.385849">Candida krusei</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.536503"
+       id="rect2119"
+       width="35.461956"
+       height="10.146317"
+       x="67.254105"
+       y="89.445869" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 63.382028,87.160052 6.71026,2.285817"
+       id="path2123"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#rect2119" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 39.009244,87.160052 34.431298,95.62114"
+       id="path2125"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#rect2061" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000"
+       x="111.56045"
+       y="92.844292"
+       id="text2129"><tspan
+         sodipodi:role="line"
+         id="tspan2127"
+         style="stroke-width:0.275934px"
+         x="111.56045"
+         y="92.844292">Έχει χαμηλή αποδοτικότητα</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.576001"
+       id="rect2131"
+       width="66.916649"
+       height="7.8824649"
+       x="109.12402"
+       y="87.734558" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 102.71606,93.643754 6.40796,-0.316323"
+       id="path2133"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect2119"
+       inkscape:connection-end="#rect2131" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:normal;font-family:sans-serif;text-align:center;text-decoration-color:#000000;letter-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000"
+       x="31.414869"
+       y="119.04219"
+       id="text2137"><tspan
+         sodipodi:role="line"
+         id="tspan2135"
+         style="text-align:center;text-anchor:middle;stroke-width:0.275934px"
+         x="31.414869"
+         y="119.04219">Μέγιστη απόδοση</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.275934px"
+         x="31.414869"
+         y="125.21581"
+         id="tspan2139">στο 65%</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.576001"
+       id="rect2145"
+       width="45.642742"
+       height="15.42703"
+       x="7.5861402"
+       y="113.2598" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 31.399317,105.63246 30.9062,113.2598"
+       id="path2149"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect2061"
+       inkscape:connection-end="#rect2145" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000"
+       x="6.5033011"
+       y="141.37309"
+       id="text2161"><tspan
+         sodipodi:role="line"
+         id="tspan2159"
+         style="stroke-width:0.275934px"
+         x="6.5033011"
+         y="141.37309">Συνθήκες λειτουργίας</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="6.5033011"
+         y="147.54672"
+         id="tspan2163">T=30  C</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="6.5033011"
+         y="153.72034"
+         id="tspan2169">pH=4-6 (ελαφρώς όξινο)</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="6.5033011"
+         y="159.89397"
+         id="tspan2173">Carbon Source=</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="6.5033011"
+         y="166.0676"
+         id="tspan2179">230-250 g glucose/l</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="6.5033011"
+         y="172.24121"
+         id="tspan2177">Nitrogen Source=</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="6.5033011"
+         y="178.41484"
+         id="tspan2181">2 g urea/l</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="6.5033011"
+         y="184.58847"
+         id="tspan2187">Phosphorus Source=</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="6.5033011"
+         y="190.76208"
+         id="tspan2191">5 ml Corn steep liquor/l</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="6.5033011"
+         y="196.93571"
+         id="tspan2183">(55-60 mg P/l)</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="6.5033011"
+         y="203.10934"
+         id="tspan2327">Χρόνος Παραμονής=80h</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="6.5033011"
+         y="209.28297"
+         id="tspan2175" /><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="6.5033011"
+         y="215.45659"
+         id="tspan2171" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82223px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000"
+       x="17.735365"
+       y="145.13423"
+       id="text2167"><tspan
+         sodipodi:role="line"
+         id="tspan2165"
+         style="stroke-width:0.275934px"
+         x="17.735365"
+         y="145.13423">o</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.550224"
+       id="rect2199"
+       width="56.899353"
+       height="69.187462"
+       x="5.6206026"
+       y="136.78687" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 30.968002,128.68683 0.588576,8.10004"
+       id="path2201"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect2145"
+       inkscape:connection-end="#rect2199" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.82223px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000"
+       x="79.802788"
+       y="118.45704"
+       id="text2219"><tspan
+         sodipodi:role="line"
+         id="tspan2217"
+         style="stroke-width:0.275934px"
+         x="79.802788"
+         y="118.45704" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000"
+       x="115.66084"
+       y="108.44181"
+       id="text2229"><tspan
+         sodipodi:role="line"
+         id="tspan2227"
+         style="stroke-width:0.275934px"
+         x="115.66084"
+         y="108.44181">Αντιδραστήρας</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.576001"
+       id="rect2231"
+       width="37.061161"
+       height="8.9214201"
+       x="114.46066"
+       y="103.25536" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 58.82452,102.52404 55.63614,3.8948"
+       id="path2233"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect2061"
+       inkscape:connection-end="#rect2231" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000"
+       x="164.92038"
+       y="106.19061"
+       id="text2237"><tspan
+         sodipodi:role="line"
+         id="tspan2235"
+         style="stroke-width:0.275934px"
+         x="164.92038"
+         y="106.19061">Continuously stirred</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="164.92038"
+         y="112.36423"
+         id="tspan2239">fermentor - batch</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.576001"
+       id="rect2241"
+       width="48.29678"
+       height="13.919392"
+       x="163.8765"
+       y="101.27049" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000"
+       x="157.25484"
+       y="130.72815"
+       id="text2245"><tspan
+         sodipodi:role="line"
+         id="tspan2243"
+         style="stroke-width:0.275934px"
+         x="157.25484"
+         y="130.72815">Airlift fermentor - batch</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.576001"
+       id="rect2247"
+       width="55.903091"
+       height="10.894566"
+       x="155.2364"
+       y="124.73785" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 151.52182,107.88918 12.35468,0.11542"
+       id="path2249"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect2231"
+       inkscape:connection-end="#rect2241" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 142.95664,112.17678 28.06188,12.56107"
+       id="path2251"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect2231"
+       inkscape:connection-end="#rect2247" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:normal;font-family:sans-serif;text-align:center;text-decoration-color:#000000;letter-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000"
+       x="257.5242"
+       y="92.546654"
+       id="text2255"><tspan
+         sodipodi:role="line"
+         id="tspan2253"
+         style="text-align:center;text-anchor:middle;stroke-width:0.275934px"
+         x="257.5242"
+         y="92.546654">Καλύτερη απόδοση</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.275934px"
+         x="257.5242"
+         y="98.720276"
+         id="tspan2257">Μπορεί να επεξεργαστεί</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.275934px"
+         x="257.5242"
+         y="104.89391"
+         id="tspan2259">μικρότερες ποσότητες</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.275934px"
+         x="257.5242"
+         y="111.06753"
+         id="tspan2323">Ακατάλληλο για</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.275934px"
+         x="257.5242"
+         y="117.24115"
+         id="tspan2325">τροφοδοσία  200.000 tn/year</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:normal;font-family:sans-serif;text-align:center;text-decoration-color:#000000;letter-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000"
+       x="254.49332"
+       y="128.80846"
+       id="text2263"><tspan
+         sodipodi:role="line"
+         id="tspan2261"
+         style="text-align:center;text-anchor:middle;stroke-width:0.275934px"
+         x="254.49332"
+         y="128.80846">Ιδανικό για large scale</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.275934px"
+         x="254.49332"
+         y="134.98209"
+         id="tspan2265">fermentations</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.275934px"
+         x="254.49332"
+         y="141.1557"
+         id="tspan2267">Μικρότερη απόδοση</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.275934px"
+         x="254.49332"
+         y="147.32933"
+         id="tspan2269">(της τάξης του 50%)</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.798845"
+       id="rect2271"
+       width="67.696945"
+       height="32.761814"
+       x="223.42586"
+       y="88.480904" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.576001"
+       id="rect2273"
+       width="53.999355"
+       height="26.593472"
+       x="228.67818"
+       y="124.054" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 212.17327,107.05558 11.25259,-0.54734"
+       id="path2275"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect2241"
+       inkscape:connection-end="#rect2271" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 211.1395,132.94813 17.53868,1.7337"
+       id="path2277"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect2247"
+       inkscape:connection-end="#rect2273" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000"
+       x="72.666687"
+       y="118.87356"
+       id="text2281"><tspan
+         sodipodi:role="line"
+         id="tspan2279"
+         style="stroke-width:0.275934px"
+         x="72.666687"
+         y="118.87356">Κινητική</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.576001"
+       id="rect2283"
+       width="25.369835"
+       height="9.5470657"
+       x="70.314926"
+       y="112.94005" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 46.744777,105.63246 23.570149,7.85418"
+       id="path2285"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect2061"
+       inkscape:connection-end="#rect2283" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000"
+       x="74.658165"
+       y="139.99759"
+       id="text2289"><tspan
+         sodipodi:role="line"
+         id="tspan2287"
+         style="stroke-width:0.275934px"
+         x="74.658165"
+         y="139.99759">Ανάπτυξη Βιομάζας:</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="74.658165"
+         y="146.17122"
+         id="tspan2293">Μοντέλο Monod με</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="74.658165"
+         y="152.34483"
+         id="tspan2297">μ_max=0.0897 και</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="74.658165"
+         y="158.51846"
+         id="tspan2299">K_s=234.34</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="74.658165"
+         y="164.69209"
+         id="tspan2303">(R^2 = 0.996)</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="74.658165"
+         y="170.86571"
+         id="tspan2317" /><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="74.658165"
+         y="177.03934"
+         id="tspan2301">Τεχνική Κινητική</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="74.658165"
+         y="183.21297"
+         id="tspan2307">παραγωγής γλυκερόλης:</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="74.658165"
+         y="189.38658"
+         id="tspan2311">Κινητική μηδενικής τάξης</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="74.658165"
+         y="195.56021"
+         id="tspan2313">C=1.156t+5.983</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="74.658165"
+         y="201.73384"
+         id="tspan2315">(R^2 = 0.986)</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.576001"
+       id="rect2319"
+       width="60.777557"
+       height="70.906425"
+       x="72.702904"
+       y="134.39929" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 84.839334,122.48711 4.590382,11.91218"
+       id="path2321"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect2283"
+       inkscape:connection-end="#rect2319" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000"
+       x="144.02342"
+       y="172.25569"
+       id="text349"><tspan
+         sodipodi:role="line"
+         id="tspan347"
+         style="stroke-width:0.275934px"
+         x="144.02342"
+         y="172.25569">Κινητική παραγωγής γλυκερόλης </tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="144.02342"
+         y="178.42932"
+         id="tspan351">με βάση την ανάπτυξη της</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="144.02342"
+         y="184.60294"
+         id="tspan353">βιομάζας:</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="144.02342"
+         y="190.77657"
+         id="tspan405">r_p = -0.3152r_x + 0.1980x</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="144.02342"
+         y="196.9502"
+         id="tspan525">(R^2 = 0.97)</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.625253"
+       id="rect459"
+       width="78.332726"
+       height="32.960358"
+       x="141.48158"
+       y="167.08743" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 133.48046,175.22648 8.00112,1.41492"
+       id="path513"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect2319"
+       inkscape:connection-end="#rect459" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000"
+       x="144.53812"
+       y="149.50871"
+       id="text517"><tspan
+         sodipodi:role="line"
+         id="tspan515"
+         style="stroke-width:0.275934px"
+         x="144.53812"
+         y="149.50871">Όγκος αντιδραστήρα: 2992 m^3</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="144.53812"
+         y="155.68234"
+         id="tspan519">Παραγωγή γλυκερόλης: 38000 tn/y</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="144.53812"
+         y="161.85596"
+         id="tspan524">(με βάση την μετατροπή του airlift)</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.61901"
+       id="rect521"
+       width="81.281181"
+       height="20.045971"
+       x="143.33447"
+       y="144.07214" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 183.36727,135.63241 0.27784,8.43973"
+       id="path523"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect2247"
+       inkscape:connection-end="#rect521" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.275934px;-inkscape-stroke:none;stop-color:#000000"
+       x="232.96269"
+       y="167.41972"
+       id="text358"><tspan
+         sodipodi:role="line"
+         id="tspan356"
+         style="stroke-width:0.275934px"
+         x="232.96269"
+         y="167.41972">Οικονομικό Δυναμικό:</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.275934px"
+         x="232.96269"
+         y="173.59335"
+         id="tspan360">26.25 εκατομμύρια ευρώ</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.576001"
+       id="rect468"
+       width="59.575378"
+       height="14.209668"
+       x="231.12465"
+       y="162.6465" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 224.61565,162.36521 6.509,1.32453"
+       id="path522"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect521"
+       inkscape:connection-end="#rect468" />
+  </g>
+</svg>

@@ -1,0 +1,569 @@
+#+TITLE: Σημειώσεις στο Project του Σχεδιασμού Διεργασιών
+#+LATEX_HEADER: \usepackage[a4paper, margin=2.5cm]{geometry}
+
+* Outline
+Το αρχείο αυτό αποτελεί μία συλλογή των σημειώσεων μου πάνω στην εργασία του Σχεδιασμού Διεργασιών οι οποίες είναι σε μεγάλο βαθμό στον φάκελο των σημειώσεων μου και όχι σε αυτόν του project. Φτιάχτηκε με την βοήθεια του [[https://github.com/Vidianos-Giannitsis/zetteldesk.el]]
+
+Η εργασία του σχεδιασμού έχει θέμα την εκμετάλλευση του πυρηνόξυλου για παραγωγή γλυκερόλης και κυκλοπεντανόνης. Το κομμάτι που έχω ασχοληθεί το οποίο υπάρχει σε αυτό το outline αναφέρει την ανάλυση της πρώτης ύλης, κάποιες πληροφορίες για την προκατεργασία της βιομάζας, την μελέτη του βιοαντιδραστήρα του Candida glycerinogenes και την ανάκτηση καθαρής γλυκερόλης από αυτόν. Το index αυτών είναι το αρχείο [[id:e056fb0d-be9e-4e9b-b0bf-beaa71a6cf4e][Παραγωγή Γλυκερόλης από Βιομάζα]] .
+
+Αρχικά, εξετάστηκε με βάση της βιβλιογραφίας η σύσταση του πυρηνόξυλου στα συστατικά της και η σύσταση αυτών [[id:dd7953ad-3d19-412b-8c4f-ab92edc6c4a1][Πυρηνόξυλο]]. Οι προκατεργασίες της βιομάζας οι οποίες μελετήθηκαν ήταν η έκρηξη ατμού [[id:a8501a5b-fa73-4700-a476-fb14f9219b81][Έκρηξη Ατμού - Steam Explosion]], για την οποία βρέθηκαν πληροφορίες σχετικές με την προκατεργασία πυρηνόξυλου συγκεκριμένα cite:fernandez-bolanosSteamexplosionOliveStones2001 ,[[cite:&rodriguezOliveStoneAttractive2008]]  , cite:fernandez-bolanosCharacterizationLigninObtained1999 και η τεχνική organosolv δίνοντας έμφαση κυρίως στην χρήση γλυκερόλης ως διαλύτη [[id:49a010c4-f3c1-4aa3-866b-0734fe12fde5][Χρήση της Γλυκερόλης στην Τεχνική Organosolv]] καθώς τα γενικότερα στοιχεία είχαν ήδη μελετηθεί. Για αυτήν, βρέθηκε ένα πολύ πρόσφατο review το οποίο είχε αρκετή πληροφορία cite:sunGlycerolOrganosolvPretreatment2022 .
+
+Έχοντας εξετάσει αυτά, έπρεπε να γίνει η μελέτη της παραγωγής της γλυκερόλης από γλυκόζη. Η τεχνική που επιλέχθηκε ήταν η χρήση μίας οσμοφιλικής ζύμης καθώς είναι μία διεργασία απευθείας μετατροπής σε γλυκερόλη με καλή σχετικά απόδοση και μικρές ποσότητες παραπροιόντων. Παραπάνω πληροφορίες για την επιλογή αυτή φαίνονται και στο pdf info_diagram που υπάρχει ως supportive material παρακάτω ή ως ξεχωριστό αρχείο στο repository. Μετά από μία μελέτη των επιλογών, θεωρήθηκε πως ο μικροοργανισμός C. glycerinogenes ήταν ο πιό αποτελεσματικός. Δεν υπάρχει πολύ βιβλιογραφία σε σχέση με αυτόν, αλλά βρέθηκαν κάποια άρθρα τα οποία ασχολήθηκαν με αυτό. Τα δύο βασικά άρθρα στα οποία πατήσαμε ήταν τα cite:zhugeGlycerolProductionNovel2001 και [[cite:&jinByproductFormationNovel2003]] (για αυτό δεν υπάρχουν literature notes επειδή απλώς χρησιμοποιήθηκε ένα διάγραμμα του). Ως θρεπτικά συστατικά χρησιμοποιούνται η γλυκόζη, η ουρία και το corn steep liquor (CSL) από αυτούς τους συγγραφείς. Για το CSL έγινε μία παράπανω διερεύνηση για να καταλάβουμε τι ακριβώς είναι [[id:d01ccf54-e2ce-4a6b-b826-652acf6a4c65][Corn Steep Liquor - Ένα Χρήσιμο Θρεπτικό Συστατικό σε Μικροβιακές Καλλιέργειες]] . Η βασική πηγή μας ήταν οι cite:liggettCORNSTEEPLIQUOR και κάποιες άλλες που αναφέρονται στο παραπάνω αρχείο.
+
+Με βάση τις πληροφορίες αυτές, έγιναν κάποιοι κινητικοί υπολογισμοί του αντιδραστήρα (c-glycerinogenes-rate-expression.org) και υπολογισμοί του οικονομικού δυναμικού της διεργασίας με βάση τις παραγωγικότητες (glycerol-economic-potential.org). Τελευταίο ζήτημα που εξετάστηκε ήταν ο διαχωρισμός των προιόντων της ζύμωσης για την ανάκτηση καθαρής γλυκερόλης [[id:be178380-e830-494e-88e6-aa27671ac782][Ανάκτηση Γλυκερόλης από Προιόντα Ζύμωσης]] . Αρκετά χρήσιμες ήταν οι πληροφορίες των cite:wallersteinMethodRecoveringGlycerol1946 αλλά επειδή το αρχείο αυτό είναι πιό γενικό, προσαρμόσαμε τις πληροφορίες του στα δεδομένα μας.
+
+Επίσης, στο τέλος του αρχείου αυτού παρατίθεται και μία φωτογραφία ενός πρώτου πρόχειρου διαγράμματος ροής της διεργασίας.
+
+** Πίνακας Περιεχομένων                                                 :TOC:
+- [[#outline][Outline]]
+- [[#παραγωγή-γλυκερόλης-από-βιομάζα][Παραγωγή Γλυκερόλης από Βιομάζα]]
+- [[#πυρηνόξυλο][Πυρηνόξυλο]]
+- [[#έκρηξη-ατμού---steam-explosion][Έκρηξη Ατμού - Steam Explosion]]
+- [[#steam-explosion-of-olive-stones-hemicellulose-solubilization-and-enhancement-of-enzymatic-hydrolysis-of-cellulose][Steam-explosion of olive stones: hemicellulose solubilization and enhancement of enzymatic hydrolysis of cellulose]]
+  - [[#analysis-of-article-by-fernandez-bolanos-j-felizon-b-heredia-a-rodriguez-r-guillen-r--jimenez][Analysis of article by Fernandez-Bolanos, J, Felizon, B, Heredia, A., Rodriguez, R, Guillen, R, & Jimenez,]]
+- [[#olive-stone-an-attractive-source-of-bioactive-and-valuable-compounds][Olive stone an attractive source of bioactive and valuable compounds]]
+  - [[#analysis-of-article-by-rodriguez-guillermo-lama-a-rodriguez-rocio-jimenez-ana-guillen-rafael--fernandez-bolanos-juan][Analysis of article by Rodriguez, Guillermo, Lama, A., Rodriguez, Rocio, Jimenez, Ana, Guillen, Rafael, & Fernandez-Bolanos, Juan]]
+- [[#characterization-of-the-lignin-obtained-by-alkaline-delignification-and-of-the-cellulose-residue-from-steam-exploded-olive-stones][Characterization of the lignin obtained by alkaline delignification and of the cellulose residue from steam-exploded olive stones]]
+  - [[#analysis-of-article-by-fernandez-bolanos-j-felizon-b-heredia-a-guillen-r--jimenez-a][Analysis of article by Fernandez-Bolanos, J., Felizon, B., Heredia, A., Guillen, R., & Jimenez, A.]]
+- [[#χρήση-της-γλυκερόλης-στην-τεχνική-organosolv][Χρήση της Γλυκερόλης στην Τεχνική Organosolv]]
+- [[#glycerol-organosolv-pretreatment-can-unlock-lignocellulosic-biomass-for-production-of-fermentable-sugars-present-situation-and-challenges][Glycerol organosolv pretreatment can unlock lignocellulosic biomass for production of fermentable sugars: Present situation and challenges]]
+  - [[#analysis-of-article-by-sun-c-ren-h-sun-f-hu-y-liu-q-song-g-abdulkhani-a-][Analysis of article by Sun, C., Ren, H., Sun, F., Hu, Y., Liu, Q., Song, G., Abdulkhani, A., …]]
+- [[#supportive-material---info_diagram-pdf][Supportive Material - info_diagram (PDF)]]
+- [[#glycerol-production-by-a-novel-osmotolerant-yeast-candida-glycerinogenes][Glycerol production by a novel osmotolerant yeast Candida glycerinogenes]]
+  - [[#analysis-of-article-by-zhuge-j-fang-h-wang-z-chen-d-jin-h--gu-h][Analysis of article by Zhuge, J., Fang, H., Wang, Z., Chen, D., Jin, H., & Gu, H.]]
+- [[#corn-steep-liquor---ένα-χρήσιμο-θρεπτικό-συστατικό-σε-μικροβιακές-καλλιέργειες][Corn Steep Liquor - Ένα Χρήσιμο Θρεπτικό Συστατικό σε Μικροβιακές Καλλιέργειες]]
+- [[#corn-steep-liquor-in-microbiology][CORN STEEP LIQUOR IN MICROBIOLOGY]]
+  - [[#analysis-of-article-by-liggett-r-w--koffler-h][Analysis of article by Liggett, R. W., & Koffler, H.]]
+- [[#κινητικοί-υπολογισμοί-για-τον-c-glycerinogenes][Κινητικοί Υπολογισμοί για τον C. glycerinogenes]]
+- [[#οικονομικό-δυναμικό-παραγωγής-γλυκερόλης][Οικονομικό Δυναμικό Παραγωγής Γλυκερόλης]]
+- [[#ανάκτηση-γλυκερόλης-από-προιόντα-ζύμωσης][Ανάκτηση Γλυκερόλης από Προιόντα Ζύμωσης]]
+- [[#method-of-recovering-glycerol-from-fermented-liquors][Method of recovering glycerol from fermented liquors]]
+  - [[#analysis-of-patent-by-wallerstein-j-s-eduard-f--victor-d][Analysis of patent by Wallerstein, J. S., Eduard, F., & Victor, D.]]
+- [[#διάγραμμα-ροής][Διάγραμμα Ροής]]
+- [[#βιβλιογραφία][Βιβλιογραφία]]
+
+* Παραγωγή Γλυκερόλης από Βιομάζα
+- index :: [[id:54771b96-272c-43c4-9b39-84eba5db8fbd][Σχεδιασμός Διεργασιών]] ,[[id:6c0b9657-c404-41a6-a1a1-1107fa78e058][Λιγνοκυτταρινική Βιομάζα]] 
+- tags :: [[id:646d8815-37c3-4f24-812b-f9288c8730b9][Βιοντίζελ - Biodiesel]] ,[[id:0726f524-6262-46eb-8953-0c624e26055b][Λιπίδια]] ,[[id:73d17e37-e89a-478f-bd59-bc01f2a9de49][Παραγωγή Βιοντίζελ από Μικροοργανισμούς - Oleaginous Yeasts]] 
+#+filetags: POI
+  
+  Το πρώτο κομμάτι της εργασίας μας στο σχεδιασμό διεργασιών βασίζεται στην παραγωγή γλυκερόλης με πρώτη ύλη λιγνοκυτταρινική βιομάζα (LCB). Η γλυκερόλη ή αλλιώς προπανοτριόλη είναι η απλούστερη δυνατή αλκοόλη με 3 αλκοολομάδες. Η παραγωγή της γλυκερόλης γίνεται μέσω υδρόλυσης, σαπονοποίησης ή μετεστεροποίσης (transesterification) από τριγλυκερίδια. Ο πιό συχνός τρόπος παραγωγής είναι ως παραπροιόν του βιοντίζελ.
+
+  Το βιοντίζελ παράγεται από την ίδια αντίδραση μετεστεροποίσης με την γλυκερόλη. Για αυτό το λόγο, η πλειονότητα της γλυκερόλης που παράγεται σήμερα είναι ως παραπροιόν του βιοντίζελ. Όσο αυξάνεται η αγορά του βιοντίζελ, τόσο πιό σημαντική θα είναι και η παραγωγή της γλυκερόλης, η οποία έχει ορισμένες εφαρμογές ως πρώτη ύλη αλλά αυτή τη στιγμή είναι περιορισμένες. Βέβαια, προβλέπεται πως σε μειωμένο κόστος παραγωγής, θα μπορούσε να είναι μία σημαντική πρώτη ύλη σε βιοδιυλιστήρια [[cite:&werpyTopValueAdded2004]] .
+
+  Μία σημαντική προόδο στην βιομηχανία αυτή είναι η ανακάλυψη μικροοργανισμών οι οποίοι μπορούν να μετατρέψουν λιγνοκυτταρινική βιομάζα (κυρίως χρησιμοποιούν την γλυκόζη) σε τριγλυκερίδια. Έτσι, μπορεί να παραχθεί βιοντίζελ από μία πολύ φθηνή και άφθονη πρώτη ύλη, μειώνοντας σημαντικά το κόστος της διεργασίας και λύνοντας το πρόβλημα ότι το βιοντίζελ χρησιμοποιεί καλλιεργησιμές εκτάσεις για καύσιμα αντί για φαγητό. Αυτοί οι μικροοργανισμοί ονομάζονται oleaginous yeasts. Περισσότερες λεπτομέρειες για την διεργασία αυτή παρουσιάζονται σε ξεχωριστό αρχείο. Ένα επίσης ενδιαφέρον θέμα, είναι ότι πέρα από γλυκόζη, αυτοί οι μικροοργανισμοί μπορούν να καλλιεργηθούν και με γλυκερόλη. Άρα, μπορείς να πάρεις ένα κομμάτι της γλυκερόλης που παράγεται από την διεργασία και να την χρησιμοποιήσεις ως επιπλέον υπόστρωμα για την καλλιέργεια.
+
+  Βέβαια, η γλυκερόλη μπορεί να παραχθεί και με άλλους τρόπους από βιομάζα. Για παράδειγμα, είναι γνωστό πως ο S. cerevisiae έχει ως παραπροιόν της ζύμωσης του την γλυκερόλη και υπό ορισμένες συνθήκες μπορεί να βελτιστοποιηθεί η παραγωγή της, κάτι που δοκιμάστηκε και στον 1ο παγκόσμιο πόλεμο. Όμως, δεν είναι τόσο αποδοτική διεργασία. Μία άλλη είναι η χρήση κάποιων οσμοφιλικών ζυμών (osmophilic or osmotolerant yeasts) οι οποίες έχουν πολύ υψηλά yields σε πολυόλες όπως η γλυκερόλη. Οι δύο βασικότεροι μικροοργανισμοί που χρησιμοποιούνται στη διεργασία αυτή είναι ο Candida krusei και ο Candida glycerinogenes.
+* Πυρηνόξυλο
+- index :: [[id:54771b96-272c-43c4-9b39-84eba5db8fbd][Σχεδιασμός Διεργασιών]] 
+- tags :: [[id:a8501a5b-fa73-4700-a476-fb14f9219b81][Έκρηξη Ατμού - Steam Explosion - Μία Αποτελεσματική Τεχνική Διαχωρισμού της Βιομάζας]] 
+
+  Το πυρηνόξυλο είναι ένα λιγνοκυτταρινικό παραπροιόν της επεξεργασίας της ελιάς. Αποτελεί το ξυλώδες κομμάτι του κουκουτσιού όταν έχουν απομακρυνθεί τα έλαια του (πυρηνέλαιο). Καθώς η εργασία μας στον σχεδιασμό ασχολείται με την πρώτη ύλη αυτή, στο αρχείο αυτό θα παρατεθούν πληροφορίες σχετικά με αυτή.
+
+  Στα αγγλικά, για το πυρηνόξυλο η πιό σωστή ορολογία είναι olive kernel. Αλλά εμφανίζονται και οι όροι olive pit, olive stone residue (το olive stone είναι το κουκούτσι της ελιάς με τα λάδια του, αλλά το υπόλειμμα αυτού είναι το πυρηνόξυλο), olive husk.
+
+  Με βάση τους [[cite:&koutsomitopoulouPreparationCharacterizationOlive2014]] το πυρηνόξυλο έχει 37.5 % κυτταρίνη, 26% ημικυτταρίνη, 21.5% λιγνίνη και 8% υγρασία. Στοιχειακά αναφέρουν πως έχει 49% άνθρακα και 31% οξυγόνο. Η στοιχειακή ανάλυση αυτή, εμπλουτίζεται από τους [[cite:&gonzalezCombustionOptimisationBiomass2004a]] οι οποίοι αναφέρουν 46.5% C, 6.4 Η, 0.4 Ν, 0.34 Cl και μηδενικό θείο που είναι αυτά που τους αφορούν κατά την μελέτη της καύσης. Από μέταλλα αναφέρει σίδηρο σε 1236 mg/kg και αλουμίνιο στα 463 mg/kg. Επίσης μιλάει για πυκνότητα σκόνης πυρηνόξυλου 1.424 g/cm^3. Επίσης οι [[cite:&gonzalezCombustionOptimisationBiomass2004a]] αναφέρουν ότι το fixed carbon είναι 16.2% του υλικού, τα πτητικά συστατικά είναι 72.7%, τέφρα 2.3% και υγρασία 8.8%. Τέλος, λένε πως η θερμογόνος δύναμη του ως καύσιμο είναι 19.4 MJ/kg.
+
+  Οι [[cite:&fernandez-bolanosCharacterizationLigninObtained1999]] μιλάνε για την σύσταση της βιομάζας αυτής. Συγκεκριμένα αναφέρουν μία υγρασία 10%, κυτταρίνη 36.5%, ημικυτταρίνη 27% και λιγνίνη 26%. Τα δεδομένα αυτά είναι αρκετά κοντά με τα προηγούμενα για να θεωρηθούν συμβατά άρα νοείται η χρήση του μέσου όρου τους. Επίσης όμως δίνουν και μία στοιχειακή ανάλυση για το φαινολικό κλάσμα που καλό είναι να είναι πλήρως προσδιορισμένο επειδή σε αντίθεση με την κυτταρίνη και την ημικυτταρίνη δεν κυριαρχείται από κάποια ουσία. Έκαναν παραπάνω των ένα πειραμάτων με έκρηξη ατμού η οποία χρησιμοποιεί οξύ και που δεν χρησιμοποιεί, αλλά η γενική εικόνα είναι πως ο άνθρακας είναι στο 59.5%, το υδρογόνο στο 5.5% και το οξυγόνο 35% ως τα κύρια συστατικά της λιγνίνης. Για πιο ακριβής υπολογισμούς μπορεί να χρησιμοποιηθεί ο πίνακας 3 του άρθρου. Επίσης, υπολογίζουν πως η απομονωμένη λιγνίνη αυτή έχει σημαντικά καλύτερη θερμογόνο δύναμη από το αρχικό υλικό στα 23.5 MJ/kg το οποίο είναι σημαντική αύξηση και συμπεράνουν πως αξίζει τον κόπο ο διαχωρισμός.
+
+  Οι [[cite:&fernandez-bolanosSteamexplosionOliveStones2001]] αναφέρουν την σύσταση της υδατοδιαλυτής φάσης και πόση ανακτάται. Παρατηρούν πως τα σάκχαρα αποτελούν μόνο το 50% της υδατοδιαλυτής φάσης, η τέφρα το 4% περίπου και οι πολυφαινόλες το 2.5%. Το υπόλοιπο είναι άλλα συστατικά. Βρήκαν επίσης την σύσταση της ημικυτταρίνης η οποία είναι 45-50% ξυλόζη, 2-3% αραβινόζη, 1.5% περίπου γαλακτόζη και γλυκόζη και λίγο κάτω από 1% μανόζη. Επίσης έχουν συνθήκες steam explosion και το yield της κάθε μίας (περισσότερες λεπτομέρειες για αυτό στο αρχείο του steam explosion).
+
+
+* Έκρηξη Ατμού - Steam Explosion
+- index :: [[id:ec4cb437-8b68-4f8e-af58-acb72d0a1035][Βιοδιυλιστήρια - Biorefineries]] ,[[id:8a91e136-b33e-4691-ad86-1438c3cdc86f][Τεχνικές Προκατεργασίας της Βιομάζας]] 
+- tags :: [[id:e056fb0d-be9e-4e9b-b0bf-beaa71a6cf4e][Παραγωγή Γλυκερόλης από Βιομάζα]] 
+
+  Η μέθοδος της έκρηξης ατμού (steam explosion) θεωρείται μία από τις πιό αποτελεσματικές τεχνικές για pretreatment βιομάζας και διαχωρισμού της στα τρία βασικά της συστατικά την κυτταρίνη, την ημικυτταρίνη και την λιγνίνη.
+
+  Βασίζεται στην τροφοδοσία της βιομάζας σε ατμό υψηλής πίεσης και σε θερμοκρασία της τάξης των 200-240 \( ^oC \) για μερικά λεπτά. Έπειτα, απότομη εκτόνωση του μίγματος σε ατμοσφαιρική πίεση που προκαλεί την έκρηξη. Σε αυτό το περιβάλλον, η ημικυτταρίνη η οποία είναι η πιο υδατοδιαλυτή εκ των τριών, διαχωρίζεται σε μεγάλο βαθμό και αυτουδρολύεται, υποβοηθούμενη από το οξικό οξύ που εκλύεται κατά την θερμική επεξεργασία της ημικυτταρίνης. Έτσι, προκύπτει μια υδατοδιαλυτή φάση η οποία είναι κυρίως ημικυτταρινικές ζάχαρες (με βασικό συστατικό την ξυλόζη). Στην φάση αυτή πηγαίνει και ένα κομμάτι της λιγνίνης. Κατά την έκρηξη έχουμε μερικό αποπολυμερισμό της λιγνίνης με αποτέλεσμα να απελευθερώνονται κάποιες υδατοδιαλυτές φαινόλες. Τα δύο συστατικά αυτά διαχωρίζονται με μία εκχύλιση η οποία χρησιμοποιεί κάποιον διαλύτη φαινολών.
+
+  Η μη υδατοδιαλυτή φάση τώρα (η οποία αποτελείται από κυτταρίνη και μεγάλο ποσοστό της λιγνίνης) διαχωρίζεται και μετά από έκπλυση με νερό ακολουθεί μία εκχύλιση με αλκαλικό διάλυμα (πχ NaOH). Η εκχύλιση αυτή διαχωρίζει την λιγνίνη από την κυτταρίνη καθώς τα προιόντα της λιγνίνης μπορούν να δράσουν ανασχετικά στην υδρόλυση της κυττταρίνης. Για ακόμη καλύτερη απόδοση, κάποιοι συγγραφείς προτείνουν οξειδωτική κατεργασία της λιγνίνης με χλωριούχα (ClO^{-2}) καθώς έτσι η υδρόλυση της κυτταρίνης επιταχύνεται περαιτέρω. Αυτό συμβαίνει διότι η κυτταρίνη είναι πιό προσβάσιμη από το υδρολυτικό ένζυμο (κυτταρινάση) απουσία της λιγνίνης και υπάρχει ένα (μικρό βέβαια) κομμάτι αυτής που είναι αδιάλυτο στο αλκαλικό διάλυμα με το οποίο γίνεται η εκχύλιση.
+
+  Έτσι, προκύπτουν τα επιμέρους ρεύματα κυτταρίνης, ημικυτταρίνης και λιγνίνης τα οποία μπορούμε έπειτα να εκμεταλλευτούμε ξεχωριστά.
+  
+* Steam-explosion of olive stones: hemicellulose solubilization and enhancement of enzymatic hydrolysis of cellulose
+Bibtex entry for node: cite:fernandez-bolanosSteamexplosionOliveStones2001
+
+#+filetags: article
+- keywords :: Enzymatic hydrolysis,Hemicelluloses,Olive stones,Seed husks,Steam-explosion
+- tags :: [[id:be178380-e830-494e-88e6-aa27671ac782][Ανάκτηση Γλυκερόλης από Προιόντα Ζύμωσης]] ,[[id:dd7953ad-3d19-412b-8c4f-ab92edc6c4a1][Πυρηνόξυλο]] ,[[id:20c834a6-a31c-4ecf-a7df-ece2f16e3fb3][Προσδιορισμός Αζώτου και Πρωτεινών σε Τρόφιμα με την Μέθοδο Kjeldahl]] ,[[id:a8501a5b-fa73-4700-a476-fb14f9219b81][Έκρηξη Ατμού - Steam Explosion - Μία Αποτελεσματική Τεχνική Διαχωρισμού της Βιομάζας]] 
+
+  A very useful article on steam explosion of olive stones. It mentions conditions, yields and other useful info. + some potentially useful citations.
+** Analysis of article by Fernandez-Bolanos, J, Felizon, B, Heredia, A., Rodriguez, R, Guillen, R, & Jimenez,
+:PROPERTIES:
+:URL: 
+:NOTER_DOCUMENT: ~/Sync/Zotero_pdfs/fernández-bolaños_et_al2001steam-explosion_of_olive_stones_-_hemicellulose_solubilization_and.pdf  
+:NOTER_PAGE:              
+:END:
+*** Abstract
+:PROPERTIES:
+:NOTER_PAGE: (1 . 0.3440366972477064)
+:END:
+Olive stones were processed by steam explosion in temperatures between 200-236 \( ^oC \) for 2-4 mins with or without sulfuric acid in the mixture.
+*** Analysis of the phenolic fraction
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.1146788990825688)
+:END:
+This citation mentions an analysis of the water-soluble phenolic fraction of the biomass. This is interesting because this is the material we are going to use for separation of glycerol so it is useful to know its synthesis (especially for Aspen).
+*** Analytical methods
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.4969418960244648)
+:END:
+Ash, protein, uronic acids and total polyphenols were quantified using the AOAC procedure, the Kjeldahl method, the phenylphenol method and colorimetry respectively.
+*** Experimental conditions and yields
+:PROPERTIES:
+:NOTER_PAGE: (3 . 0.127420998980632)
+:END:
+This table has treatment conditions and recovery yields of each for various steam explosion experiments, data which will be useful for our analysis.
+
+We are not interested in the first section for the whole stone. However, the olive seed husk is close to our material (although I can't say I am sure its the same, everything just sounds similar).
+*** Characterization of the water-soluble fraction
+:PROPERTIES:
+:NOTER_PAGE: (3 . 0.63710499490316)
+:END:
+This table contains info on the chemical characterization of the water soluble fraction of the seed husks, data which we might need for Aspen.
+*** Sugar Composition of Hemicellulosic fraction
+:PROPERTIES:
+:NOTER_PAGE: (4 . 0.3695208970438328)
+:END:
+If we reallyyyy want to use it, this table has data on the composition of the hemicellulosic sugars. However, we could always assume its all xylose if we do not want to bother, as that is not too bold of a claim.
+*** Post-treatment of lignin with chlorite
+:PROPERTIES:
+:NOTER_PAGE: (8 . 0.7900101936799184)
+:END:
+If we treat lignin with chlorite oxidatively, according to the authors of this paper we obtain a complete and fast saccharification in comparison to not doing so. This is because the accesibility of cellulose might be hindered by alkali-insoluble lignin.
+
+* Olive stone an attractive source of bioactive and valuable compounds
+Bibtex entry for node: cite:rodriguezOliveStoneAttractive2008
+
+#+filetags: article
+- keywords :: Fractionation,Olive seed,Olive seed oil,Olive stone,Steam explosion
+- tags :: [[id:dd7953ad-3d19-412b-8c4f-ab92edc6c4a1][Πυρηνόξυλο]] ,[[id:a8501a5b-fa73-4700-a476-fb14f9219b81][Έκρηξη Ατμού - Steam Explosion - Μία Αποτελεσματική Τεχνική Διαχωρισμού της Βιομάζας]] 
+
+  A very interesting article about the uses of olive stone. It mentions citations for furfural production, which we need for cyclopentanone and fractionation techniques based on steam explosion. There are definitely useful stuff here.
+** Analysis of article by Rodriguez, Guillermo, Lama, A., Rodriguez, Rocio, Jimenez, Ana, Guillen, Rafael, & Fernandez-Bolanos, Juan
+:PROPERTIES:
+:URL: 
+:NOTER_DOCUMENT: ~/Sync/Zotero_pdfs/rodríguez_et_al2008olive_stone_an_attractive_source_of_bioactive_and_valuable_compounds.pdf  
+:NOTER_PAGE:              
+:END:
+*** Uses of olive stone and seeds
+:PROPERTIES:
+:NOTER_PAGE: (4 . 0.1869476546566961)
+:END:
+This table lists a long list of uses for olive stones and seeds. Very interesting are furfural production and fractionation via steam explosion, which we are going to use.
+*** Furfural production
+:PROPERTIES:
+:NOTER_PAGE: (5 . 0.3397959183673469)
+:END:
+This paragraph is about furfural production. The most interesting are the citations from here.
+*** Fractionation
+:PROPERTIES:
+:NOTER_PAGE: (6 . 0.8290816326530611)
+:END:
+Fractionation of olive stones is very interesting to separate cellulose, hemicellulose and lignin in it. Steam explosion is the most typical technique for this.
+
+High pressure steam in high temperature for a short period of time (T=160-240 \( ^oC \), t=2-10 min) results in rapid decompression or explosion of the material and as a consequence, autohydrolysis occurs.
+*** Flow chart for fractionation
+:PROPERTIES:
+:NOTER_PAGE: (7 . 0.11479591836734693)
+:END:
+A very simple flow chart of fractionation is shown
+
+Fractionation of olive stone starts with a steam explosion treatment. The water soluble substances (water soluble lignin and hemicellulose) are separated with extraction with a phenol solvent and the water insoluble substances are washed with water and then separated with alkaline extraction. Lignin is obtained in the aqueous fraction and is separated through precipitation with acidification, while cellulose remains in the solid fraction. 
+
+* Characterization of the lignin obtained by alkaline delignification and of the cellulose residue from steam-exploded olive stones
+Bibtex entry for node: cite:fernandez-bolanosCharacterizationLigninObtained1999
+
+#+filetags: article
+- keywords :: Cellulose,Lignin,Lignocellulosic by-products,Olive seed husks,Steam-explosion,Whole olive stones
+- tags :: [[id:dd7953ad-3d19-412b-8c4f-ab92edc6c4a1][Πυρηνόξυλο]] ,[[id:a8501a5b-fa73-4700-a476-fb14f9219b81][Έκρηξη Ατμού - Steam Explosion - Μία Αποτελεσματική Τεχνική Διαχωρισμού της Βιομάζας]] 
+
+** Analysis of article by Fernandez-Bolanos, J., Felizon, B., Heredia, A., Guillen, R., & Jimenez, A.
+:PROPERTIES:
+:URL: 
+:NOTER_DOCUMENT: ~/Sync/Zotero_pdfs/fernández-bolaños_et_al1999characterization_of_the_lignin_obtained_by_alkaline_delignification.pdf  
+:NOTER_PAGE:              
+:END:
+*** Chemical composition of seed husks
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.10152284263959391)
+:END:
+This table has very useful info on the various materials contained in olive seed husks such as cellulose, hemicellulose, lignin, moisture and others.
+*** Steam-explosion technique
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.43147208121827413)
+:END:
+The steam explosion technique is based on exposing steam to high pressure steam at 200-240 \( ^oC \) for a few mins and then rapidly decompressing the material to atmospheric pressure causing explosion.
+
+Hemicellulose is autohydrolyzed in this environment and is separated from the water insoluble cellulose. Lignin is to an extent depolymerized and water soluble phenolic compounds go to the water soluble phase, while some of the lignin remains insoluble together with the cellulose. The process is to an extent catalyzed by the acetic acid formed in high temperatures. Various citations for this are listed.
+*** Aqueous alkaline-extraction
+:PROPERTIES:
+:NOTER_PAGE: (3 . 0.5203045685279188)
+:END:
+Aqueous alkaline-extraction process is mentioned here. The insoluble material is washed with water and extracted with 250 ml of 2% (w/w) NaOH solution for 15 min. This is repeated until the extract is colourless meaning separation was succesful.
+
+Lignin can be separated thereafter via precipitation with an acid (typically sulfuric acid). The solid precipitate is very easy to separate after.
+*** Composition of lignin
+:PROPERTIES:
+:NOTER_PAGE: (5 . 0.5715736040609137)
+:END:
+This table has the elemental composition of lignin in C, H, O which will be very useful for defining our lignin material in Aspen.
+
+* Χρήση της Γλυκερόλης στην Τεχνική Organosolv
+- index :: [[id:8a91e136-b33e-4691-ad86-1438c3cdc86f][Τεχνικές Προκατεργασίας της Βιομάζας]] 
+- tags :: [[id:73d17e37-e89a-478f-bd59-bc01f2a9de49][Παραγωγή Βιοντίζελ από Μικροοργανισμούς - Oleaginous Yeasts]] ,[[id:e056fb0d-be9e-4e9b-b0bf-beaa71a6cf4e][Παραγωγή Γλυκερόλης από Βιομάζα]] 
+
+  Η τεχνική organosolv είναι μία από τις πιό κλασσικές τεχνικές απολιγνοποίησης της βιομάζας που χρησιμοποιούνται. Βασίζεται στην χρήση κάποιου οργανικού διαλύτη (από εκεί βγαίνει και το όνομα organosolv) ο οποίος θα διαλύσει μεγάλο ποσοστό της λιγνίνης και υπό συνθήκες και την ημικυτταρίνη επιτρέποντας τον διαχωρισμό της βιομάζας. Στο αρχείο αυτό εξετάζεται συγκεκριμένα η χρήση γλυκερόλης ως διαλύτη της organosolv.
+
+  Η γλυκερόλη είναι ένας διαλύτης ο οποίος παράγεται σε πολύ μεγάλες ποσότητες από την βιομηχανία του βιοντίζελ με αποτέλεσμα να είναι μάι φθηνή ένωση η οποία πολλές φορές θεωρείται και απόβλητο. Η χρήση της για προκατεργασία βιομάζας σε ένα integrated biodiesel refinery είναι πολύ ενδιαφέρουσα. Επίσης όμως μπορεί να παραχθεί και με άλλους τρόπους από βιομάζα. Γενικά είναι ένας πολύ ενδιαφέρον πράσινος διαλύτης για την τεχνική αυτή.
+
+  Πολλές φορές η διεργασία αυτή γίνεται με κάποιον καταλύτη (συνήθως οξύ η βάση) ο οποίος επιτρέπει οι συνθήκες να είναι ήπιες καθώς σε θερμοκρασίες πάνω από 250 \( ^oC \) η βιομάζα αρχίζει να διασπάται (αρχικά με την ημικυτταρίνη) το οποίο δεν είναι επιθυμητό.
+
+  Η όξινη organosolv θέλει πιό ήπιες συνθήκες το οποίο είναι αρκετά θετικό αλλά λόγω της διαβρωτικής ικανότητας των ισχυρών οξέων δεν είναι πάντα επιθυμητή. Επίσης, έχει ως βασικό σκοπό την απομάκρυνση της ημικυτταρίνης αλλά πετυχαίνει μόνο 50% απομάκρυνση της λιγνίνης. Η αλκαλική organosolv από την άλλη πετυχαίνει πολύ καλή απολιγνοποίηση με καλά retentions της κυτταρίνης και της ημικυτταρίνης.
+
+  Επίσης, η organosolv με γλυκερόλη (GO) ευνοεί και την υδρόλυση της κυτταρίνης και της ημικυτταρίνης για δύο λόγους. Διώχνει μεγάλο ποσοστό της λιγνίνης η οποία κάνει την υδρόλυση λιγότερο αποτελεσματική, αλλά δεν την διώχνει 100%, κάτι το οποίο προκαλεί μείωση στην απόδοση καθώς ένα κομμάτι της λιγνίνης (bulk lignin) έχει πολύ ισχυρή ροφητική ικανότητα στις κυτταρινάσες και ευνοεί την υδρόλυση. Επίσης όμως, είναι μία τεχνική η οποία δεν επιτρέπει την δημιουργία πολλών ενώσεων αναστολέων. Ως ενώσεις αναστολείς αναφερόμαστε σε ενώσεις οι οποίες αναστέλουν την δράση των ενζύμων που υδρολύουν την βιομάζα ή των μικροοργανισμών με τις οποίες κατεργαζόμαστε την βιομάζα για παραγωγή χρήσιμων προιόντων. Αυτό συμβαίνει διότι οι περισσότερες αντιδράσεις που δημιουργούν τις ενώσεις αυτές δρουν ανταγωνιστικά με τις αντιδράσεις γλυκερόλυσης. Αν υπάρχει μεγάλη ποσότητα γλυκερόλης στη βιομάζα, οι αντιδράσεις αυτές ευνοούνται σημαντικά με αποτέλεσμα να μην παράγεται σχεδόν καθόλου inhibitory compounds όπως για παράδειγμα η φουρφουράλη.
+
+  Η λιγνίνη που ανακτάται είναι ομοιόμορφη με μικρό σχετικά μοριακό βάρος και μπορεί να ανακτηθεί οξινίζοντας το διάλυμα, το οποίο δημιουργεί ίζημα της λιγνίνης και διαχωρίζεται με διήθηση. Έπειτα, η γλυκερόλη ανακτάται με απόσταξη. Το βασικό πρόβλημα της διεργασίας είναι ότι σε βιομηχανικές συνθήκες αυτή η διεργασία δεν είναι βιώσιμη. Μία ενδιαφέρουσα τεχνική είναι η χρήση θερμοάντοχων μεμβρανών (πχ inorganic ceramic films, CMF-M) στις οποίες μπορεί να ρέει γλυκερόλη σε ανεβασμένη θερμοκρασία (επειδή σε θερμοκρασία περιβάλλοντος είναι πολύ ιξώδη για να ρέει) και η μεμβράνη μπορεί να φιλτράρει την λιγνίνη.
+
+  Επίσης, είναι απαραίτητο η γλυκερόλη αυτή να ανακυκλώνεται μόλις ανακτηθεί. Λόγω ακαθαρσιών, η ανακύκλωση της για την organosolv μπορεί να γίνει μέχρι ένα σημείο. Μετά από αυτό τίθενται περιορισμοί. Άλλοι τρόποι εκμετάλλευσης της είναι να χρησιμοποιηθεί ως φθηνό υπόστρωμα για την καλλιέργεια μικροοργανισμών. Ιδιαίτερο ενδιαφέρον έχει η χρήση της με oleaginous yeasts για την παραγωγή μίας (μικρής μεν) ποσότητας βιοντίζελ το οποίο θα παράξει και άλλη γλυκερόλη που μπορεί πιθανόν να επαναχρησιμοποιηθεί.
+
+  Για αυτούς τους λόγους αποτελεί μία πολύ ενδιαφέρουσα διεργασία η οποία όμως έχει κάποια εμπόδια για να βιομηχανικοποιηθεί.
+
+REFS: cite:fernandez-bolanosSteamexplosionOliveStones2001
+:END:
+
+
+* Glycerol organosolv pretreatment can unlock lignocellulosic biomass for production of fermentable sugars: Present situation and challenges
+Bibtex entry for node: cite:sunGlycerolOrganosolvPretreatment2022
+
+#+filetags: article
+- keywords :: Components recovery,Enzymatic saccharification,Lignocellulosic biomass,Organosolv lignin,Organosolv pretreatment,Structure modification
+- tags :: [[id:ec4cb437-8b68-4f8e-af58-acb72d0a1035][Βιοδιυλιστήρια - Biorefineries]] ,[[id:e056fb0d-be9e-4e9b-b0bf-beaa71a6cf4e][Παραγωγή Γλυκερόλης από Βιομάζα]] ,[[id:49a010c4-f3c1-4aa3-866b-0734fe12fde5][Χρήση της Γλυκερόλης στην Τεχνική Organosolv]] 
+
+  This is a very interesting and recent review on glycerol organosolv pretreatment. The authors go over a lot of work that has been done in the process and mention most of its advantage and disadvantages. It appears to be an interesting method which can be applied for pretreatment. Glycerol is an abundant resource which can be valorized using this process, it is effective in delignification, helps hydrolyzation of the remaining substrate to an extent and does not allow the production of inhibitors (having a very low production of furfural in the system for example). However, there are obstacles in its commercialization and large scale application such as learning the kinetics of by product production through glycerolysis, which are useful chemical building blocks whose production could be optimized. Furthermore, the separation of glycerol and recycling of it are hard to do in this process however necessary for the process to become sustainable.
+** Analysis of article by Sun, C., Ren, H., Sun, F., Hu, Y., Liu, Q., Song, G., Abdulkhani, A., …
+:PROPERTIES:
+:URL: 
+:NOTER_DOCUMENT: ~/Sync/Zotero_pdfs/sun_et_al2022glycerol_organosolv_pretreatment_can_unlock_lignocellulosic_biomass.pdf  
+:NOTER_PAGE:              
+:END:
+*** Glycerol Organosolv
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.2040816326530612)
+:END:
+Due to the surplus of glycerol in the market, many research groups have been trying to use glycerol in various contexts, one of which is the glycerol organosolv (GO) process.
+
+Its key parameters are, temperature, retention time, catalyst, glycerol content and liquid-solid rastion.
+
+Based on this we define divisions by pressure as atmospheric, low pressure (<1 MPa) and high pressure (1-3 MPa), by temperature as low (110-150 \( ^oC \)), medium (150-190 \( ^oC \)) and high (190-250 \( ^oC \)), by catalyst as acidic, alkaline or autocatalytic and by glycerol as aqueous (<90%) and pure (>90%).
+
+Catalysts are helpful because they allow more mild pretreatment conditions which is helpful as long reaction times in high temperature leads to degradation.
+*** Glycerol
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.7525510204081632)
+:END:
+Glycerol or propanetriol is a clear, colorless, odorless liquid with a sweet taste. It is hygroscopic and water soluble. Its boiling point is 290 \( ^oC \) at atmospheric pressure - which is high for an organic solvent - its density is 1.261 g/cm^3 and its viscosity is 1.5 Pa s (it is extremely viscous). It is thermo sensitive with specific heat capacity of 2.4 \( \frac{J}{kg ^oC} \).
+
+It is mainly produced as byproduct of saponification, hydrolysis or transesterification reactions of oils with the biodiesel industry being its main producer.
+*** GO pretreatments
+:PROPERTIES:
+:NOTER_PAGE: (3 . 0.08928571428571427)
+:END:
+This table has a lot of examples of GO pretreatment methods mentioning glycerol purity, catalyst, temperature, pressure, retention time, solid to liquid ratio and yields. It also has citations if I want to read more on a specifc example.
+*** Catalysts used
+:PROPERTIES:
+:NOTER_PAGE: (3 . 0.5102040816326531)
+:END:
+As mentioned above, catalysts severely help the process. Comparing the different types, acid pretreatment helps the reaction more (needing lower temperature). However, strong acids are corrosive and can give rise to toxic compounds, while weak acids do not give the expected results.
+
+Some new variaties of metal catalysts have been explored by various researchers attempting to avoid these issues.
+
+Ac-GO has 80-90% hemicellulose removal, 80% or more cellulose retention but only 50% delignification.
+
+Al-GO results in high delignification (more than 80%), 90% cellulose retention and 80% hemicellulose retention.
+*** Enzymatic hydrolyzability
+:PROPERTIES:
+:NOTER_PAGE: (4 . 0.586734693877551)
+:END:
+This table shows a list of the hydrolyzability of GO pretreated substrates. It is another very useful table which I might want to look at for reference in the future.
+
+In the next page, they mention that delignification plays an important role in hydrolyzability. Without it, there can be physical blocking and non-productive adsorption on the enzyme. However, too much delignification is bad because it exposes bulk lignin (which is not as easy to remove) which however has strong and effective adsorption to the enzymes. The citation might be interesting if we have too much time to spend.
+*** Fermentation inhibitors
+:PROPERTIES:
+:NOTER_PAGE: (6 . 0.4290816326530612)
+:END:
+There are various inhibitory compounds that can be produced from pretreatment processes.
+
+This can also happen in GO, however, it appears to have lower fermentation inhibitors than other techniques. Ac-GO tends to form more furan derivatives (which makes sense as furfural is produced by an acidic treatment on xylose).
+
+However, high glycerol content can contribute in lowering these compounds. This is because the glycerolysis reactions are more favoured in this context than the formation of most inhibitors. These 2 processes are competitive with one another, so glycerolysis helps avoid inhibitors. 
+*** Glycerolysis reactions
+:PROPERTIES:
+:NOTER_PAGE: (6 . 0.5821428571428571)
+:END:
+In the hydrolysis step of the process, it may appear that there is a low yield of some sugars (especially seen with xylose). It has been identified that glyceryl glycosides are formed from the glycerolysis reaction between disolved sugars and glycerol during GO. However, if the liquor is diluted with with water before hydrolysis, these tend to break down to the origncal sugars.
+*** Factors affecting delignification
+:PROPERTIES:
+:NOTER_PAGE: (7 . 0.42091836734693877)
+:END:
+Delignification of the substrate is important a lot of the time. High glycerol content helps delifnification, especially if we use pure glycerol and not crude. Also, al-GO is more effective at delignification than ac-GO.
+*** GO-Lignin
+:PROPERTIES:
+:NOTER_PAGE: (8 . 0.06377551020408163)
+:END:
+After GO pretreatment, the liquor produced contains 60-80% of the lignin of the biomass and is very important to separate from the liquor. The liquor has besides lignin, hemicellulose, glycerol and any catalyst used.
+
+The lignin is uniform with a small molecular weight (2000-4000 Mw) and good dispresity.
+*** Separation of lignin and glycerol
+:PROPERTIES:
+:NOTER_PAGE: (8 . 0.16581632653061223)
+:END:
+In the lab scale, lignin is easily separated by acidifying the liquor, precipitating the lignin, which can then be separated with filtration. This is followed by distillation to recover glycerol.
+
+However, in a large scale industrial opeation this process is far from economic.
+
+Another process is usage of a membrane operating at high temperature. The viscosity of glycerol in high temperature is lowered significantly meaning that this process is noteworthy.
+
+After that, the residual glycerol should be recycled. This means either transferring it to a cheap carbon source or directly recycling it to the organosolv process. However, this glycerol has a lot of impurities and for this reason, its recycling is limited.
+*** Problems with GO pretreatment
+:PROPERTIES:
+:NOTER_PAGE: (8 . 0.25510204081632654)
+:END:
+The exact mechanisms of the reactions glycerol partakes in during this process are yet to be clarified. Therefore, production of glyceryl glycosides and phenolics cannot yet be maximized.
+
+Recovery of glyceryl compounds and recycling of glycerol are extremely important and not yet solved. Inorganic ceramic film (CMF-M) are very potent for this, due to being thermostable and able to handle viscous materials.
+
+Furthermore, GO pretreatment has high energy consumption which is a barrier in industrial applications.
+
+* Supportive Material - info_diagram (PDF)
+[[pdf:~/Documents/7o_εξάμηνο/Σχεδιασμός_Ι/Project/info_diagram.pdf::1++0.00][info_diagram.pdf: Page 1]]
+
+* Glycerol production by a novel osmotolerant yeast Candida glycerinogenes
+Bibtex entry for node: cite:zhugeGlycerolProductionNovel2001
+
+#+filetags: article
+- keywords :: Candida,Corn,Fermentation,Glycerol,Osmotic Pressure
+- tags :: [[id:e056fb0d-be9e-4e9b-b0bf-beaa71a6cf4e][Παραγωγή Γλυκερόλης από Βιομάζα]] ,[[id:6c0b9657-c404-41a6-a1a1-1107fa78e058][Λιγνοκυτταρινική Βιομάζα]] 
+
+  Article about glycerol production with Candida glycerinogenes. It looks more promising than the bullshit I read about Candida krusei so we might as well try it.
+** Analysis of article by Zhuge, J., Fang, H., Wang, Z., Chen, D., Jin, H., & Gu, H.
+:PROPERTIES:
+:URL: 
+:NOTER_DOCUMENT: ~/Sync/Zotero_pdfs/zhuge_et_al2001glycerol_production_by_a_novel_osmotolerant_yeast_candida.pdf  
+:NOTER_PAGE:              
+:END:
+*** Growth conditions
+:PROPERTIES:
+:NOTER_PAGE: (1 . 0.3867973182052604)
+:END:
+Candida Glycerinogenes grew in a medium with 230-250 g glucose/l, 2 g urea/l, 5 ml corn steep liquor/l with pH 4-6, temperature 29-33 \( ^oC \) and the yield was 64.5 % w/w in a 30-l agitated (stirred tank) fermentor.
+
+Do note that in a 50 m^3 airlift fermentor which can be used for more scaled up production, the yield was around 50%.
+
+*** C. glycerinogenes' traits
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.15471892728210418)
+:END:
+C. glycerinogenes is a yeast able to utilize glucose, sucrose or ethanol for glycerol production. It only weakly utilizes glucose (which is good because if the microorganism can use the product as a substrate we have lower productivity). It does not assimilate other alcohols such as erythritol or arabitol. It grows in vitamin free media. Its production path is through fermentation.
+
+*** Fermentation conditions
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.5476804123711341)
+:END:
+Fermentations were carried out for 84h at 31 \( ^oC \). A 30-l agitated fermentor (modeled as a batch stirred tank reactor) was used with 20 l working volume, 500 rpm agitation and 1.5 l/min aeration rate.
+*** Effect of various parameters
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.6549767921609077)
+:END:
+Glucose concentration (carbon source) seems to have a peak at 220-250 g/L concerning glycerol yield.
+
+The experiments showed that corn steep liquor (which is a phosphate source) significantly affects the growth. Concentrations of 55 to 60 mg/l were considered optimum.
+
+For urea (the nitrogen source) there is a big spike going from 1 to 2 g/l but from 2 to 5 g/l the change is insignificant.
+
+Slightly acidic pH favours the microorganisms growth, but the exact value does not matter as much.
+
+Temperature played a significant role in maximizing glycerol productivity. The optimum that was selected was between 29 and 33 \( ^oC \), with the yield being significantly worse in other temperatures.
+
+Diagrams with this info are shown in this part of the pdf.
+*** By-products of C. glycerinogenes
+:PROPERTIES:
+:NOTER_PAGE: (5 . 0.06446621970087674)
+:END:
+Besides glycerol, C. glycerinogenes has byproducts during its growth. As most osmotolerant yeasts, it produces large amounts of other polyols, with C. glyecrinogenes producing only arabitol and glycerol. In the early fermentation stages, ethanol was also produced and during the fermentation small amounts of acetic and lactic acids appeared.
+
+* Corn Steep Liquor - Ένα Χρήσιμο Θρεπτικό Συστατικό σε Μικροβιακές Καλλιέργειες
+- index :: [[id:6a5c24e6-1bb2-424f-b5a6-22e2b090a40a][Βιοχημική Μηχανική]] 
+- tags :: [[id:e056fb0d-be9e-4e9b-b0bf-beaa71a6cf4e][Παραγωγή Γλυκερόλης από Βιομάζα]] 
+
+  Το corn steep liquor (CSL) είναι ένα κίτρινο προς καφέ υγρό το οποίο είναι υδατοδιαλυτό. Παράγεται από τα αρχικά στάδιο του υγρού αλέσματος του καλαμποκιού. Είναι βαρύτερο από το νερό με σχετικά όξινο pH (3.7-4.7). Έχει πυκνότητα 1.25 g/ml. Ο λόγος που θεωρείται ένα χρήσιμο προιόν είναι ότι περιέχει πολλά θρεπτικά συστατικά (κυρίως αζωτούχες, πχ πρωτείνες, αλλά και άλλα όπως ο φώσφορος) και για αυτό μπορεί να χρησιμοποιηθεί αποτελεσματικά σε μικροβιακές καλλιέργειες ως επιπρόσθετο θρεπτικό συστατικό. Για παράδειγμα, οι [[cite:&zhugeGlycerolProductionNovel2001;&jinByproductFormationNovel2003]] χρησιμοποίησαν CSL για την πιο αποτελεσματική ανάπτυξη του Candida glycerinogenes και είδαν ότι η προσθήκη του έχει σημαντική επίδραση στην παραγωγή γλυκερόλης ανεβάζοντας σημαντικά το yield της.
+
+  Για την χημική σύσταση του CSL υπάρχουν διάσπαρτες πληροφορίες οι οποίες δεν είναι σε πλήρη συμφωνία. Σύμφωνα με τους [[cite:&liggettCORNSTEEPLIQUOR]], [[https://www.growerssecret.com/corn-steep-liquor-and-powder-fertilizers#:~:text=Chemical%20Properties%20of%20Corn%20Steep%20Liquor&text=Alanine%20plays%20a%20role%20in,3%25%20of%20phosphorus%20and%20potassium.][Grower's Secret]] το 50% του CSL είναι νερό. To άζωτο είναι τυπικά το 2.7-4.5%, το οποίο είναι κυρίως αμινοξέα, ακολουθούμενα από άλλες αζωτούχες ενώσεις όπως η αμμωνία, το γαλακτικό οξύ είναι 5-15%, οι ζάχαρες (προσδιορισμένες ως γλυκόζη) είναι 0.1-3% και ο φώσφορος και το κάλιο στα 2-3%. Επίσης έχει περίπου 10% τέφρα. Τέλος, έχει ίχνη ενώσεων όπως το οξικό οξύ, διοξείδιο του θείου και μέταλλα όπως τα Al, Ce, Cu, Fe, Pb, Mn, Mo, and Zn.
+
+  Το CSL είναι ένα από τα βασικά συστατικά του fermentation medium που θα χρησιμοποιήσουμε στην εργασία του σχεδιασμού. Για τον υπολογισμό του economic potential της διεργασίας, χρησιμοποιήσαμε την τιμή του στο [[https://www.indiamart.com/proddetail/corn-steep-liquor-15744963191.html][Indiamart]]. Καθώς η ιστοσελίδα αυτή αναφέρει και την σύσταση του CSL που προμηθεύουν, θα χρησιμοποιήσουμε στα ισοζύγια μάζας και ενέργειας που θα κάνουμε τις ποσότητες αυτές.
+
+  Λένε πως το υλικό είναι ένα ιξώδες καφέ υγρό με 50.20% συνολικά στερεά και το υπόλοιπο υγρασία. Η σύσταση (σε υγρή βάση) στα διάφορα συστατικά του είναι 14.22% γαλακτικό οξύ, 3.94% άζωτο όπου το 1.30% (της υγρής βάσης) είναι αμινοξέα, 1.01% ζάχαρες. Επίσης, έχει 9.15% τέφρα και pH 4.30. Δεν αναφέρεται ο φώσφορος ο οποίος είναι σημαντικός για τους υπολογισμούς της μικροβιακής καλλιέργειας, καθώς οι [[cite:&zhugeGlycerolProductionNovel2001]] αναφέρουν πως η ποσότητα φωσφόρου είναι ο βασικός λόγος να χρησιμοποιήσουμε CSL. Σύμφωνα με αυτούς, σε 5 mL CSL (6.25 g) υπήρχαν 55-65 mg P. Αυτό αντιστοιχεί σε περιεκτικότητα σε P της τάξης του 1%. Βέβαια, σύμφωνα με τους [[cite:&liggettCORNSTEEPLIQUOR]], ο P στο δείγμα είναι σε ξηρή και όχι υγρή βάση σε αντίθεση με τα άλλα συστατικά, ενώ το άλλο site δεν προσδιορίζει αν είναι υγρή ή ξηρή βάση. Άρα είναι σε σχετική συμφωνία τα δεδομένα.
+
+* CORN STEEP LIQUOR IN MICROBIOLOGY
+Bibtex entry for node: cite:liggettCORNSTEEPLIQUOR
+
+#+filetags: article
+- keywords ::  
+- tags :: [[id:e056fb0d-be9e-4e9b-b0bf-beaa71a6cf4e][Παραγωγή Γλυκερόλης από Βιομάζα]] ,[[id:d01ccf54-e2ce-4a6b-b826-652acf6a4c65][Corn Steep Liquor - Ένα Χρήσιμο Θρεπτικό Συστατικό σε Μικροβιακές Καλλιέργειες]] 
+
+  Possibly useful article on CSL mass balances
+
+  (from [[cite:&loyChapter23Nutritional2019]]  Corn steep liquor, officially known as condensed fermented corn extractives, is the concentrated soluble of corn-steeping. Its rich in organic nitrogen (44-46% protein) with half of that being free amino acids. It contains high amounts of lactic-acid (10-30%) but also vitamins and trace elements.)
+** Analysis of article by Liggett, R. W., & Koffler, H.
+:PROPERTIES:
+:URL: 
+:NOTER_DOCUMENT: ~/Zotero/storage/77Z8TSDL/Liggett and Koffler - CORN STEEP LIQUOR IN MICROBIOLOGY.pdf  
+:NOTER_PAGE:              
+:END:
+*** Production of CSL
+:PROPERTIES:
+:NOTER_PAGE: (1 . 0.3429355281207133)
+:END:
+This section talks about how corn steep liquor is produced. This does not interest us currently but is good to be bookmarked.
+*** Chemical Composition of CSL
+:PROPERTIES:
+:NOTER_PAGE: (5 . 0.34285714285714286)
+:END:
+This is the section that interests me the most.
+
+Corn steep liquor has a pH of 3.7-4.1, specific gravity 1.25.
+
+Most samples have nitrogen content between 3.85 and 4.1%, 1.45-1.65% amino acid content and 0.15-0.30% volatile nitrogen (typically ammonia).
+*** Material analysis
+:PROPERTIES:
+:NOTER_PAGE: (6 . 0.35714285714285715)
+:END:
+In this page, a table is presented including all the materials that go into CSL's material balance.
+
+Water is 45-55%, followed by Ash at 9-10%, Lactic Acid at 5-15%, total nitrogen at 2.7-4.5% of which Amino N is 1.0-1.8% and volatile N is 0.15-0.4%. Glucose at 0.1-11%, volatile acid i.e. acetic acid at 0.1-0.3% and SO_2 at 0.009-0.015%.
+*** Composition of Ash
+:PROPERTIES:
+:NOTER_PAGE: (7 . 0.15714285714285714)
+:END:
+This table lists the elemental analysis of CSL's ash which contains traces of various elements.
+
+* Κινητικοί Υπολογισμοί για τον C. glycerinogenes
+
+Ο μικροοργανισμός C. glycerinogenes είναι μία οσμοφιλική ζύμη η οποία έχει ως ιδιαίτερο χαρακτηριστικό την πολύ υψηλή παραγωγικότητα γλυκόζης με μικρές απώλειες σε άλλες πολυόλες. Στην βιβλιογραφία (την λίγη που υπάρχει) δεν βρέθηκε κάποια κινητική μελέτη της ανάπτυξης του μικροοργανισμού. Βρέθηκε όμως ένα διάγραμμα χρόνου με μεταβολή των συγκεντρώσεων γλυκόζης, γλυκερόλης και βιομάζας από τους [[cite:&jinByproductFormationNovel2003]].
+
+Για τον πιο ακριβή κινητικό προσδιορισμό της βιοαντίδρασης από τα πειραματικά δεδομένα αυτά, πρέπει να γίνουν υπολογισμοί, στους οποίους χρειάζονται οι ρυθμοί σε κάθε πειρραματικό σημείο. Ο ρυθμός ανάπτυξης βιομάζας, παραγωγής γλυκερόλης και κατανάλωσης γλυκόζης έχουν υπολογιστεί από παραγώγους της μορφής c = f(t). Η κατανάλωση της γλυκόζης περιγράφεται με R^2 = 0.990 από την εξίσωση \( S = 0.008t^2 - 3.531t + 243.428 \) με παράγωγο την \( \frac{dS}{dt} = 0.016t - 3.531 \)
+
+Η γλυκερόλη μπορεί να εκφραστεί με R^2 = 0.996 από την εξίσωση \( G = -0.007t^2 + 1.758t - 3.428 \) με παράγωγο την \( \frac{dG}{dt} = -0.014t + 1.758 \)
+
+Για τον ρυθμό ανάπτυξης βιομάζας ισχύει \( x = -0.013t^2 + 0.884t - 1.877 \) με R^2 = 0.999 του οποίου η παράγωγος είναι \( \frac{dx}{dt} = -0.026t+0.884 \)
+
+Με τον πιο ακριβή τρόπο προσδιορισμού του ρυθμού, προκύπτει ένα μοντέλο Monod για την ανάπτυξη της βιομάζας του τύπου \[ \frac{dx}{dt} = \frac{0.011[S]}{236.19+[S]}[x] \] η οποία έχει R^2 = 0.989 με 4 πειραματικά σημεία και έναν πιο ακριβή προσδιορισμό του ρυθμού. Αν θέλω τον ρυθμό κατανάλωσης του υποστρώματος τότε αρκεί να υπολογίσω το \( Y_{X / S} \) και να το βάλω στον παρανομαστή του μοντέλου. Το \( Y_{X / S} = \frac{ΔX}{ΔS} \) για το εύρος των μετρήσεων που έχουν εισαχθεί στο μοντέλο Monod είναι -0.1675. Άρα \[ \frac{dS}{dt} = - \frac{0.0657[S]}{236.19 + [S]}[x] \] 
+
+Αν θέλουμε να δούμε την κινητική παραγωγής της γλυκερόλης, αυτή θα είναι \[ r_G = \frac{dG}{dt} = k C_S^n \]. Εφόσον βρήκαμε το r_G και το C_S δίνεται από τα πειραματικά δεδομένα, μπορούμε να κάνουμε fit στην γραμμική σχέση \[ \ln r_G = \ln k + n \ln C_S\] για να βρούμε την τεχνική κινητική παραγωγής του επιθυμητού προιόντος. Προκύπτει πως η τάξη της αντίδρασης είναι 0.335 ως προς το υπόστρωμα και η ειδική ταχύτητα είναι 0.257. Άρα \( r_G = 0.257 [S]^{0.335} \).
+
+Με βάση τα δεδομένα αυτά, μπορούμε να κάνουμε μία εκτίμηση του όγκου του αντιδραστήρα που απαιτείται και της ετήσιας παραγωγής γλυκερόλης. Εφόσον είναι γνωστός ο χρόνος παραμονής και η συγκέντρωση γλυκόζης που εισέρχεται στον αντιδραστήρα μπορεί να υπολογιστεί η κατανάλωση της γλυκόζης ανηγμένη ως προς τον όγκο του αντιδραστήρα [\( \frac{g}{l \cdot year} \)]. Εφόσον είναι γνωστό και το ρεύμα τροφοδοσίας μπορεί να υπολογιστεί πόση μάζα γλυκόζης πρέπει να διαχειριστούμε τον χρόνο. Ο λόγος αυτών των δύο, μας δίνει το απαραίτητο working volume ώστε να επεξεργαστούμε όλη την βιομάζα που έχει η τροφοδοσία χρησιμοποιώντας σε κάθε batch την βέλτιστη συγκέντρωση υποστρώματος. Αυτός προκύπτει ίσος με 2985.9 m^3. Ο συνολικός αντιδρών όγκος άρα πρέπει να είναι στο ελάχιστο 2985.9 m^3, διαμερισμένο μάλλον σε αρκετούς αντιδραστήρες.
+
+Σε ξεχωριστό αρχείο παρουσιάζονται και τα οικονομικά στοιχεία της διεργασίας
+
+* Οικονομικό Δυναμικό Παραγωγής Γλυκερόλης
+
+Θέλουμε να υπολογίσουμε το οικονομικό δυναμικό της παραγωγής γλυκερόλης από τον C. glycerinogenes με βάση τους [[cite:&jinByproductFormationNovel2003;&zhugeGlycerolProductionNovel2001]] .
+
+Με βάση τους [[cite:&jinByproductFormationNovel2003]] απαιτούνται 230.44 g/l γλυκόζη, 2 g/l ουρία και 4 g/l Corn Steep Liquor. Ως προιόν θεωρούμε το 96.17 g/l γλυκερόλη. Επίσης, η γλυκόζη είναι από απόβλητα και δεν κοστολογείται. Αξίζει επίσης να αναφερθεί πως η αντίδραση αυτή έχει ως παραπροιόντα την αραβιτόλη, την αιθανόλη και το οξικό οξύ. Με βάση τους [[cite:&zhugeGlycerolProductionNovel2001]], η αντίδραση αυτή παράγει 4.516 g/l αραβιτόλη, 1.19 g/l αιθανόλη και 1.17 g/l οξικό οξύ. Δεν χρησιμοποιήθηκαν δεδομένα από το ίδιο πείραμα για αυτά καθώς η δομή των δεδομένων για την εφαρμογή της στην κινητική από το διάγραμμα στο [[cite:&jinByproductFormationNovel2003]] ήταν πιό βολική, ενώ το προφιλ παραγωγής παραπροιόντων ήταν πιό καλά παρουσιασμένο στο [[cite:&zhugeGlycerolProductionNovel2001]].
+
+Αξίζει να σημειωθεί πως 4 g CSL αντιστοιχούν σε 35.71 mg P, ενώ σύμφωνα με τις βέλτιστες συνθήκες που προσδιόρισαν οι [[cite:&zhugeGlycerolProductionNovel2001]] θέλουμε 55-65 mg P/l. Η πειραματική διαδικασία προέκυψε από την μελέτη [[cite:&jinByproductFormationNovel2003]] και όχι την μελέτη των βέλτιστων συνθηκών επειδή στο άρθρο αυτό αναφερόταν και η συγκέντρωση της βιομάζας η οποία είναι απαραίτητη για μία σωστή κινητική μελέτη.
+
+Για αντιδραστήρα 2985.9 m^3, θέλουμε 75000 τόνους γλυκόζη, 650.93 τόνους ουρία και 1301.9 τόνους Corn steep liquor. Η παραγωγικότητα είναι 31298 τόνοι γλυκερόλη. Τα παραπροιόντα είναι 1469.8 τόνοι αραβιτόλη, 387.30 τόνοι αιθανόλη και 380.79 τόνοι οξικό οξύ το χρόνο. Παρότι τα παραπροιόντα αυτά είναι σε μικρές συγκεντρώσεις, μέσα στα 109 batches που γίνονται το χρόνο και στο working volume των 2985.9 m^3 που χρησιμοποιούμε, οι συνολικές ποσότητες είναι σημαντικές. Άρα, αξίζει να μελετηθεί τι θα γίνουν τα παραπροιόντα αυτά.
+
+Η γλυκερόλη έχει τιμή 721.07 ευρώ ανά τόνο, η ουρία 638.13 ευρώ ανά τόνο ενώ το corn steep liquor 360 ευρώ ανά τόνο. https://www.echemi.com/productsInformation/pid_Seven41077-glycerol.html
+https://www.indiamart.com/proddetail/corn-steep-liquor-15744963191.html
+https://tradingeconomics.com/commodity/urea
+
+Ανάγοντας τα στα παραπάνω μεγέθη, το κόστος των πρώτων υλών είναι 415.38 χιλιάδες ευρώ για την ουρία και 468.67 χιλιάδες για το CSL (συνολικό κόστος 884.05 χιλιάδες ευρώ) ενώ το κέρδος είναι 22.57 εκατομμύρια. Άρα, το οικονομικό δυναμικό της διεργασίας είναι 21.68 εκατομμύρια.
+
+Βέβαια, ο όγκος του αντιδραστήρα που χρησιμοποιήθηκε είναι επικίνδυνα μεγάλος άρα πρέπει να δούμε αν θα δημιουργήσει αυτό προβλήματα.
+
+* Ανάκτηση Γλυκερόλης από Προιόντα Ζύμωσης
+- index :: [[id:e056fb0d-be9e-4e9b-b0bf-beaa71a6cf4e][Παραγωγή Γλυκερόλης από Βιομάζα]] ,[[id:6c0b9657-c404-41a6-a1a1-1107fa78e058][Λιγνοκυτταρινική Βιομάζα]] 
+- tags :: [[id:780511a3-b2f4-42f6-ba74-437c428cce2b][Κλασματική Απόσταξη]] 
+
+  Η γλυκερόλη είναι μία χρήσιμη πρώτη ύλη η οποία μπορεί να παραχθεί μέσω ζύμωσης από μικροοργανισμούς όπως ο S. cerevisiae ή άλλες οσμοφιλικές προτίστως ζύμες. Πέρα από την σύνθεση του όμως, είναι απαραίτητο να γνωρίζουμε τις τεχνικές διαχωρισμού της γλυκερόλης από τα υπόλοιπα προιόντα της ζύμωσης.
+
+  Πρώτο βήμα σε κάθε περίπτωση είναι να φιλτράρουμε την ζύμη από το υγρό μίγμα, κάτι που είναι εύκολο σχετικά.
+
+  Κλασσική τεχνική αποτελεί η διπλή απόσταξη όπου στην πρώτη απόσταξη φεύγουν τα πτητικά συστατικά του διαλύματος και στην δεύτερη (η οποία υποβοηθάται από ατμό) ανακτάται γλυκερόλη υψηλής καθαρότητας. Βέβαια αυτή η τεχνική δεν έχει καλή αποδοτικότητα.
+
+  Μία πατέντα που μελετήθηκε [[cite:&wallersteinMethodRecoveringGlycerol1946]] λέει πως ο διαχωρισμός μπορεί να γίνει πολύ πιό αποτελεσματικά με την παρακάτω τεχνική.
+
+  Αρχικά, προσθέτουμε στο προιόν της ζύμωσης μία υδατοδιαλύτη λιγνίνη και οξινίζουμε το pH (πχ με θειικό οξύ) μέχρι το pH να φτάσει περίπου 3. Έπειτα, θερμαίνουμε το μίγμα με αποτέλεσμα να κατακαθίσει στερεό ίζημα. Καθώς το προιόν μας είναι υγρό, ο διαχωρισμός των δύο είναι σχετικά εύκολος (μπορεί να γίνει πχ με διήθηση). Με αυτή τη διεργασία, διώχνουμε όλα τα αζωτούχα συστατικά (πηγή αζώτου, πρωτείνες που παρήχθηκαν κ.α.) καθώς και όλες τις ακαθαρσίες του συστήματος.
+
+  Έπειτα, η γλυκερόλη αποστάζεται σε όξινες συνθήκες (οι οποίες συνεχίζουν να επικρατούν από τα προηγούμενα) με τη βοήθεια υπέρθερμου ατμού στους 200-250 \( ^oC \). ΤΟ όξινο pH βοηθάει να αποφευχθούν ανεπιθύμητα side reactions ενώ ο ατμός κάνει πιό αποτελεσματική την απόσταξη. Προτείνεται η πίεση να είναι και λίγο χαμηλότερη από την ατμοσφαιρική για να μειώσουμε την απαίτηση σε ατμό.
+
+  Λένε πως η ποσότητα και καθαρότητα της γλυκερόλης από την διεργασία αυτή είναι πολύ υψηλότερη από κλασσικές διεργασίες. Το μόνο "πρόβλημα" είναι ότι πρέπει να δούμε τη λιγνίνη θα χρησιμοποιήσουμε για αυτό. Κλασσικές πηγές αυτής είναι τα προιόντα Sulfite waste liquor και Black liquor τα οποία παράγονται ως παραπροιόντα της βιομηχανίας χαρτιού. Αυτά θεωρητικά μπορούμε να τα παράξουμε και μόνοι μας (τεχνικά ξύλο έχουμε ως πρώτη ύλη) ή να πούμε ότι τα προμηθευόμαστε (βέβαια δεν ξέρω αν έχουν τιμή ή τα θεωρούμε free real estate).
+
+* Method of recovering glycerol from fermented liquors
+Bibtex entry for node: cite:wallersteinMethodRecoveringGlycerol1946
+
+#+filetags: patent
+- keywords :: distillation,glycerol,lignin,precipitate,solution
+- tags :: [[id:e056fb0d-be9e-4e9b-b0bf-beaa71a6cf4e][Παραγωγή Γλυκερόλης από Βιομάζα]] ,[[id:780511a3-b2f4-42f6-ba74-437c428cce2b][Κλασματική Απόσταξη]] ,[[id:6c0b9657-c404-41a6-a1a1-1107fa78e058][Λιγνοκυτταρινική Βιομάζα]] 
+
+  This is an interesting patent from the 1940s for recovering glycerol from fermented liquors. I have understood the process and it will be quite easy to apply. Question is if there is a more efficient and modern technique and if so can I find it. If not, we will use this.
+** Analysis of patent by Wallerstein, J. S., Eduard, F., & Victor, D.
+:PROPERTIES:
+:URL: 
+:NOTER_DOCUMENT: ~/Sync/Zotero_pdfs/wallerstein_et_al1946method_of_recovering_glycerol_from_fermented_liquors.pdf  
+:NOTER_PAGE:              
+:END:
+*** Present methods
+:PROPERTIES:
+:NOTER_PAGE: (1 . 0.643651529193698)
+:END:
+In present methods, the yeast is separated, other alcohols and volatile products are distilled and the residual liquor (which contains the glycerol) is distilled again with superheated steam for recovery. Then, it is condensed.
+
+However, this technique has various issues and does not have great recoverability.
+*** How the separation of this patent works
+:PROPERTIES:
+:NOTER_PAGE: (1 . 0.6950880444856349)
+:END:
+Addition of water-soluble lignin under acidic pH. A precipitate (ίζημα) is formed that contains the ligneous material and a lot of the impurities. This precipitate can easily be separated. The precipitate can be flocculated (κροκιδωθεί) by boiling the mixture.
+
+After this process, glycerol may be distilled with the aid of steam. The lignin derivative can be added to hydrolyzation products and not to already fermented mass.
+*** Water-soluble lignin
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.26645041705282674)
+:END:
+The water-soluble lignin derivative used in this process is typically sulfite waste liquor, or from "black liquor" from alkaline cooking of wood.
+
+Or, it can be produced by partially chlorinating lignin of any source and extracting.
+
+Addition of this in solutions rich in proteins and carbohydrates, a precipitate is formed. For it to be insoluble and thus easily separated, a pH=0 to 3 is recommended. Besides high molecular weight nitrogeneous bodies (proteins), other impurities are also carried in the precipitate.
+
+They say that a small amount of lignin solution is required. Enough to where one part of lignin solution is present for one part of protein by weight.
+*** Distillation of glycerol
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.30120481927710846)
+:END:
+Glycerol is distilled upon separation of the nitrogeneous forms and other impurities.
+
+It is recommended that distillation is performed in acidic pH so that foaming and frothing are eliminated and also polymerization and condensation of glycerol are prevented.
+*** Distillation method
+:PROPERTIES:
+:NOTER_PAGE: (3 . 0.2548656163113995)
+:END:
+It is recommended to spray the purified, acidified glycerol through a nozzle with counter-current superheated steam at 200-250 \( ^oC \) aiding the distillation. The vacuum is at about 28 inches. Pressure can be set to either atmospheric or less. Atmospheric requires more steam however.
+*** Example
+:PROPERTIES:
+:NOTER_PAGE: (3 . 0.5329008341056535)
+:END:
+An example is mentioned in this section.
+
+* Διάγραμμα Ροής
+#+ATTR_ORG: :width 1600px
+[[file:Διάγραμμα_Ροής/2022-11-12_18-51-45_screenshot.png]]
+
+
+* Βιβλιογραφία
+bibliography:~/Sync/My_Library.bib
+bibliographystyle:unsrt
