@@ -27,9 +27,9 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.78059406"
-     inkscape:cx="1135.033"
-     inkscape:cy="400.97666"
+     inkscape:zoom="1.1039267"
+     inkscape:cx="760.92008"
+     inkscape:cy="425.7529"
      inkscape:window-width="1916"
      inkscape:window-height="1052"
      inkscape:window-x="0"
@@ -395,7 +395,7 @@
        x="-326.53793"
        y="517.21704"
        id="text2281"
-       transform="matrix(0.26458333,0,0,0.26458333,10.566131,40.724133)"><tspan
+       transform="matrix(0.26458333,0,0,0.26458333,10.401558,58.41056)"><tspan
          sodipodi:role="line"
          id="tspan2279"
          x="-326.53793"
@@ -413,8 +413,8 @@
        id="rect2283"
        width="33.804813"
        height="15.245519"
-       x="-80.448715"
-       y="174.7509" />
+       x="-80.613289"
+       y="192.43733" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1.0429px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
@@ -447,7 +447,7 @@
        x="-270.01566"
        y="443.84866"
        id="text2287"
-       transform="matrix(0.26458333,0,0,0.26458333,-13.267852,26.528314)"><tspan
+       transform="matrix(0.26458333,0,0,0.26458333,-14.223003,37.5946)"><tspan
          sodipodi:role="line"
          id="tspan2285"
          x="-270.01566"
@@ -466,7 +466,7 @@
          id="tspan2293">ιζήματος</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -64.050039,135.99154 0.420944,38.75936"
+       d="m -64.066779,135.99154 0.313553,56.44579"
        id="path2299"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -478,21 +478,33 @@
        x="-122.63856"
        y="510.02695"
        id="text2303"
-       transform="matrix(0.26458333,0,0,0.26458333,8.377993,-13.245309)"><tspan
+       transform="matrix(0.26458333,0,0,0.26458333,4.6927928,-18.260819)"><tspan
          sodipodi:role="line"
-         id="tspan2301"
          x="-122.63856"
-         y="510.02695">Κυτταρίνη</tspan></text>
+         y="510.02695"
+         id="tspan804">Κυτταρινικό</tspan><tspan
+         sodipodi:role="line"
+         x="-122.63856"
+         y="528.36035"
+         id="tspan810">κλάσμα με</tspan><tspan
+         sodipodi:role="line"
+         x="-122.63856"
+         y="546.69373"
+         id="tspan812">ότι λιγνίνη δεν</tspan><tspan
+         sodipodi:role="line"
+         x="-122.63856"
+         y="565.0271"
+         id="tspan814">ανακτήθηκε</tspan></text>
     <rect
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.21;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.308921;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
        id="rect2305"
-       width="23.939199"
-       height="11.38414"
-       x="-27.242718"
-       y="115.117" />
+       width="29.603981"
+       height="19.921278"
+       x="-30.50424"
+       y="112.76049" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -15.4842,106.90649 0.12466,8.21051"
+       d="m -15.4842,106.90649 -0.08071,5.854"
        id="path2307"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -601,7 +613,7 @@
        x="-118.24285"
        y="590.10736"
        id="text2391"
-       transform="matrix(0.27842171,0,0,0.26445579,11.85903,13.003678)"><tspan
+       transform="matrix(0.27842171,0,0,0.26445579,11.722075,33.304335)"><tspan
          sodipodi:role="line"
          id="tspan2389"
          x="-118.24285"
@@ -611,15 +623,15 @@
        id="rect2393"
        width="27.660313"
        height="11.134785"
-       x="-28.4561"
-       y="162.15527" />
+       x="-28.593056"
+       y="182.45593" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1.0429px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
        x="-139.08147"
        y="539.24414"
        id="text2397"
-       transform="matrix(0.26458333,0,0,0.26458333,-1.2386325,-12.401726)"><tspan
+       transform="matrix(0.26458333,0,0,0.26458333,-13.322595,22.92807)"><tspan
          sodipodi:role="line"
          id="tspan2395"
          x="-139.08147"
@@ -632,14 +644,6 @@
          x="-139.08147"
          y="575.91089"
          id="tspan3940">σε συνθήκες:</tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -15.194596,126.50114 0.49185,35.65413"
-       id="path2401"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0"
-       inkscape:connection-start="#rect2305"
-       inkscape:connection-end="#rect2393" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1.0429px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
@@ -686,7 +690,7 @@
        y="105.91899" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.252635px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-       d="M -46.643902,182.30468 H 11.483917"
+       d="M -46.808475,200.06009 H 11.319344"
        id="path2411" />
     <text
        xml:space="preserve"
@@ -1250,7 +1254,7 @@
        y="89.107101" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M -10.612642,162.15527 30.497977,105.1252"
+       d="M -11.637428,182.45593 31.775178,105.1252"
        id="path2752"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -1510,7 +1514,7 @@
        sodipodi:nodetypes="ccc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.275934px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-       d="m 222.42558,160.26007 0.16783,29.76292 -210.971526,-0.0477 -0.137967,-23.72523 h 8.928837"
+       d="m 222.42558,160.26007 0.16783,39.6737 -211.274066,0.12632 0.164573,-33.81003 h 8.928837"
        id="path2907"
        sodipodi:nodetypes="ccccc" />
     <text
@@ -1974,11 +1978,11 @@
          sodipodi:role="line"
          x="-780.40833"
          y="85.608452"
-         id="tspan3091">T = 227 C</tspan><tspan
+         id="tspan3091">T = 232 C</tspan><tspan
          sodipodi:role="line"
          x="-780.40833"
          y="103.94183"
-         id="tspan960">t =  4 min</tspan></text>
+         id="tspan585">t =  2 min</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1.0429px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
@@ -2084,7 +2088,7 @@
        x="999.30188"
        y="546.39197"
        id="text3930"
-       transform="matrix(0.26458333,0,0,0.26458333,-298.07466,1.149156)"><tspan
+       transform="matrix(0.26458333,0,0,0.26458333,-311.68297,35.429879)"><tspan
          sodipodi:role="line"
          id="tspan3928"
          x="999.30188"
@@ -2095,7 +2099,7 @@
        x="1007.0021"
        y="562.18109"
        id="text3934"
-       transform="matrix(0.26458333,0,0,0.26458333,-303.73318,5.6952302)"><tspan
+       transform="matrix(0.26458333,0,0,0.26458333,-317.34149,39.975953)"><tspan
          sodipodi:role="line"
          id="tspan3932"
          x="1007.0021"
@@ -2106,10 +2110,74 @@
        x="985.58838"
        y="566.04474"
        id="text3938"
-       transform="matrix(0.26458333,0,0,0.26458333,-300.16326,-0.61088647)"><tspan
+       transform="matrix(0.26458333,0,0,0.26458333,-313.77157,33.669836)"><tspan
          sodipodi:role="line"
          id="tspan3936"
          x="985.58838"
          y="566.04474">Κυτταρινάσες</tspan></text>
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.21;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect868"
+       width="26.713825"
+       height="10.088804"
+       x="-28.670408"
+       y="150.76122" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1.0429px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       x="1014.1586"
+       y="568.40985"
+       id="text872"
+       transform="matrix(0.26458333,0,0,0.26458333,-293.36182,6.3844282)"><tspan
+         sodipodi:role="line"
+         id="tspan870"
+         x="1014.1586"
+         y="568.40985">Κυτταρίνη</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -15.227287,160.85002 0.369242,21.60591"
+       id="path926"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect868"
+       inkscape:connection-end="#rect2393" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1.0429px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       x="983.65881"
+       y="533.87158"
+       id="text932"
+       transform="matrix(0.26458333,0,0,0.26458333,-305.74852,-2.9060707)"><tspan
+         sodipodi:role="line"
+         id="tspan930"
+         x="983.65881"
+         y="533.87158">Οξείδωση με</tspan><tspan
+         sodipodi:role="line"
+         x="983.65881"
+         y="552.20496"
+         id="tspan934">ClO_2 για</tspan><tspan
+         sodipodi:role="line"
+         x="983.65881"
+         y="570.53833"
+         id="tspan936">απολιγνοποίηση</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -15.585209,132.68177 0.21244,18.07945"
+       id="path938"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect2305"
+       inkscape:connection-end="#rect868" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1.0429px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       x="1336.6639"
+       y="753.35779"
+       id="text1330"
+       transform="matrix(0.26458333,0,0,0.26458333,-297.238,-0.2380005)"><tspan
+         sodipodi:role="line"
+         id="tspan1328"
+         x="1336.6639"
+         y="753.35779" /></text>
   </g>
 </svg>
