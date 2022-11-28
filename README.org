@@ -8,4 +8,4 @@ In the /Diagrams folder are various .svg files created with Inkscape which are r
 
 In the /Calculations folder are various Excel and Matlab files used for calculations needed for the project.
 
-In the /Aspen folder are aspen files we have used for simulations of the process.
+In the /Aspen folder are aspen files we have used for simulations of the process. Following the .apwz files (aspen files) are in some cases .org documents documenting the process.
