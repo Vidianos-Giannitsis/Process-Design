@@ -1,25 +1,10 @@
 clear;clc
 
-bioreactor_stoichiometry;
-
-# Carbon mass balance
-C = (s_gluc*6+s_urea*1)-(3+s_eth*2+s_acet*2+1);
-
-# Hydrogen mass balance
-H = (s_gluc*12+s_urea*4)-(8+s_eth*6+s_acet*4+2);
-
-# Oxygen mass balance
-O = (s_gluc*6+s_urea*1+2)-(3+s_eth*1+s_acet*2+2+1);
-
-# Nitrogen mass balance
-N = (s_urea*2);
-
-# Phosphorus mass balance
-#P = s_CSL*0.03;
-
-# Biomass in [Carbon, Hydrogen, Oxygen, Nitrogen, Phosphorus]
-disp("Carbon, Hydrogen, Oxygen, Nitrogen in Biomass")
-Biomass = [C H O N]
+# Biomass in [Carbon, Hydrogen, Oxygen, Nitrogen]
+C = 6.2247;
+H = 12.3790;
+O = 0.1133;
+N = 0.4736;
 MW_b = 12*C+1*H+16*O+14*N
 Density = 1.5 # g/ml
 disp("In g/ml")

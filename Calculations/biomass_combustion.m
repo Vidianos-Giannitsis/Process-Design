@@ -1,6 +1,6 @@
 clear;clc
 
-biomass = [3.286, 4.571, 3.311, 0.048]; # Biomass type (C, H, O, N)
+biomass = [6.2332, 12.3790, 0.1133, 0.4736]; # Biomass type (C, H, O, N)
 
 # Combustion stoichiometric coefficients
 C = biomass(1); # CO_2 coefficient
