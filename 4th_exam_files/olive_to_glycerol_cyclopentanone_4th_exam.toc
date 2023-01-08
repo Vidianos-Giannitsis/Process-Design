@@ -1,0 +1,17 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Προσομοίωση των στερεών στο Aspen}{2}{section.1}%
+\contentsline {section}{\numberline {2}Χημικοί Αντιδραστήρες}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Παραγωγή Γλυκερόλης}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Παραγωγή Κυκλοπεντανόνης}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Παραγωγή Φουρφουράλης}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Συμπληρωματικοί Αντιδραστήρες}{4}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Βασικοί Διαχωρισμοί}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Καθαρισμός Γλυκερόλης}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Καθαρισμός Κυκλοπεντανόνης}{6}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Διαχωρισμός Υδρογόνου}{6}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Αποστακτική Στήλη Ανάκτησης Καθαρής Κυκλοπεντάνονης}{6}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Προκατεργασία Βιομάζας}{7}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Έκρηξη Ατμού}{7}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Διαχωρισμός των Στερεών}{8}{subsubsection.3.3.2}%
+\contentsline {section}{\numberline {4}Στάδιο Ολοκληρωμένου Σχεδιασμού}{8}{section.4}%
+\contentsline {section}{\numberline {5}Βιβλιογραφία}{9}{section.5}%
