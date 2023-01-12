@@ -1,0 +1,11 @@
+SLAVE:
+INPUT: _1528spe.inm
+MODNAME: apmain
+RUNID: _1528spe
+NEW_RUNID: _1528spe
+OLD_RUNID: _1528spe
+PDF: _1528spe.appdf
+USERNAME: theau
+XMOD: C:\Program Files\AspenTech\Aspen Plus V11.0\Engine\xeq\apmain
+SPONLY:
+DBCONN: _1528spe
