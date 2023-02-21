@@ -45,12 +45,12 @@
 #+TBLFM: $5=$3 - $4::$6=$5*$2
 
 * Αποτελέσματα - Γραφήματα
-Με βάση αυτά μπορεί να φτιαχθεί ο ενεργειακός καταρράκτης της διεργασίας και από αυτόν το μεγάλο σύνθετο γράφημα. Ο ενεργειακός καταρράκτης φαίνεται παρακάτω.
+Με βάση αυτά μπορεί να φτιαχθεί ο ενεργειακός καταρράκτης της διεργασίας και από αυτόν το μεγάλο σύνθετο γράφημα. Ο ενεργειακός καταρράκτης φαίνεται παρακάτω ([[https://github.com/Vidianos-Giannitsis/Process-Design/blob/master/Diagrams/energy_cascade.pdf][Δείτε εδώ από github]]).
 #+CAPTION: Ενεργειακός καταρράκτης της διεργασίας
 #+ATTR_ORG: :width 500px
 [[./Diagrams/energy_cascade.svg]]
 
-Έπειτα, χρησιμοποιείται ο παρακάτω κώδικας octave για να δημιουργήσει το μεγάλο σύνθετο γράφημα της διεργασίας ([[https://github.com/Vidianos-Giannitsis/Process-Design/blob/master/Diagrams/grand_composite_curve.png][github link]]).
+Έπειτα, χρησιμοποιείται ο παρακάτω κώδικας octave για να δημιουργήσει το μεγάλο σύνθετο γράφημα της διεργασίας ([[https://github.com/Vidianos-Giannitsis/Process-Design/blob/master/Diagrams/grand_composite_curve.png][Δείτε εδώ από github]]).
 
 #+BEGIN_SRC octave :results file
 
