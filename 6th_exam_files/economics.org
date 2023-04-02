@@ -1,0 +1,596 @@
+* Πίνακας περιεχομένων
+:PROPERTIES:
+:CLASS: TOC-Heading
+:END:
+[[*Οικονομική Ανάλυση Συνολικού Έργου][Οικονομική Ανάλυση Συνολικού
+Έργου [[*Οικονομική Ανάλυση Συνολικού Έργου][1]]]]
+
+[[*Κοστολόγηση αρχείου olive_kernel_to_platforms_complete][Κοστολόγηση
+αρχείου olive_kernel_to_platforms_complete [[*Κοστολόγηση αρχείου
+olive_kernel_to_platforms_complete][2]]]]
+
+[[*Κοστολόγηση αρχείου lignin_combustion_block_300_complete][Κοστολόγηση
+αρχείου lignin_combustion_block_300_complete [[*Κοστολόγηση αρχείου
+lignin_combustion_block_300_complete][6]]]]
+
+[[*Κοστολόγηση αρχείου glucose_to_glycerol_complete][Κοστολόγηση αρχείου
+glucose_to_glycerol_complete [[*Κοστολόγηση αρχείου
+glucose_to_glycerol_complete][7]]]]
+
+[[*Κοστολόγηση αρχείου xylose_to_cyclopentanone_complete][Κοστολόγηση
+αρχείου xylose_to_cyclopentanone_complete [[*Κοστολόγηση αρχείου
+xylose_to_cyclopentanone_complete][12]]]]
+
+* Οικονομική Ανάλυση Συνολικού Έργου
+Πραγματοποιήθηκε οικονομική ανάλυση για τα τέσσερα αρχεία, τα
+αποτελέσματα της οποίας συνοψίζονται στον Πίνακα 1 (σε χιλίαδες ευρώ).
+Κάθε αρχείο αντιπροσωπεύει μια διαφορετική διεργασία μέσα στο αναλυόμενο
+σύστημα. Ο πίνακας δείχνει το συνολικό κόστος κεφαλαίου, το συνολικό
+κόστος λειτουργίας ανά έτος, το συνολικό κόστος πρώτων υλών ανά έτος,
+τις συνολικές πωλήσεις προϊόντων ανά έτος, το συνολικό κόστος παροχών
+ανά έτος, το κόστος εξοπλισμού, και το συνολικό κόστος εγκατάστασης για
+κάθε διεργασία.
+
+Το συνολικό κόστος εγκατάστασης του εξοπλισμού ανέρχεται στα 8
+εκατομμύρια ευρώ και το ετήσιο κέρδος είναι 56 εκατομμύρια €. Με βάση
+αυτά τα αποτελέσματα, φαίνεται ότι η διεργασία αποφέρει σημαντικά έσοδα,
+γεγονός που αποτελεί θετικό παράγοντα για την οικονομική βιωσιμότητα του
+έργου. Το σχετικά χαμηλό κόστος των βοηθητικών παροχών, λόγω της
+δυνατότητας παραγωγής τους μέσα από το έργο, είναι επίσης ένας θετικός
+παράγοντας. Ωστόσο, το κόστος των πρώτων υλών παραμένει υψηλό οπότε θα
+μπορούσε να γίνει περαιτέρω έρευνα για να διαπιστωθεί εάν υπάρχουν
+ευκαιρίες για βελτιστοποίηση της διαδικασίας και μείωση του κόστους.
+
+Τα αποτελέσματα αυτά, όμως, δεν είναι πραγματικά διότι υπάρχουν errors
+στην κοστολόγηση που θα διορθωθούν.
+
+Πίνακας 1 Οικονομική Ανάλυση Συνολικού Έργου
+
+|---------+---------------------+----------------+----------------------+---------------|
+|  Blocks |        Capital Cost | Operating Cost |   Raw Materials Cost | Product Sales |
+| 100-200 |               4.281 |          8.449 |                6.645 |             0 |
+|     300 |               3.233 |          2.277 |                    0 |             0 |
+| 400-500 |               4.061 |          2.667 |                    0 |         8.857 |
+| 600-700 |               4.287 |          4.167 |                2.573 |        83.382 |
+|   Total |              15.862 |         17.561 |                9.218 |        92.238 |
+|         |                     |                |                      |               |
+|         |       Ετήσιο Κέρδος |         55.992 |                      |               |
+|---------+---------------------+----------------+----------------------+---------------|
+|  Blocks |      Utilities Cost | Equipment Cost | Total Installed Cost |               |
+| 100-200 |                  78 |            488 |                1.581 |               |
+|     300 |               1.301 |            629 |                1.101 |               |
+| 400-500 |               1.373 |            393 |                1.349 |               |
+| 600-700 |                  71 |            890 |                1.709 |               |
+|   Total |               2.823 |          2.399 |                5.739 |               |
+|         |                     |                |                      |               |
+|         | Kόστος εγκατάστασης |          8.138 |                      |               |
+|---------+---------------------+----------------+----------------------+---------------|
+* Κοστολόγηση αρχείου olive_kernel_to_platforms_complete
+Σε αυτό το αρχείο οι πρώτες ύλες που χρησιμοποιούνται είναι το
+πυρηνόξηλο, το οποίο θεωρούμε ότι παρέχεται δωρεάν, το νερό, με τιμή
+0,0005488 $/kg και το NaOH που κοστίζει 0,5$/kg. Συνολικά, το κόστος των
+πρώτων υλών είναι 6,6 εκατομμύρια ευρώ. Από τον Πίνακα 1 φαίνεται ότι
+για την εγκατάσταση του εξοπλισμού απαιτούνται 2.068.528 €. Θεωρούμε ότι
+οι πωλήσεις των προϊόντων είναι 0 € διότι τα προϊόντα θα χρησιμοποιηθούν
+στις επόμενες διεργασίες και θα πωληθούν μετά.
+
+Πίνακας 2 Κοστολόγηση εξοπλισμού για την επεξεργασία πυρηνόξυλου
+
+| Summary                                |           |
+|----------------------------------------+-----------|
+| Total Capital Cost [Euro]              | 4.280.843 |
+| Total Operating Cost [Euro/Year]       | 8.449.050 |
+| Total Raw Materials Cost [Euro/Year]   | 6.644.948 |
+| Total Product Sales [Euro/Year]        | 0         |
+| Total Utilities Cost [Euro/Year]       | 78.161    |
+| Desired Rate of Return [Percent/'Year] | 18        |
+| P.O. Period [Year]                     | 0         |
+| Equipment Cost [Euro]                  | 487.876   |
+| Total Installed Cost [Euro]            | 1.580.652 |
+
+Στη συνέχεια παρουσιάζονται πίνακες με την κοστολόγηση κάθε εξοπλισμού
+της διεργασίας, το κόστος των βοηθητικών παροχών και τα σχεδιαστικά
+χαρακτηριστικά του εξοπλισμού.
+
+Πίνακας 3 Κοστολόγηση Εξοπλισμού
+
+| Equipment |                       |                       |                       |
+|-----------+-----------------------+-----------------------+-----------------------|
+| Name      | Equipment Cost [Euro] | Installed Cost [Euro] | Equipment Weight [Kg] |
+| H-101     |                104604 |                386492 | 13698,4784            |
+| H-103     |                  8648 |                 65044 | 254,01152             |
+| O-103     |                 15548 |                114540 | 1179,3392             |
+| O-102     |                     0 |                     0 | 0                     |
+| B1        |                     0 |                     0 | 0                     |
+| O-104     |                     0 |                     0 | 0                     |
+| M-201     |                     0 |                     0 | 0                     |
+| C-201     |                128984 |                171948 | 2131,8824             |
+| H-201     |                  8648 |                 65044 | 254,01152             |
+| O-101     |                 52900 |                194120 | 1950,4456             |
+| M-101     |                     0 |                     0 | 0                     |
+| H-202     |                 15548 |                 87860 | 1406,1352             |
+| H-102     |                 11040 |                 84640 | 635,0288              |
+| P-101     |                 44712 |                 74244 | 1043,2616             |
+| R-201     |                 81696 |                222180 | 3946,2504             |
+| E-101     |                 15548 |                114540 | 1179,3392             |
+|-----------+-----------------------+-----------------------+-----------------------|
+| Name      | Installed Weight [Kg] |                       |                       |
+| H-101     |           31956,46358 |                       |                       |
+| H-103     |           3689,517328 |                       |                       |
+| O-103     |           6364,802944 |                       |                       |
+| O-102     |                     0 |                       |                       |
+| B1        |                     0 |                       |                       |
+| O-104     |                     0 |                       |                       |
+| M-201     |                     0 |                       |                       |
+| C-201     |            4186,65416 |                       |                       |
+| H-201     |           3689,517328 |                       |                       |
+| O-101     |           9547,658008 |                       |                       |
+| M-101     |                     0 |                       |                       |
+| H-202     |           6857,857448 |                       |                       |
+| H-102     |            7114,59052 |                       |                       |
+| P-101     |            2193,11732 |                       |                       |
+| R-201     |           11241,37054 |                       |                       |
+| E-101     |           6364,802944 |                       |                       |
+
+
+
+
+
+Πίνακας 4 Κόστος βοηθητικών παροχών
+
+| Utilities   |       |         |            |               |            |
+|-------------+-------+---------+------------+---------------+------------|
+| Name        | Fluid | Rate    | Rate Units | Cost per Hour | Cost Units |
+| Electricity |       | 125,055 | KW         | 9,691763      | USD/H      |
+
+Πίνακας 5 Eναλλάκτες θερμότητας
+
+| TEMA HEX                           |          |          |          |          |          |
+|------------------------------------+----------+----------+----------+----------+----------|
+| *User tag number*                    | *H-101*    | *H-103*    | *H-201*    | *H-202*    | *H-102*    |
+| Number of identical items          | 1        | 1        | 1        | 1        | 1        |
+| Heat transfer area [sqm]           | 340,976  | 2,979083 | 2,979083 | 48,90696 | 14,46969 |
+| Front end TEMA symbol              | B        | B        | B        | B        | B        |
+| Shell TEMA symbol                  | E        | E        | E        | E        | E        |
+| Rear end TEMA symbol               | M        | M        | M        | M        | M        |
+| Tube design gauge pressure [barg]  | 28,43421 | 18,61838 | 18,61838 | 0,020961 | 18,61838 |
+| Tube design temperature [C]        | 392,5778 | 259,7778 | 256,8764 | 121,1111 | 259,7778 |
+| Tube operating temperature [C]     | 232      | 45       | 48       | 44,93438 | 170,4094 |
+| Tube outside diameter [meter]      | 0,0254   | 0,0254   | 0,0254   | 0,0254   | 0,0254   |
+| Shell design gauge pressure [barg] | 42,43421 | 28,43421 | 28,43421 | 0,020961 | 28,43421 |
+| Shell design temperature [C]       | 392,5778 | 259,7778 | 256,8764 | 121,1111 | 259,7778 |
+| Shell operating temperature [C]    | 364,8    | 232      | 229,0986 | 50       | 232      |
+| Tube length extended [meter]       | 6,096    | 6,096    | 6,096    | 6,096    | 6,096    |
+| Tube pitch [meter]                 | 0,03175  | 0,03175  | 0,03175  | 0,03175  | 0,03175  |
+| Number of tube passes              | 1        | 1        | 1        | 1        | 1        |
+| Number of shell passes             | 1        | 1        | 1        | 1        | 1        |
+
+Πίνακας 6 Separators
+
+| Vertical vessel                          |          |          |
+|------------------------------------------+----------+----------|
+| *User tag number*                          | *O-103*    | *E-101*    |
+| Liquid volume [l]                        | 2401,933 | 2401,933 |
+| Vessel diameter [meter]                  | 0,9144   | 0,9144   |
+| Vessel tangent to tangent height [meter] | 3,6576   | 3,6576   |
+| Design gauge pressure [barg]             | 1,03425  | 1,03425  |
+| Vacuum design gauge pressure [barg]      | -1,00667 | -1,00667 |
+| Design temperature [C]                   | 121,1111 | 121,1111 |
+| Operating temperature [C]                | 69,90314 | 80,64995 |
+
+Πίνακας 7 Filters
+
+| Tubular filter           |          |          |
+|--------------------------+----------+----------|
+| *User tag number*          | *O-102*    | *O-104*    |
+| Liquid flow rate [l/min] | 26,52002 | 17,94001 |
+
+Πίνακας 8 Mixers
+
+| Quoted equipment       |     |       |       |
+|------------------------+-----+-------+-------|
+| *User tag number*        |  *B1* | *M-201* | *M-101* |
+| Code of account        | 100 |   100 |   100 |
+| Material cost per unit |   0 |     0 |     0 |
+
+Πίνακας 9 Decanter
+
+| Solid bowl centrif    |                                |
+|-----------------------+--------------------------------|
+| *User tag number*     | *C-201*                        |
+| Remarks 1             | Equipment mapped from 'C-201'. |
+| Bowl diameter [meter] | 0,4572                         |
+| Bowl length [meter]   | 1,016                          |
+| Driver power [kW]     |                                |
+| Flow rate [kg/hr]     | 19780,92                       |
+
+Πίνακας 10 Αντιδραστήρες
+
+| Agitated reactor                         |          |          |
+|------------------------------------------+----------+----------|
+| *User tag number*                          | *O-101*    | *R-201*    |
+| Liquid volume [l]                        | 450,3624 | 2502,013 |
+| Vessel diameter [meter]                  | 0,4572   | 0,9144   |
+| Vessel tangent to tangent height [meter] | 2,7432   | 3,81     |
+| Design gauge pressure [barg]             | 28,43421 | 1,03425  |
+| Vacuum design gauge pressure [barg]      |          | -1,00667 |
+| Design temperature [C]                   | 259,7778 | 121,1111 |
+
+Πίνακας 11 Αντλία
+
+| Centrif pump                 |          |
+|------------------------------+----------|
+| *User tag number*              | *P-101*    |
+| Liquid flow rate [l/min]     | 216,678  |
+| Fluid head [meter]           | 264,5286 |
+| Fluid specific gravity       | 0,965073 |
+| Design gauge pressure [barg] | 28,43421 |
+| Design temperature [C]       | 21,11111 |
+| Fluid viscosity [cP]         | 0,5      |
+| Pump efficiency [fraction]   | 0,445604 |
+
+* Κοστολόγηση αρχείου lignin_combustion_block_300_complete
+Γενικά υπάρχουν errors προς το παρόν στην κοστολόγηση του εξοπλισμού
+οπότε δεν έχουμε βάλει την διαστασιολόγηση του εξοπλισμού.
+
+ 
+
+Σε αυτή τη διεργασία όλες οι πρώτες ύλες (λιγνίνη και αέρας) θεωρούνται
+ότι παρέχονται δωρεάν.
+
+Στον Πίνακα 11 παρουσιάζεται η κοστολόγηση για την καύση της λιγνίνης.
+
+Πίνακας 12 Σύνοψη κοστολόγησης
+
+| Summary                                |           |
+|----------------------------------------+-----------|
+| Total Capital Cost [Euro]              | 3.233.248 |
+| Total Operating Cost [Euro/Year]       | 2.276.568 |
+| Total Raw Materials Cost [Euro/Year]   | 0         |
+| Total Product Sales [Euro/Year]        | 0         |
+| Total Utilities Cost [Euro/Year]       | 1.300.558 |
+| Desired Rate of Return [Percent/'Year] | 18        |
+| P.O. Period [Year]                     | 0         |
+| Equipment Cost [Euro]                  | 628.544   |
+| Total Installed Cost [Euro]            | 1.100.504 |
+
+Πίνακας 13 Κοστολόγηση Εξοπλισμού
+
+| Name  | Equipment Cost [Euro] | Installed Cost [Euro] | Equipment Weight [Kg] | Installed Weight [Kg] |
+|-------+-----------------------+-----------------------+-----------------------+-----------------------|
+| H-304 | 0                     | 0                     | 0                     | 0                     |
+| T-302 | 0                     | 0                     | 0                     | 0                     |
+| H-303 | 13708                 | 79580                 | 1088,6208             | 5713,444832           |
+| O-302 | 0                     | 0                     | 0                     | 0                     |
+| R-301 | 0                     | 0                     | 0                     | 0                     |
+| M-302 | 0                     | 0                     | 0                     | 0                     |
+| H-301 | 0                     | 0                     | 0                     | 0                     |
+| T-303 | 0                     | 0                     | 0                     | 0                     |
+| O-301 | 0                     | 0                     | 0                     | 0                     |
+| T-301 | 0                     | 0                     | 0                     | 0                     |
+| H-302 | 8740                  | 92644                 | 254,01152             | 3408,290288           |
+| H-305 | 249780                | 463864                | 35833,768             | 58175,44196           |
+| P-301 | 356316                | 464416                | 8527,5296             | 16166,92606           |
+| M-301 | 0                     | 0                     | 0                     | 0                     |
+
+Πίνακας 14 Κόστος βοηθητικών παροχών
+
+| Utilities     |       |         |            |               |            |
+|---------------+-------+---------+------------+---------------+------------|
+| Name          | Fluid | Rate    | Rate Units | Cost per Hour | Cost Units |
+| Electricity   |       | 499,92  | KW         | 38,7438       | USD/H      |
+| Cooling Water | Water | 1,02101 | MMGAL/H    | 122,5212      | USD/H      |
+
+* Κοστολόγηση αρχείου glucose_to_glycerol_complete
+Έγινε οικονομική αξιολόγηση του ρεύματος προϊόντος, που είναι η
+προπανοτριόλη με καθαρότητα 99,96% σε ποσότητα 12845 tn/year. Βρέθηκε
+πως η τιμή αγοράς προπανοτριόλης σε υψηλή καθαρότητα μπορεί να πουληθεί
+για 0,34 $/lb ή 0,732 euro/kg.
+
+Επίσης έγινε και διαστασιολόγηση του εξοπλισμού και οικονομική ανάλυση
+των παροχών που απαιτούνται. Μια σύντομη περιγραφή των αποτελεσμάτων
+παρουσιάζονται στον Πίνακα 10. Η παρούσα οικονομική ανάλυση ασχολείται
+με τις διεργασίες που χρησιμοποιούνται από την έξοδο του βιοαντιδραστήρα
+και μετά, συνεπώς δεν αγοράζεται κάποια πρώτη ύλη.
+
+| Summary                                |           |
+|----------------------------------------+-----------|
+| Total Capital Cost [Euro]              | 4.061.248 |
+| Total Operating Cost [Euro/Year]       | 2.667.052 |
+| Total Raw Materials Cost [Euro/Year]   | 0         |
+| Total Product Sales [Euro/Year]        | 8.856.582 |
+| Total Utilities Cost [Euro/Year]       | 1.373.045 |
+| Desired Rate of Return [Percent/'Year] | 18        |
+| P.O. Period [Year]                     | 2         |
+| Equipment Cost [Euro]                  | 392.564   |
+| Total Installed Cost [Euro]            | 1.349.180 |
+
+Πίνακας 15 Σύνοψη κοστολόγησης
+
+Συνεπώς για την εγκατάσταση αυτού του εξοπλισμού απαιτούνται 1.741.744
+€, και αφού ξεκινήσει να λειτουργεί αυτή η θα έχει συνολικό ετήσιο
+κέρδος της τάξεως των 755.237,2 €/y, που σημαίνει ότι θα χρειαστούν γύρω
+στα 2,3 χρόνια για να γίνει απόσβεση του κόστους εγκατάστασης αυτών των
+διεργασιών. Ακολουθούν πίνακες με την κοστολόγηση κάθε εξοπλισμού της
+διεργασίας, των βοηθητικών παροχών και τα σχεδιαστικά χαρακτηριστικά του
+εξοπλισμού.
+
+| Equipment          |                       |                       |                       |                       |
+|--------------------+-----------------------+-----------------------+-----------------------+-----------------------|
+| Name               | Equipment Cost [Euro] | Installed Cost [Euro] | Equipment Weight [Kg] | Installed Weight [Kg] |
+| H-502              | 23368                 | 120520                | 2540,1152             | 12602,60013           |
+| C-501              | 128984                | 171948                | 2131,8824             | 4186,65416            |
+| H-501              | 8372                  | 65228                 | 231,33192             | 3777,514176           |
+| H-503              | 25392                 | 124936                | 2857,6296             | 13640,41862           |
+| R-401              | 81236                 | 221536                | 3810,1728             | 11077,62382           |
+| D-501-cond         | 7728                  | 50508                 | 117,93392             | 2105,120472           |
+| D-501-cond acc     | 15180                 | 105248                | 1224,6984             | 5870,841256           |
+| D-501-reb          | 40388                 | 118036                | 4490,5608             | 9960,426728           |
+| D-501-reflux pump  | 4416                  | 27876                 | 90,7184               | 1126,268936           |
+| D-501-tower        | 33672                 | 172224                | 2313,3192             | 9538,132576           |
+| F-501-flash vessel | 23828                 | 171120                | 2086,5232             | 11794,75278           |
+
+Πίνακας 16 Αναλυτική κοστολόγηση εξοπλισμού της διεργασίας
+
+| Utilities     |       |          |            |               |            |
+|---------------+-------+----------+------------+---------------+------------|
+| Name          | Fluid | Rate     | Rate Units | Cost per Hour | Cost Units |
+| Electricity   |       | 97,173   | KW         | 6,92843444    | Euro/H     |
+| Cooling Water | Water | 0,00085  | MMGAL/H    | 0,09384       | Euro/H     |
+| Steam @100PSI | Steam | 19,97789 | KLB/H      | 149,610423    | Euro/H     |
+
+Πίνακας 17 Κόστος βοηθητικών παροχών
+
+Παρουσιάζονται πίνακες για τα σχεδιαστικά χαρακτηριστικά του εξοπλισμού
+που προέκυψαν από την διαστασιολόγηση.
+
+Πίνακας 18 Διαστασιολόγηση εναλλακτών θερμότητας
+
+| *TEMA HEX*                         |                                |                                |                                |                                |
+|------------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------|
+| *User tag number*                  | *H-502*                        | *H-501*                        | *H-503*                        | *D-501-cond*                   |
+| Remarks 1                          | Equipment mapped from 'H-502'. | Equipment mapped from 'H-501'. | Equipment mapped from 'H-503'. | Equipment mapped from 'D-501'. |
+| Number of identical items          | 1                              | 1                              | 1                              | 1                              |
+| Heat transfer area [sqm]           | 91,5801                        | 2,557231                       | 110,8726                       | 0,382876279                    |
+| Front end TEMA symbol              | B                              | B                              | B                              | B                              |
+| Shell TEMA symbol                  | E                              | E                              | E                              | E                              |
+| Rear end TEMA symbol               | M                              | M                              | M                              | M                              |
+| Tube design gauge pressure [barg]  | 0,020961                       | 1,285044                       | 7,605461                       | 4,1579608                      |
+| Tube design temperature [C]        | 167,789                        | 316,71                         | 192,1111                       | 243,5217839                    |
+| Tube operating temperature [C]     | 95                             | 44                             | 164,3333                       | 35                             |
+| Tube outside diameter [meter]      | 0,0254                         | 0,0254                         | 0,0254                         | 0,0254                         |
+| Shell design gauge pressure [barg] | 0,020961                       | 2,434211                       | 4,732544                       | 2,4342108                      |
+| Shell design temperature [C]       | 167,789                        | 316,71                         | 167,7778                       | 243,5217839                    |
+| Shell operating temperature [C]    | 140,0112                       | 288,9322                       | 140                            | 215,7440061                    |
+| Tube length extended [meter]       | 6,096                          | 6,096                          | 6,096                          | 6,096                          |
+| Tube pitch [meter]                 | 0,03175                        | 0,03175                        | 0,03175                        | 0,03175                        |
+| Number of tube passes              | 1                              | 1                              | 1                              | 1                              |
+| Number of shell passes             | 1                              | 1                              | 1                              | 1                              |
+
+| *Solid bowl centrif*  |                                |
+|-----------------------+--------------------------------|
+| *User tag number*     | *C-501*                        |
+| Remarks 1             | Equipment mapped from 'C-501'. |
+| Bowl diameter [meter] | 0,4572                         |
+| Bowl length [meter]   | 1,016                          |
+| Flow rate [kg/hr]     | 1874,336                       |
+
+Πίνακας 19 Διαστασιολόγηση φυγοκέντρου
+
+| *Horizontal drum*                        |                                |
+|------------------------------------------+--------------------------------|
+| *User tag number*                        | *D-501-cond acc*               |
+| Remarks 1                                | Equipment mapped from 'D-501'. |
+| Liquid volume [l]                        | 1801,449698                    |
+| Vessel diameter [meter]                  | 0,9144                         |
+| Vessel tangent to tangent length [meter] | 2,7432                         |
+| Design gauge pressure [barg]             | 1,03425                        |
+| Vacuum design gauge pressure [barg]      | -1,00667                       |
+| Design temperature [C]                   | 172,1626089                    |
+| Operating temperature [C]                | 144,3848311                    |
+
+Πίνακας 20 Διαστασιολόγηση συμπηκνωτή αποστακτικής στήλης
+
+| *U-tube reboiler*                  |                                |
+|------------------------------------+--------------------------------|
+| *User tag number*                  | *D-501-reb*                    |
+| Remarks 1                          | Equipment mapped from 'D-501'. |
+| Number of identical items          | 1                              |
+| Heat transfer area [sqm]           | 140,2956413                    |
+| Tube design gauge pressure [barg]  | 1,28504411                     |
+| Tube design temperature [C]        | 343,3333333                    |
+| Tube operating temperature [C]     | 288,9322461                    |
+| Tube outside diameter [meter]      | 0,0254                         |
+| Shell design gauge pressure [barg] | 2,4342108                      |
+| Shell design temperature [C]       | 343,3333333                    |
+| Shell operating temperature [C]    | 315,5555556                    |
+| Tube length extended [meter]       | 6,096                          |
+| Tube pitch [meter]                 | 0,03175                        |
+| Tube pitch symbol                  | TRIANGULAR                     |
+| Number of tube passes              | 2                              |
+| Duty [cal/sec]                     | 73342,06549                    |
+| TEMA type                          | BKU                            |
+
+Πίνακας 21 Διαστασιολόγηση αναθερμαντή αποστακτικής στήλης
+
+| *Centrif pump*               |                                |
+|------------------------------+--------------------------------|
+| *User tag number*            | *D-501-reflux pump*            |
+| Remarks 1                    | Equipment mapped from 'D-501'. |
+| Liquid flow rate [l/min]     | 1,78125534                     |
+| Fluid specific gravity       | 1,159661                       |
+| Design gauge pressure [barg] | 1,03425                        |
+| Design temperature [C]       | 172,1626089                    |
+| Fluid viscosity [cP]         | 0,5                            |
+| Pump efficiency [fraction]   | 0,7                            |
+
+Πίνακας 22 Διαστασιολόγηση αντλίας αποστακτικής στήλης
+
+| *Multi-diameter tower*                   |                                |
+|------------------------------------------+--------------------------------|
+| *User tag number*                        | *D-501-tower*                  |
+| Remarks 1                                | Equipment mapped from 'D-501'. |
+| Diameter Bottom section [meter]          | 0,6096                         |
+| Bottom tangent to tangent height [meter] | 7,3152                         |
+| Design gauge pressure Bottom [barg]      | 2,4342108                      |
+| Design temperature Bottom [C]            | 316,7100239                    |
+| Operating temperature Bottom [C]         | 288,9322461                    |
+| Number of trays Bottom section           | 6                              |
+| Bottom Tray type                         | SIEVE                          |
+| Bottom Tray spacing [meter]              | 0,6096                         |
+| Molecular Wt Overhead Prod.              | 92,068115                      |
+
+Πίνακας 23 Διαστασιολόγηση αποστακτικής στήλης
+
+| *Vertical vessel*                        |                                |
+|------------------------------------------+--------------------------------|
+| *User tag number*                        | *F-501-flash vessel*           |
+| Remarks 1                                | Equipment mapped from 'F-501'. |
+| Liquid volume [l]                        | 8073,163475                    |
+| Vessel diameter [meter]                  | 1,6764                         |
+| Vessel tangent to tangent height [meter] | 3,6576                         |
+| Design gauge pressure [barg]             | 1,03425                        |
+| Design temperature [C]                   | 167,7777778                    |
+| Operating temperature [C]                | 140                            |
+
+Πίνακας 24 Διαστασιολόγηση του Flash διαχωριστήρα
+
+* \\
+* Κοστολόγηση αρχείου xylose_to_cyclopentanone_complete
+Σε αυτή τη μονάδα γίνεται παραγωγή 19615 tn/yr κυκλοπεντανόνης με
+καθαρότητα 98%, η οποία μπορεί να πωληθεί στην αγορά σε τιμή 5 $/kg. Οι
+πρώτες ύλες που χρησιμοποιούνται για την παραγωγή κυκλοπεντανόνης είναι
+η ξυλόζη, η οποία θεωρήθηκε δωρεάν επειδή είναι προϊόν από την
+επεξεργασία της βιομάζας, το νερό για το οποίο ορίστηκε η τιμή 0,0005488
+$/kg και το υδρογόνο, το οποίο κοστίζει 2 $/kg. Όπως φαίνεται στον
+Πίνακα 24, η εγκατάσταση του εξοπλισμού θα κοστίσει 2.599.092 € και
+μόλις τεθεί σε λειτουργία, αναμένεται να αποφέρει ετήσιο κέρδος
+74.856.185 €.
+
+Πίνακας 25 Σύνοψη Κοστολόγησης
+
+| Summary                                |            |
+|----------------------------------------+------------|
+| Total Capital Cost [Euro]              | 4.287.090  |
+| Total Operating Cost [Euro/Year]       | 4.167.140  |
+| Total Raw Materials Cost [Euro/Year]   | 2.572.826  |
+| Total Product Sales [Euro/Year]        | 83.381.808 |
+| Total Utilities Cost [Euro/Year]       | 71.393     |
+| Desired Rate of Return [Percent/'Year] | 18         |
+| P.O. Period [Year]                     | 0          |
+| Equipment Cost [Euro]                  | 890.376    |
+| Total Installed Cost [Euro]            | 1.708.716  |
+
+Ακολουθούν πίνακες με την κοστολόγηση του εξοπλισμού και των βοηθητικών
+παροχών, και τα σχεδιαστικά χαρακτηριστικά του εξοπλισμού.
+
+Πίνακας 26 Κοστολόγηση Εξοπλισμού για την παραγωγή Κυκλοπεντανόνης
+
+| Equipment |                       |                       |                       |
+|-----------+-----------------------+-----------------------+-----------------------|
+| Name      | Equipment Cost [Euro] | Installed Cost [Euro] | Equipment Weight [Kg] |
+| H2        |                 8.556 |                65.504 |                   245 |
+| REMOVAL   |                24.748 |               105.064 |                 3.447 |
+| R-CYCL    |               206.448 |               370.116 |                18.461 |
+| R-FURF    |                44.988 |               177.468 |                 1.542 |
+| COL1      |               592.480 |               885.316 |               130.861 |
+| FEEDTURB  |                 4.600 |                33.856 |                   132 |
+| H1        |                 8.556 |                71.392 |                   245 |
+|-----------+-----------------------+-----------------------+-----------------------|
+| Name      | Installed Weight [Kg] |                       |                       |
+| H2        |                 3.817 |                       |                       |
+| REMOVAL   |                 8.433 |                       |                       |
+| R-CYCL    |                28.585 |                       |                       |
+| R-FURF    |                 8.214 |                       |                       |
+| COL1      |               151.142 |                       |                       |
+| FEEDTURB  |                 1.775 |                       |                       |
+| H1        |                 5.047 |                       |                       |
+
+
+
+
+
+
+
+
+Πίνακας 27 Κόστη βοηθητικών παροχών
+
+| Utilities     |       |          |            |               |            |
+|---------------+-------+----------+------------+---------------+------------|
+| Name          | Fluid | Rate     | Rate Units | Cost per Hour | Cost Units |
+| Electricity   |       | 104,54   | KW         | 8,10185       | USD/H      |
+| Cooling Water | Water | 0,006256 | MMGAL/H    | 0,75072       | USD/H      |
+
+Πίνακας 28 Εναλλλακτες θερμότητας
+
+| *TEMA HEX*                           |          |          |
+|------------------------------------+----------+----------|
+| *User tag number*                    | *H2*       | *H1*       |
+| Number of identical items          | 1        | 1        |
+| Heat transfer area [sqm]           | 2,759166 | 1,845522 |
+| Front end TEMA symbol              | B        | B        |
+| Shell TEMA symbol                  | E        | E        |
+| Rear end TEMA symbol               | M        | M        |
+| Tube design gauge pressure [barg]  | 10,67368 | 28,43421 |
+| Tube design temperature [C]        | 269,7778 | 343,3333 |
+| Tube operating temperature [C]     | 35       | 243      |
+| Tube outside diameter [meter]      | 0,0254   | 0,0254   |
+| Shell design gauge pressure [barg] | 16,51716 | 18,61838 |
+| Shell design temperature [C]       | 269,7778 | 343,3333 |
+| Shell operating temperature [C]    | 242      | 315,5556 |
+| Tube length extended [meter]       | 6,096    | 6,096    |
+| Tube pitch [meter]                 | 0,03175  | 0,03175  |
+| Number of tube passes              | 1        | 1        |
+| Number of shell passes             | 1        | 1        |
+
+Πίνακας 29 Flash
+
+| Vertical vessel                          |             |
+|------------------------------------------+-------------|
+| *User tag number*                          | *REMOVAL*     |
+| Liquid volume [l]                        | 3269,297609 |
+| Vessel diameter [meter]                  | 1,0668      |
+| Vessel tangent to tangent height [meter] | 3,6576      |
+| Design gauge pressure [barg]             | 42,43421077 |
+| Vacuum design gauge pressure [barg]      |             |
+| Design temperature [C]                   | 187,7777778 |
+| Operating temperature [C]                | 160         |
+
+Πίνακας 30 Αντιδραστήρες
+
+| Agitated reactor                         |             |             |
+|------------------------------------------+-------------+-------------|
+| *User tag number*                          | *R-CYCL*      | *R-FURF*      |
+| Liquid volume [l]                        | 13455,27248 | 375,3020224 |
+| Vessel diameter [meter]                  | 1,6764      | 0,4572      |
+| Vessel tangent to tangent height [meter] | 6,096       | 2,286       |
+| Design gauge pressure [barg]             | 42,43421077 | 16,5171608  |
+| Vacuum design gauge pressure [barg]      |             |             |
+| Design temperature [C]                   | 187,7777778 | 270,8939528 |
+
+Πίνακας 31 Αποστακτική Στήλη
+
+| Multi-diameter tower                     |        |
+|------------------------------------------+--------|
+| *User tag number*                          | *COL1*   |
+| Diameter Bottom section [meter]          | 0,91   |
+| Bottom tangent to tangent height [meter] | 49,99  |
+| Design gauge pressure Bottom [barg]      | 42,43  |
+| Design temperature Bottom [C]            | 295,62 |
+| Operating temperature Bottom [C]         | 267,84 |
+| Number of trays Bottom section           | 76,00  |
+| Bottom Tray type                         | SIEVE  |
+| Bottom Tray spacing [meter]              | 0,61   |
+| Molecular Wt Overhead Prod.              | 19,17  |
+
+Πίνακας 32 Αντλία
+
+| Centrif pump                 |             |
+|------------------------------+-------------|
+| *User tag number*              | *FEEDTURB*    |
+| Liquid flow rate [l/min]     | 73,06199902 |
+| Fluid specific gravity       | 0,993669    |
+| Design gauge pressure [barg] | 16,31046077 |
+| Design temperature [C]       | 270,8939528 |
+| Fluid viscosity [cP]         | 0,5         |
+| Pump efficiency [fraction]   | 0,295658    |
