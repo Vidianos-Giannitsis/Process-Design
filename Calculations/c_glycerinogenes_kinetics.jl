@@ -47,8 +47,8 @@ plot!(twinx(), t, exp_data.x)
 scatter!(twinx(), t, exp_data.x)
 
 # Solve the optimization problem
-# cost_function = build_loss_objective(prob, Tsit5(), L2Loss(t, data),
-#                                      Optimization.AutoForwardDiff(),
-#                                      maxiters=10000, verbose=false)
-# optprob = Optimization.OptimizationProblem(cost_function, [0.011, 236.19, 30, 2.5, 1])
-# optsol = solve(optprob, BFGS())
+cost_function = build_loss_objective(prob, Tsit5(), L2Loss(t, data),
+                                     Optimization.AutoForwardDiff(),
+                                     maxiters=10000, verbose=false)
+optprob = Optimization.OptimizationProblem(cost_function, [0.011, 236.19, 30, 2.5, 1])
+optsol = solve(optprob, BFGS())
