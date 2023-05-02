@@ -1,0 +1,229 @@
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'grid_diagram_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{1068.53604934bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.10830482)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{grid_diagram_svg-tex.pdf}}%
+    \put(0.00498212,1.06426698){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}PureGlyc\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{grid_diagram_svg-tex.pdf}}%
+    \put(0.85062745,1.09664897){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}CP\\\end{tabular}}}}%
+    \put(0.84576261,1.06878482){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}3.583\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{grid_diagram_svg-tex.pdf}}%
+    \put(0.76751397,1.07825987){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}30\end{tabular}}}}%
+    \put(0.7650875,0.97155855){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}30\end{tabular}}}}%
+    \put(0.7650875,0.89105566){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}30\end{tabular}}}}%
+    \put(0.76508863,0.85059133){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}30\end{tabular}}}}%
+    \put(0.76508863,0.80457716){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}30\end{tabular}}}}%
+    \put(0.76508863,0.75240243){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}30\end{tabular}}}}%
+    \put(0.04547707,1.08458392){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}288.9\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{grid_diagram_svg-tex.pdf}}%
+    \put(0.19610335,1.09706166){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}PINCH\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{grid_diagram_svg-tex.pdf}}%
+    \put(0.20612289,1.07022352){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}232\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{grid_diagram_svg-tex.pdf}}%
+    \put(0.17347459,1.0332017){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}FurFeed\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{grid_diagram_svg-tex.pdf}}%
+    \put(0.18546516,1.04968794){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}243\end{tabular}}}}%
+    \put(0.42963374,1.0408585){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}160\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{grid_diagram_svg-tex.pdf}}%
+    \put(0.20353866,1.00293857){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}CellLig\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{grid_diagram_svg-tex.pdf}}%
+    \put(0.63239481,1.00747895){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}80.65\end{tabular}}}}%
+    \put(0.20365524,0.9683552){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}StExpVapors\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{grid_diagram_svg-tex.pdf}}%
+    \put(0.1720357,0.92880804){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}FurfReac\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{grid_diagram_svg-tex.pdf}}%
+    \put(0.42331185,0.88198296){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}CyclProd\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{grid_diagram_svg-tex.pdf}}%
+    \put(0.17480351,0.94302287){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}242\end{tabular}}}}%
+    \put(0.42607966,0.89935404){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}160\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{grid_diagram_svg-tex.pdf}}%
+    \put(0.46756965,0.84417847){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}GlycWater\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{grid_diagram_svg-tex.pdf}}%
+    \put(0.46969331,0.85873441){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}144.4\end{tabular}}}}%
+    \put(0.48005841,0.79599255){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}FlashVapors\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{grid_diagram_svg-tex.pdf}}%
+    \put(0.48561306,0.80795794){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}140\end{tabular}}}}%
+    \put(0.5091928,0.74898508){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}Cycl\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{grid_diagram_svg-tex.pdf}}%
+    \put(0.51190396,0.76239706){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}130\end{tabular}}}}%
+    \put(0.64197878,0.72065062){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}Cellulose\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{grid_diagram_svg-tex.pdf}}%
+    \put(0.64141393,0.73238491){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}80.65\end{tabular}}}}%
+    \put(0.68831827,0.72378036){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}69.9\end{tabular}}}}%
+    \put(0.68869018,0.68178319){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}PureCell\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{grid_diagram_svg-tex.pdf}}%
+    \put(0.6900486,0.69359052){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}61.97\end{tabular}}}}%
+    \put(0.7452775,0.68495258){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}49.75\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{grid_diagram_svg-tex.pdf}}%
+    \put(0.72348111,0.63891901){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}Glucose\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{grid_diagram_svg-tex.pdf}}%
+    \put(0.72351678,0.65312511){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}50\end{tabular}}}}%
+    \put(0.77694512,0.6395137){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{grid_diagram_svg-tex.pdf}}%
+    \put(0.72186695,0.60076407){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}Tol\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{grid_diagram_svg-tex.pdf}}%
+    \put(0.72376278,0.61651777){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}50\end{tabular}}}}%
+    \put(0.77771754,0.60857258){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}30\end{tabular}}}}%
+    \put(0.72577197,0.56773269){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}CyclCond\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{grid_diagram_svg-tex.pdf}}%
+    \put(0.7270023,0.58005054){\color[rgb]{1,1,1}\makebox(0,0)[rt]{\lineheight{0}\smash{\begin{tabular}[t]{r}50\end{tabular}}}}%
+    \put(0.8460165,1.04090786){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}10.173\end{tabular}}}}%
+    \put(0.84543743,1.01304552){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}7.654\end{tabular}}}}%
+    \put(0.84616638,0.97630591){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}65.487\end{tabular}}}}%
+    \put(0.84518439,0.93472994){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}12.62\end{tabular}}}}%
+    \put(0.84613714,0.89213589){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}15.066\end{tabular}}}}%
+    \put(0.84237637,0.85190065){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}0.74\end{tabular}}}}%
+    \put(0.84753366,0.80796586){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}53.681\end{tabular}}}}%
+    \put(0.8485416,0.75245728){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}4.676\end{tabular}}}}%
+    \put(0.84839629,0.72706052){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}4.884\end{tabular}}}}%
+    \put(0.84317203,0.6837479){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}3.813\end{tabular}}}}%
+    \put(0.84432929,0.64121874){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}53.468\end{tabular}}}}%
+    \put(0.84528703,0.6083881){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}8.32\end{tabular}}}}%
+    \put(0.84560533,0.56628328){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}8.32\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{grid_diagram_svg-tex.pdf}}%
+    \put(0.20787644,0.52072313){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}222\end{tabular}}}}%
+    \put(0.17979572,0.50639779){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Xyl\\Feed\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{grid_diagram_svg-tex.pdf}}%
+    \put(0.17973752,0.51548019){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}232\end{tabular}}}}%
+    \put(0.13248513,0.5050969){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}243\end{tabular}}}}%
+    \put(0.47258184,0.45684014){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}CyclBoil\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{grid_diagram_svg-tex.pdf}}%
+    \put(0.46353191,0.47218197){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}130\end{tabular}}}}%
+    \put(0.71571568,0.40571967){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}SachReac\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{grid_diagram_svg-tex.pdf}}%
+    \put(0.71492751,0.42255107){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}40\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=28]{grid_diagram_svg-tex.pdf}}%
+    \put(0.74750864,0.34961347){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}RProd\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=29]{grid_diagram_svg-tex.pdf}}%
+    \put(0.74057306,0.36549467){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}30\end{tabular}}}}%
+    \put(0.43015783,0.35559875){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}140\end{tabular}}}}%
+    \put(0.77296205,0.30410694){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}FeedSteam\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=30]{grid_diagram_svg-tex.pdf}}%
+    \put(0.7717277,0.31840954){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}20\end{tabular}}}}%
+    \put(0.77296202,0.24115141){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}NaOH\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=31]{grid_diagram_svg-tex.pdf}}%
+    \put(0.77172766,0.255454){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}20\end{tabular}}}}%
+    \put(0.77700051,0.17819587){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Bleach\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=32]{grid_diagram_svg-tex.pdf}}%
+    \put(0.77576615,0.19249847){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}20\end{tabular}}}}%
+    \put(0.77700051,0.11524034){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}SachWater\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=33]{grid_diagram_svg-tex.pdf}}%
+    \put(0.77576615,0.12954294){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=34]{grid_diagram_svg-tex.pdf}}%
+    \put(0.17492253,0.27801989){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}232\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=35]{grid_diagram_svg-tex.pdf}}%
+    \put(0.7770005,0.04437568){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}IntSteam\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=36]{grid_diagram_svg-tex.pdf}}%
+    \put(0.77576614,0.05867828){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=37]{grid_diagram_svg-tex.pdf}}%
+    \put(0.5895945,0.24608707){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}80.65\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=38]{grid_diagram_svg-tex.pdf}}%
+    \put(0.62540129,0.18274174){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}69.9\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=39]{grid_diagram_svg-tex.pdf}}%
+    \put(0.675004,0.12173753){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}49.75\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=40]{grid_diagram_svg-tex.pdf}}%
+    \put(0.35353209,0.05509499){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}175\end{tabular}}}}%
+    \put(0.8426963,0.50412424){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}4.698\end{tabular}}}}%
+    \put(0.84618654,0.45975741){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}4.676\end{tabular}}}}%
+    \put(0.84058089,0.40857965){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}55.589\end{tabular}}}}%
+    \put(0.84056444,0.34953673){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}57.746\end{tabular}}}}%
+    \put(0.84631266,0.30399732){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}47.732\end{tabular}}}}%
+    \put(0.84272645,0.23930509){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}6.058\end{tabular}}}}%
+    \put(0.84689246,0.17824522){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}4.192\end{tabular}}}}%
+    \put(0.84720245,0.11113864){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}53.897\end{tabular}}}}%
+    \put(0.84281418,0.04442503){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}13.32\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=41]{grid_diagram_svg-tex.pdf}}%
+    \put(0.89547053,1.09669166){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}ΔH\end{tabular}}}}%
+    \put(0.89824953,1.07690258){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}-203.87 above pinch\\-723.77 below pinch\end{tabular}}}}%
+    \put(0.89511858,1.04548369){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}-111.90 above pinch\\-732.46 below pinch\\\end{tabular}}}}%
+    \put(0.89783446,1.01042556){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}-1158.43\end{tabular}}}}%
+    \put(0.89792941,0.97689073){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}-34670.374\end{tabular}}}}%
+    \put(0.90349156,0.93597416){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}-13.35\end{tabular}}}}%
+    \put(0.90388543,0.89439789){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}-1958.58\end{tabular}}}}%
+    \put(0.90061715,0.85291296){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}-503.17\end{tabular}}}}%
+    \put(0.89798787,0.80683457){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}-35003.91\end{tabular}}}}%
+    \put(0.90185597,0.75462865){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}-467.6\end{tabular}}}}%
+    \put(0.90143034,0.72628813){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}-52.50\end{tabular}}}}%
+    \put(0.90127531,0.68504187){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}-46.59\end{tabular}}}}%
+    \put(0.89735683,0.63994156){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}-1069.36\end{tabular}}}}%
+    \put(0.89892239,0.60667318){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}-166.4\end{tabular}}}}%
+    \put(0.90068844,0.56193073){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}-8971.67\end{tabular}}}}%
+    \put(0.90234104,0.50616774){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}51.68\end{tabular}}}}%
+    \put(0.89904688,0.45734513){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}9545.79\end{tabular}}}}%
+    \put(0.90271607,0.41021532){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}393.63\end{tabular}}}}%
+    \put(0.89582581,0.34862331){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}35273.06\end{tabular}}}}%
+    \put(0.88841833,0.31844637){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}22306.92 above pinch\\9641.87 below pinch\end{tabular}}}}%
+    \put(0.89544462,0.2392157){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}367.42\end{tabular}}}}%
+    \put(0.89868745,0.17724589){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}209.18\end{tabular}}}}%
+    \put(0.8962479,0.11172159){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}1603.44\end{tabular}}}}%
+    \put(0.89841396,0.04108428){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}8868.8\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=42]{grid_diagram_svg-tex.pdf}}%
+    \put(0.54583303,0.99900342){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}C\end{tabular}}}}%
+    \put(0.66676028,0.87664983){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}C\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=43]{grid_diagram_svg-tex.pdf}}%
+    \put(0.67205797,1.06100953){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}C\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=44]{grid_diagram_svg-tex.pdf}}%
+    \put(0.73225568,0.74495842){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}C\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=45]{grid_diagram_svg-tex.pdf}}%
+    \put(0.65130085,0.71945924){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}C\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=46]{grid_diagram_svg-tex.pdf}}%
+    \put(0.70181382,0.67906229){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}C\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=47]{grid_diagram_svg-tex.pdf}}%
+    \put(0.73604287,0.63506401){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}C\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=48]{grid_diagram_svg-tex.pdf}}%
+    \put(0.73879398,0.60046978){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}C\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=49]{grid_diagram_svg-tex.pdf}}%
+    \put(0.19956036,0.29908815){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}H\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

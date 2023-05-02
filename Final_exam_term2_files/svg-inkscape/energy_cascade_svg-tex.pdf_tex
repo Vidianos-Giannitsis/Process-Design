@@ -1,0 +1,79 @@
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'energy_cascade_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{819.96840987bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.65504444)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{energy_cascade_svg-tex.pdf}}%
+    \put(0.94306781,0.63519879){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}283.9\end{tabular}}}}%
+    \put(0.95345782,0.58360427){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}248\end{tabular}}}}%
+    \put(0.95345782,0.54975869){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}238\end{tabular}}}}%
+    \put(0.95343502,0.50143386){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}237\end{tabular}}}}%
+    \put(0.95343502,0.46027309){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}227\end{tabular}}}}%
+    \put(0.94784585,0.40692219){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}155\end{tabular}}}}%
+    \put(0.94799511,0.36225809){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}145\end{tabular}}}}%
+    \put(0.94505896,0.32412006){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}139.4\end{tabular}}}}%
+    \put(0.95223307,0.28473638){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}135\end{tabular}}}}%
+    \put(0.94613397,0.23796802){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}85.65\end{tabular}}}}%
+    \put(0.9533513,0.21470294){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}75.65\end{tabular}}}}%
+    \put(0.95758457,0.18334698){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}74.9\end{tabular}}}}%
+    \put(0.96117766,0.15951813){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}64.9\end{tabular}}}}%
+    \put(0.96197567,0.12774905){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}56.97\end{tabular}}}}%
+    \put(0.96203647,0.08952819){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}54.75\end{tabular}}}}%
+    \put(0.96794557,0.06354472){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}45\end{tabular}}}}%
+    \put(0.96812039,0.03468075){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}35\end{tabular}}}}%
+    \put(0.96874358,0.00045605){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}25\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{energy_cascade_svg-tex.pdf}}%
+    \put(0.94390504,0.26098816){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}125\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{energy_cascade_svg-tex.pdf}}%
+  \end{picture}%
+\endgroup%
