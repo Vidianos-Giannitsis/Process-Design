@@ -32,7 +32,7 @@ tspan = (0.0, 80.0)
 p = [0.011, 236.19, 2.5, 1]
 prob = ODEProblem(monod, u0, tspan, p)
 
-sol = solve(prob)
+sol = solve(prob, Tsit5())
 
 # Collecting the experimental data
 exp_data_frame = CSV.read("c_glycerinogenes_kinetics.csv",
