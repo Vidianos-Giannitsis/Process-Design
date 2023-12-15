@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="204.26772mm"
+   width="250.26801mm"
    height="385.88611mm"
-   viewBox="0 0 204.26772 385.88611"
+   viewBox="0 0 250.26801 385.88611"
    version="1.1"
    id="svg1"
    inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
@@ -26,11 +26,11 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.0282288"
-     inkscape:cx="393.88121"
-     inkscape:cy="146.3682"
+     inkscape:zoom="0.90313126"
+     inkscape:cx="472.24586"
+     inkscape:cy="1173.1407"
      inkscape:window-width="956"
-     inkscape:window-height="1052"
+     inkscape:window-height="524"
      inkscape:window-x="960"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -96,7 +96,7 @@
        x="545.35303"
        y="27.978109"
        id="text6"
-       transform="matrix(0.26458333,0,0,0.26458333,-41.742929,-0.86652157)"><tspan
+       transform="matrix(0.26458333,0,0,0.26458333,-40.453065,0.89546689)"><tspan
          sodipodi:role="line"
          id="tspan6"
          x="545.35303"
@@ -229,7 +229,7 @@
          sodipodi:role="line"
          x="421.43875"
          y="173.55339"
-         id="tspan16">6.1837</tspan></text>
+         id="tspan16">6.184</tspan></text>
     <rect
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#aa0000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.295803;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
        id="rect22"
@@ -286,7 +286,7 @@
        x="569.45142"
        y="209.00381"
        id="text23"
-       transform="matrix(0.26458333,0,0,0.26458333,-1.9043906,-24.414713)"><tspan
+       transform="matrix(0.26458333,0,0,0.26458333,-36.707199,30.180246)"><tspan
          sodipodi:role="line"
          id="tspan23"
          x="569.45142"
@@ -452,14 +452,14 @@
     <text
        xml:space="preserve"
        style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-decoration-color:#000000;letter-spacing:0px;text-anchor:start;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
-       x="77.623886"
-       y="113.05013"
+       x="59.966152"
+       y="113.74007"
        id="text51"><tspan
          sodipodi:role="line"
          id="tspan51"
          style="text-align:start;text-anchor:start;stroke-width:0.125427px"
-         x="77.623886"
-         y="113.05013">Sulfuric Acid as catalyst</tspan></text>
+         x="59.966152"
+         y="113.74007">Sulfuric Acid as catalyst</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
@@ -660,12 +660,12 @@
        inkscape:connection-start="#rect67"
        inkscape:connection-end="#rect68" />
     <rect
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.276;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.263847;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
        id="rect74"
-       width="46.637436"
-       height="17.827967"
-       x="105.90935"
-       y="220.80321" />
+       width="46.64959"
+       height="16.288202"
+       x="105.90327"
+       y="220.79713" />
     <text
        xml:space="preserve"
        style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
@@ -705,7 +705,7 @@
          id="tspan76">hydrogen recycling</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 88.092215,230.37419 17.817135,-0.28457"
+       d="m 88.092215,230.22715 17.811055,-0.55678"
        id="path76"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -775,12 +775,12 @@
          style="stroke-width:0.125427px"
          x="22.850929"
          y="284.39514"
-         id="tspan82">Cyclohexane:</tspan><tspan
+         id="tspan82">Hexane:</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:0.125427px"
          x="22.850929"
          y="289.6868"
-         id="tspan83">0.043</tspan></text>
+         id="tspan83">0.044</tspan></text>
     <rect
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.249108;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
        id="rect83"
@@ -831,12 +831,12 @@
          style="stroke-width:0.125427px"
          x="59.728088"
          y="327.9118"
-         id="tspan86">Furfural: 0.017</tspan><tspan
+         id="tspan86">Furfural: 0.0175</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:0.125427px"
          x="59.728088"
          y="333.20349"
-         id="tspan87">Cyclohexane: 0.042</tspan></text>
+         id="tspan87">Hexane: 0.044</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 80.205742,294.1761 0.617604,17.73232"
@@ -857,12 +857,12 @@
          x="129.22202"
          y="313.13373">Wastewater</tspan></text>
     <rect
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#aa0000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.258301;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#aa0000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.271785;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
        id="rect91"
-       width="48.883591"
-       height="14.490115"
-       x="125.69946"
-       y="315.39621" />
+       width="48.870106"
+       height="16.046877"
+       x="125.70621"
+       y="315.40295" />
     <text
        xml:space="preserve"
        style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
@@ -883,10 +883,15 @@
          style="stroke-width:0.125427px"
          x="127.38039"
          y="330.06754"
+         id="tspan101">Furfural = 0.001</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="127.38039"
+         y="335.35922"
          id="tspan91" /></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 105.17809,322.92579 20.52137,-0.12986"
+       d="m 105.17809,323.19877 20.52812,0.10392"
        id="path91"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -995,15 +1000,15 @@
        y="368.97006"
        id="text98"><tspan
          sodipodi:role="line"
-         id="tspan98"
          style="stroke-width:0.125427px"
          x="126.46116"
-         y="368.97006">Furfural: 0.017</tspan><tspan
+         y="368.97006"
+         id="tspan43">Furfural: 0.0167</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:0.125427px"
          x="126.46116"
          y="374.26172"
-         id="tspan99">99.7% Purity</tspan></text>
+         id="tspan99">99.9% Purity</tspan></text>
     <rect
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#aa0000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.284027;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
        id="rect102"
@@ -1026,12 +1031,12 @@
          style="stroke-width:0.125427px"
          x="123.36601"
          y="351.14798"
-         id="tspan101">Water: 0.06</tspan><tspan
+         id="tspan103">Water: 0.06</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:0.125427px"
          x="123.36601"
          y="356.43964"
-         id="tspan103">Cyclohexane: 0.042</tspan></text>
+         id="tspan4">Hexane: 0.044</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 101.28198,353.41456 20.46937,-1.4499"
@@ -1059,5 +1064,234 @@
          style="stroke-width:0.125427px"
          x="125.93787"
          y="339.38379">Liquid waste</tspan></text>
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.299667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect1"
+       width="42.885242"
+       height="14.120072"
+       x="177.0296"
+       y="32.470837" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="178.73819"
+       y="38.050831"
+       id="text4"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="178.73819"
+         y="38.050831"
+         id="tspan13">Lignin-Cellulose</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="178.73819"
+         y="43.342491"
+         id="tspan108">Separation</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="230.20177"
+       y="37.945137"
+       id="text20"><tspan
+         sodipodi:role="line"
+         id="tspan20"
+         style="stroke-width:0.125427px"
+         x="230.20177"
+         y="37.945137">Cellulose</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="230.20177"
+         y="43.236801"
+         id="tspan22">3.538</tspan></text>
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.276;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect23"
+       width="21.861101"
+       height="13.729591"
+       x="229.45442"
+       y="33.044609" />
+    <rect
+       style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.276;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="rect23-2"
+       width="21.861101"
+       height="13.729591"
+       x="187.82082"
+       y="61.344372" />
+    <rect
+       style="font-variation-settings:normal;vector-effect:none;fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.365042;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="rect23-2-6"
+       width="37.758251"
+       height="13.90547"
+       x="180.48355"
+       y="121.75883" />
+    <rect
+       style="font-variation-settings:normal;vector-effect:none;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.368893;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="rect23-2-7"
+       width="28.510628"
+       height="18.806334"
+       x="185.03891"
+       y="89.364227" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.276;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect24"
+       width="25.34079"
+       height="12.159203"
+       x="228.01402"
+       y="61.811035" />
+    <rect
+       style="font-variation-settings:normal;vector-effect:none;fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.276;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="rect24-5"
+       width="25.34079"
+       height="12.159203"
+       x="227.37589"
+       y="90.258011" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="230.01967"
+       y="66.964607"
+       id="text43"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="230.01967"
+         y="66.964607"
+         id="tspan59">Glycerol</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="230.01967"
+         y="72.256271"
+         id="tspan109">Production</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="229.81558"
+       y="94.972443"
+       id="text60"><tspan
+         sodipodi:role="line"
+         id="tspan60"
+         style="stroke-width:0.125427px"
+         x="229.81558"
+         y="94.972443">Glycerol</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="229.81558"
+         y="100.26411"
+         id="tspan69">0.75</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="191.88139"
+       y="67.795624"
+       id="text71"><tspan
+         sodipodi:role="line"
+         id="tspan71"
+         style="stroke-width:0.125427px"
+         x="191.88139"
+         y="67.795624">Lignin</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="191.88139"
+         y="73.087288"
+         id="tspan73">2.646</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="186.20018"
+       y="94.765846"
+       id="text82"><tspan
+         sodipodi:role="line"
+         id="tspan81"
+         style="stroke-width:0.125427px"
+         x="186.20018"
+         y="94.765846">Combined</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="186.20018"
+         y="100.05751"
+         id="tspan102">Heat &amp; Power</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="186.20018"
+         y="105.34917"
+         id="tspan104">System</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="182.13644"
+       y="127.10657"
+       id="text106"><tspan
+         sodipodi:role="line"
+         id="tspan106"
+         style="stroke-width:0.125427px"
+         x="182.13644"
+         y="127.10657">Heat: 10.794</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="182.13644"
+         y="132.39822"
+         id="tspan107">Electricity: 46.29</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 146.72322,38.243269 30.30638,0.754075"
+       id="path107"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect16"
+       inkscape:connection-end="#rect1" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 219.91484,39.72453 9.53958,0.08616"
+       id="path108"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect1"
+       inkscape:connection-end="#rect23" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 240.45844,46.7742 0.16092,15.036835"
+       id="path109"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect23"
+       inkscape:connection-end="#rect24" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 240.54804,73.970238 -0.36538,16.287773"
+       id="path110"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect24"
+       inkscape:connection-end="#rect24-5" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 198.54094,46.590909 0.14361,14.753463"
+       id="path111"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect1"
+       inkscape:connection-end="#rect23-2" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 198.87332,75.073963 0.25386,14.290264"
+       id="path112"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect23-2"
+       inkscape:connection-end="#rect23-2-7" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 199.31572,108.17056 0.0311,13.58827"
+       id="path113"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect23-2-7"
+       inkscape:connection-end="#rect23-2-6" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#800000;stroke-width:0.365572;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect113"
+       width="171.97916"
+       height="385.1727"
+       x="3.4649725"
+       y="3.9244103" />
   </g>
 </svg>

@@ -1,0 +1,30 @@
+#+TITLE: Παραδοχές και Υποθέσεις κατά την δημιουργία της διεργασίας στο CCalc
+
+* Steam Explosion
+Residual Wood chopping -> Olive Kernel
+
+Hydrogen used is hydrogen, liquid at plant from Ecoinvent. 95% from hydrocracking.
+
+Heat -> Heat at cogen 1400 kWh, wood, allocation energy because the process burns the lignin in a combined cycle.
+
+Steam = coproduct of steam explosion.
+
+* Furfural production
+Furfural + Water as the product stream.
+
+Sulfuric acid used as catalyst. How to insert catalyst?
+
+* Cyclopentanone production
+Cooling -> cooling energy, natural gas at cogen unit with absorption. Is it correct or should we do something else. Cooling should have water usage?
+
+* Extraction
+Model wastewater as a COD emission to water due to the cyclopentanone and furfural in it. Is this correct?
+
+* Distillation
+Wastewater treated with condensate from light oil boiler, ecoinvent as hexane is a light oil compound.
+
+* Barite treatment
+Since its a petrelaic process, assume that fuel is produced from heavy fuel oil.
+
+* Aeration reactor
+Air used -> Compressed air, average installation at 6 bar (from the LCI we know volume, but we know that pV = const and p1/p2 = ρ1/ρ2 for the conversions)

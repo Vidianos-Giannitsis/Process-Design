@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="207.44035mm"
+   height="61.591705mm"
+   viewBox="0 0 207.44035 61.591705"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="process_comparison.svg"
+   inkscape:export-filename="process_comparison.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.4405549"
+     inkscape:cx="362.01327"
+     inkscape:cy="228.03712"
+     inkscape:window-width="1148"
+     inkscape:window-height="1052"
+     inkscape:window-x="768"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-2.1635628,-1.4089621)">
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="5.6548882"
+       y="12.939338"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="stroke-width:0.125427px"
+         x="5.6548882"
+         y="12.939338">Benzene</tspan></text>
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.276;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect1"
+       width="19.346712"
+       height="10.213811"
+       x="4.9334955"
+       y="7.1294155" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="56.61478"
+       y="12.331341"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="stroke-width:0.125427px"
+         x="56.61478"
+         y="12.331341">Cyclohexane</tspan></text>
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.276;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect2"
+       width="28.996475"
+       height="9.5740261"
+       x="54.888649"
+       y="7.4097834" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 24.280208,12.229342 30.608441,-0.02209"
+       id="path2"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect1"
+       inkscape:connection-end="#rect2" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="28.366718"
+       y="11.396235"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="stroke-width:0.125427px"
+         x="28.366718"
+         y="11.396235">Ni/Al2O3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="27.643215"
+       y="16.327078"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="stroke-width:0.125427px"
+         x="27.643215"
+         y="16.327078">H_2</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="27.643215"
+         y="21.61874"
+         id="tspan5">High Pressure</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="110.15084"
+       y="6.9290638"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="stroke-width:0.125427px"
+         x="110.15084"
+         y="6.9290638">KA-Oil</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="110.15084"
+         y="12.220726"
+         id="tspan7">Mix of Cyclohexanol</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="110.15084"
+         y="17.512388"
+         id="tspan8">and Cyclohexanone</tspan></text>
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.276;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect8"
+       width="43.126537"
+       height="21.12405"
+       x="107.22712"
+       y="1.5469621" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 83.885124,12.175365 23.341996,-0.0345"
+       id="path8"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect2"
+       inkscape:connection-end="#rect8" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="90.628181"
+       y="8.9615765"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         style="stroke-width:0.125427px"
+         x="90.628181"
+         y="8.9615765">[Co]</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="90.628181"
+         y="14.253239"
+         id="tspan10" /><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="90.628181"
+         y="19.544901"
+         id="tspan11">Air</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="182.00351"
+       y="12.99642"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         style="stroke-width:0.125427px"
+         x="182.00351"
+         y="12.99642">Adipic Acid</tspan></text>
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.276;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect12"
+       width="29.363686"
+       height="12.642665"
+       x="177.7451"
+       y="5.7334838" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 150.35366,12.090631 27.39144,-0.02332"
+       id="path12"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect8"
+       inkscape:connection-end="#rect12" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="153.00136"
+       y="5.1933684"
+       id="text13"><tspan
+         sodipodi:role="line"
+         id="tspan13"
+         style="stroke-width:0.125427px"
+         x="153.00136"
+         y="5.1933684">Cu, NH4VO3</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="153.00136"
+         y="10.485031"
+         id="tspan14">Catalyst</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="153.00136"
+         y="15.776693"
+         id="tspan15" /><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="153.00136"
+         y="21.068356"
+         id="tspan16" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="152.42503"
+       y="17.20645"
+       id="text17"><tspan
+         sodipodi:role="line"
+         id="tspan17"
+         style="stroke-width:0.125427px"
+         x="152.42503"
+         y="17.20645">60% HNO3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="177.4655"
+       y="40.489807"
+       id="text18"><tspan
+         sodipodi:role="line"
+         id="tspan18"
+         style="stroke-width:0.125427px"
+         x="177.4655"
+         y="40.489807">Cyclopentanone</tspan></text>
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.276;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect18"
+       width="33.889439"
+       height="10.711975"
+       x="175.57648"
+       y="34.505199" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 192.44837,18.376149 0.0547,16.12905"
+       id="path18"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect12"
+       inkscape:connection-end="#rect18" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="171.58485"
+       y="24.66923"
+       id="text19"><tspan
+         sodipodi:role="line"
+         id="tspan19"
+         style="stroke-width:0.125427px"
+         x="171.58485"
+         y="24.66923">Ba(OH)2</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="171.58485"
+         y="29.960892"
+         id="tspan20">treatment</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="194.6859"
+       y="23.693544"
+       id="text21"><tspan
+         sodipodi:role="line"
+         id="tspan21"
+         style="stroke-width:0.125427px"
+         x="194.6859"
+         y="23.693544">High</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="194.6859"
+         y="28.985207"
+         id="tspan22">temp</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="2.9063857"
+       y="53.036316"
+       id="text23"><tspan
+         sodipodi:role="line"
+         id="tspan23"
+         style="stroke-width:0.125427px"
+         x="2.9063857"
+         y="53.036316">Olive Kernel</tspan></text>
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.276;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect23"
+       width="25.253347"
+       height="10.006165"
+       x="2.3015628"
+       y="47.118004" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="63.358501"
+       y="53.494595"
+       id="text24"><tspan
+         sodipodi:role="line"
+         id="tspan24"
+         style="stroke-width:0.125427px"
+         x="63.358501"
+         y="53.494595">Xylose</tspan></text>
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.276;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect24"
+       width="18.206526"
+       height="8.8940754"
+       x="60.689693"
+       y="48.41328" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 27.55491,52.291214 33.134783,0.446449"
+       id="path24"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#rect24" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="28.727531"
+       y="50.58353"
+       id="text25"><tspan
+         sodipodi:role="line"
+         id="tspan25"
+         style="stroke-width:0.125427px"
+         x="28.727531"
+         y="50.58353">Steam Explosion</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="29.143202"
+       y="56.451134"
+       id="text26"><tspan
+         sodipodi:role="line"
+         id="tspan26"
+         style="stroke-width:0.125427px"
+         x="29.143202"
+         y="56.451134">High T, P</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="109.65587"
+       y="53.398907"
+       id="text27"><tspan
+         sodipodi:role="line"
+         id="tspan27"
+         style="stroke-width:0.125427px"
+         x="109.65587"
+         y="53.398907">Furfural</tspan></text>
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.276;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect27"
+       width="19.369581"
+       height="8.8991146"
+       x="107.38023"
+       y="47.968731" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 78.896219,52.775196 107.38023,52.508848"
+       id="path27"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect24"
+       inkscape:connection-end="#rect27" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="81.331543"
+       y="51.400352"
+       id="text28"><tspan
+         sodipodi:role="line"
+         id="tspan28"
+         style="stroke-width:0.125427px"
+         x="81.331543"
+         y="51.400352">Dehydration</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="81.331543"
+         y="56.692017"
+         id="tspan29">Sulf. acid</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="81.331543"
+         y="61.983677"
+         id="tspan30">catalyst</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="157.87239"
+       y="54.440197"
+       id="text31"><tspan
+         sodipodi:role="line"
+         id="tspan31"
+         style="stroke-width:0.125427px"
+         x="157.87239"
+         y="54.440197">Cyclopentanone</tspan></text>
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.276;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect31"
+       width="33.582752"
+       height="9.8497887"
+       x="156.59657"
+       y="49.148972" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 126.74981,52.702967 29.84676,0.877327"
+       id="path31"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect27"
+       inkscape:connection-end="#rect31" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;stroke-width:0.125427px;-inkscape-stroke:none;stop-color:#000000"
+       x="128.97508"
+       y="51.440464"
+       id="text32"><tspan
+         sodipodi:role="line"
+         id="tspan32"
+         style="stroke-width:0.125427px"
+         x="128.97508"
+         y="51.440464">H_2</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.125427px"
+         x="128.97508"
+         y="56.732124"
+         id="tspan33">High Pressure</tspan></text>
+  </g>
+</svg>
