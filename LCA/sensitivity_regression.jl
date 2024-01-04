@@ -113,21 +113,85 @@ wu_hat = MLJ.predict_mean(wu_mach, new_X)
 rsq_wu = RSquared()(wu_hat, new_wu)
 # Similar results with above
 
-# Global Sensitivity test. This isn't really meaningful as the
-# sensitivity of linear functions is trivial, but it's mostly a test
-# of what is available in this.
-using GlobalSensitivity
+# Now let's visualize the hotspot and sensitivity analyses
+cf_sens = reshape([0.0109, 0.889, 1.698], (1,3))
+y_label = ["Olive Kernel", "Hexane", "Hydrogen"]
 
-bounds = [[6.0,16.0],[3.0,8.0],[0.02,0.1],[1.5,5.0],[0.5,4.0],[0.04,0.1]]
-function cf_model(x)
-    0.0109*x[1] + 0.00843*x[2] + 0.889*x[3] + 0.0034*x[4] + 0.0017*x[5] + 1.698*x[6] + 0.00222
-end
-sens = gsa(cf_model, Morris(), bounds)
+cf_pie = [0.252/0.452, 0.04/0.452, 0.139/0.452, (0.452-0.431)/0.452]
+colors = Makie.wong_colors()[1:length(cf_pie)]
+labels = ["Olive Kernel", "Hexane", "Hydrogen", "Other"]
 
-sens.means
-sens.variances
-# Running a global sensitivity analysis, the means of the
-# sensitivities calculated are (as expected) the coefficients of the
-# linear equation and the variances are incredibly small numbers
-# because this is calculated with very high precision. This is an
-# expected result as this analysis is trivial though.
+cf_fig = Figure(size = (600, 400))
+ax1, hm1 = CairoMakie.heatmap(cf_fig[1,1], cf_sens, axis = (xticks = (1:2, ["", ""]), yticks = (1:3, y_label), title = "Sensitivity Analysis for Carbon Footprint"))
+Colorbar(cf_fig[1,2], hm1)
+ax, plt = pie(cf_fig[2,1], cf_pie, color=colors, axis=(aspect=DataAspect(), title = "Hot Spot analysis for Carbon Footprint"))
+hidedecorations!(ax)
+hidespines!(ax)
+Legend(cf_fig[2,2], [PolyElement(color=c) for c in colors], labels, framevisible=false)
+save("plots/cf_plots.png", cf_fig)
+
+wu_sens = reshape([0.001, 0.00519], (1,2))
+y_label = ["Steam Explosion Water", "Distillation Cooling"]
+
+wu_pie = [5.85e-3/2e-2, 5e-3/2e-2, (2e-2 - 10.85e-3)/2e-2]
+colors = Makie.wong_colors()[1:length(wu_pie)]
+labels = ["Steam Explosion Water", "Distillation Cooling", "Other Cooling Needs"]
+
+wu_fig = Figure(size = (600,400))
+ax, hm = CairoMakie.heatmap(wu_fig[1,1], wu_sens, axis = (xticks = (1:2, ["", ""]), yticks = (1:2, y_label), title = "Sensitivity Analysis for Water Usage"))
+Colorbar(wu_fig[1,2], hm)
+ax, plt = pie(wu_fig[2,1], wu_pie, color = colors, axis = (aspect=DataAspect(), title = "Hot Spot analysis for Water Usage"))
+hidedecorations!(ax)
+hidespines!(ax)
+Legend(wu_fig[2,2], [PolyElement(color=c) for c in colors], labels, framevisible=false)
+save("plots/wu_plots.png", wu_fig)
+
+ed_sens = reshape([0.234, 3.117, 61.8676, 68.867], (1,4))
+y_label = ["Olive Kernel", "Steam Explosion Water", "Hexane", "Hydrogen"]
+
+ed_pie = [12.22/43.85, 18.5/43.85, 2.7/43.85, 6.18/43.85, (43.85-39.6)/43.85]
+colors = Makie.wong_colors()[1:length(ed_pie)]
+labels = ["Olive Kernel", "Steam Explosion Water", "Hexane", "Hydrogen", "Other"]
+
+ed_fig = Figure(size = (750, 500))
+ax, hm = CairoMakie.heatmap(ed_fig[1,1], ed_sens, axis = (xticks = (1:2, ["", ""]), yticks = (1:4, y_label), title = "Sensitivity Analysis for Energy Demand"))
+Colorbar(ed_fig[1,2], hm)
+Label(ed_fig[2,1], "Note that Water has 10 times higher sensitivity \nthan Olive Kernel")
+ax, plt = pie(ed_fig[3,1], ed_pie, color = colors, axis = (aspect=DataAspect(), title = "Hot Spot analysis for Energy Demand"))
+hidedecorations!(ax)
+hidespines!(ax)
+Legend(ed_fig[3,2], [PolyElement(color=c) for c in colors], labels, framevisible=false)
+save("plots/ed_plots.png", ed_fig)
+
+ep_sens = reshape([0.00058, 0.0833], (1,2))
+y_label = ["Olive Kernel", "Hexane"]
+
+ep_pie = [6.62e-3/0.017, 8.4e-3/0.017, (0.017-0.015)/0.017]
+colors = Makie.wong_colors()[1:length(ep_pie)]
+labels = ["Olive Kernel", "Hexane", "Other"]
+
+ep_fig = Figure(size = (600,400))
+ax, hm = CairoMakie.heatmap(ep_fig[1,1], ep_sens, axis = (xticks = (1:2, ["", ""]), yticks = (1:2, y_label), title = "Sensitivity Analysis for Eutrophication Potential"))
+Colorbar(ep_fig[1,2], hm)
+ax, plt = pie(ep_fig[2,1], ep_pie, color = colors, axis = (aspect=DataAspect(), title = "Hot Spot analysis for Eutrophication Potential"))
+hidedecorations!(ax)
+hidespines!(ax)
+Legend(ep_fig[2,2], [PolyElement(color=c) for c in colors], labels, framevisible=false)
+save("plots/ep_plots.png", ep_fig)
+
+ht_sens = reshape([0.0106, 0.03, 0.749, 0.0136], (1,4))
+y_label = ["Olive Kernel", "Steam Explosion Water", "Hexane", "Distillation Heat"]
+
+ht_pie = [0.234/0.492, 0.175/0.492, 0.033/0.492, 0.037/0.492, (0.492-0.479)/0.492]
+colors = Makie.wong_colors()[1:length(ht_pie)]
+labels = ["Olive Kernel", "Steam Explosion Water", "Hexane", "Distillation Heat", "Other"]
+
+ht_fig = Figure(size = (750, 500))
+ax, hm = CairoMakie.heatmap(ht_fig[1,1], ht_sens, axis = (xticks = (1:2, ["", ""]), yticks = (1:4, y_label), title = "Sensitivity Analysis for Human Toxicity"))
+Colorbar(ht_fig[1,2], hm)
+Label(ht_fig[2,1:2], "All sensitivities besides Hexane are very low, however, Water has 2 and 3 times \nhigher sensitivity than the Heat and Olive Kernel respectively")
+ax, plt = pie(ht_fig[3,1], ht_pie, color = colors, axis = (aspect=DataAspect(), title = "Hot Spot analysis for Human Toxicity"))
+hidedecorations!(ax)
+hidespines!(ax)
+Legend(ht_fig[3,2], [PolyElement(color=c) for c in colors], labels, framevisible=false)
+save("plots/ht_plots.png", ht_fig)
