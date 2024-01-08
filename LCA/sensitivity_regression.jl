@@ -195,3 +195,53 @@ hidedecorations!(ax)
 hidespines!(ax)
 Legend(ht_fig[3,2], [PolyElement(color=c) for c in colors], labels, framevisible=false)
 save("plots/ht_plots.png", ht_fig)
+
+# We can also try doing a Sobol's sensitivity analysis which finds
+# what amount of the variance of the output is due to the variance in
+# the input. This is a different measure of sensitivity than the
+# derivative (which is trivial in linear functions) which can also be
+# deemed important.
+
+# First, we need to define the functions we found above.
+function cf_fun(x)
+    0.0109x[1]+0.0084x[2]+0.889x[3]+0.0034x[4]+0.0017x[5]+1.698x[6]+0.0022
+end
+
+function wu_fun(x)
+    0.001x[2]+0.00519x[5]+0.00412
+end
+
+function ed_fun(x)
+    0.234x[1]+3.117x[2]+61.868x[3]+1.413x[4]+0.0235x[5]+68.867x[6]+0.509
+end
+
+function ap_fun(x)
+    0.00209x[1]+0.00145
+end
+
+function ep_fun(x)
+    0.000582x[1]+0.0833x[3]+0.0067
+end
+
+function ht_fun(x)
+    0.0106x[1]+0.03x[2]+0.749x[3]+0.0136x[4]+0.00088x[5]+0.0021x[6]+0.00654
+end
+
+# Run the Sobol's method
+sens_bounds = [[6.0, 16.0], [3.0,8.0], [0.02,0.1], [1.5,5.0], [0.5,4.0], [0.04, 0.1]]
+
+cf_sensit = gsa(cf_fun, Sobol(), sens_bounds, samples=500)
+wu_sensit = gsa(wu_fun, Sobol(), sens_bounds, samples=500)
+ed_sensit = gsa(ed_fun, Sobol(), sens_bounds, samples=500)
+ap_sensit = gsa(ap_fun, Sobol(), sens_bounds, samples=500)
+ep_sensit = gsa(ep_fun, Sobol(), sens_bounds, samples=500)
+ht_sensit = gsa(ht_fun, Sobol(), sens_bounds, samples=500)
+
+# Check the first order Sobol indices
+cf_S1 = cf_sensit.S1
+wu_S1 = wu_sensit.S1
+ed_S1 = ed_sensit.S1
+ap_S1 = ap_sensit.S1
+ep_S1 = ep_sensit.S1
+ht_S1 = ht_sensit.S1
+
