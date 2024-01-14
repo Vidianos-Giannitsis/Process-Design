@@ -1,4 +1,4 @@
-% Created 2024-01-08 Δευ 16:10
+% Created 2024-01-14 Κυρ 13:54
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -72,33 +72,33 @@
 
 
 \section{Goal and Scope of the study}
-\label{sec:orgc218f59}
+\label{sec:org2f42223}
 \subsection{Goal}
-\label{sec:org319037f}
+\label{sec:org04fd5f6}
 The goal of this study is to assess the environmental impact of cyclopentanone production from olive kernel. Cyclopentanone is a chemical used widely in pharmaeceuticals and its production from renewables and especially so waste, is interesting to compare with the production from petroleum sources.
 \subsection{Scope}
-\label{sec:org6419fe4}
+\label{sec:orga2d76af}
 \subsubsection{Process for comparison}
-\label{sec:org4046398}
+\label{sec:org6d2e25c}
 The conventional production process for cyclopentanone is based on the heating of an aquatic solution of adipic acid with Ba(OH)2. The mixture slowly distills to cyclopentanone [1]. Adipic acid however uses benzene as its precursor which is very toxic for both human and environment. For this reason, we would like to replace this process with a different process and see how the two compare.
 \subsubsection{Functional Unit}
-\label{sec:orgfdddffd}
+\label{sec:org9e0ed25}
 The functional unit that was selected is 1 kg of cyclopentanone. Since we are comparing 2 production methods of the same material, it was assumed that a more intricate functional unit was not necessary.
 \subsubsection{Impacts assessed}
-\label{sec:org2087a5f}
+\label{sec:org180cf5e}
 The carbon footprint of the process will be studied as it is generally considered an important metric. Besides that, the petrelaic process uses benzene, therefore, human toxicity should probably be included to show the adverse impact of that material, while the olive kernel process uses a lot of water, therefore water usage is a metric that is quite important to show the adverse impact of that process. Lastly, the energy demand of the two processes is very important to assess.
 
 If the approach was cradle-to-gate (starting from the cultivation of the olives), the assessment of eutrophication and land use would be more important. Now however, these will be rather low.
 
 \pagebreak
 \subsubsection{System Boundaries}
-\label{sec:orge10230a}
+\label{sec:org752075b}
 \begin{center}
 \includegraphics[width=.9\linewidth]{./lca_flowsheet.png}
 \end{center}
 \pagebreak
 \section{Life Cycle Inventory}
-\label{sec:org4f957e7}
+\label{sec:orgb5954ed}
 \begin{table}[htbp]
 \caption{Life Cycle Inventory of the process}
 \centering
@@ -141,7 +141,7 @@ Distillation & Water & 9 & \\[0pt]
 \end{table}
 
 \subsection{Assumptions}
-\label{sec:orgb3b4e04}
+\label{sec:org9a4a9e4}
 To model this process in CCalc, some assumptions were necessary, which are listed below:
 
 \begin{itemize}
@@ -154,13 +154,13 @@ To model this process in CCalc, some assumptions were necessary, which are liste
 \item Heat was modelled as Heat at cogen 1400 kWh, wood as in the original aspen, heat was produced from lignin.
 \end{itemize}
 \subsection{Allocations}
-\label{sec:orgd28ba19}
+\label{sec:orgff5f998}
 Besides the final product of cyclopentanone, some other streams were considered co-product streams and should somehow be included in the impact assessment. These streams are: The solid stream of steam explosion, which contains cellulose and lignin, the hydrogen rich stream of the flash and the furfural rich stream of the distillation process.
 
 For the first stream, it is hard to assess the economic value of the three components of the kernel (hemicellulose, cellulose and lignin) to do economic allocation and energy allocation isn't very useful, therefore, the allocation methodology followed is mass allocation. The other two streams are very low in quantity and therefore impacts should be allocated to them with mass allocation.
 
 \subsection{Conventional Process LCI}
-\label{sec:orgf6f6238}
+\label{sec:org6c964ed}
 For modelling cyclopentanone production in CCalc, Ba(OH)2 was not found in the ecoinvent database, so its production from the mineral barite was modelled based on a patent describing the process [2].
 
 \begin{figure}[htbp]
@@ -174,7 +174,7 @@ Energy data: 2 MJ/f.u. heat (modelled as heavy fuel oil), 2.2 MJ/f.u. electricit
 Emissions: 0.075 kg CO2/f.u., 0.048 kg SO2/f.u., 2.1 kg COD/f.u.
 
 \section{Life Cycle Impact Assessment}
-\label{sec:org8ee8de4}
+\label{sec:org07844eb}
 Modelling the LCI of our process in CCalc, we get the following impacts:
 
 \begin{table}[htbp]
@@ -192,7 +192,7 @@ human toxicity & 0.380\\[0pt]
 \end{table}
 
 \subsection{Uncertainty analysis}
-\label{sec:org5885fa9}
+\label{sec:orgc825c23}
 However, these results have a high amount of uncertainty because much of the LCI was built on assumptions and old data. An uncertainty analysis is important to quantify what our error range is for this process. Furthermore, this analysis can show us what improvement we can expect if we improve one of these parameters. Specifically, from the input variables of the system, we assume quantifiable uncertainty in these:
 
 \begin{itemize}
@@ -224,42 +224,42 @@ Olive Kernel & Water & Hexane & Heating & Cooling & Hydrogen\\[0pt]
 \end{table}
 
 \subsubsection{Results}
-\label{sec:org2b74364}
+\label{sec:org020087c}
 The resulting linear equations correlating input with output are shown below:
 
 \begin{enumerate}
 \item Carbon Footprint
-\label{sec:orgbd216d0}
+\label{sec:orgc3d3062}
 All 6 input variables are correlated with carbon footprint. The corresponding equation is
 
 CF = 0.0109*OK + 0.0084*W + 0.889*HEX + 0.0034*HEAT + 0.0017*COOL + 1.698*H + 0.0022 with R\textsuperscript{2} = 0.987
 
 \item Water Usage
-\label{sec:orgb3117f5}
+\label{sec:orgbd1f450}
 Water usage was significantly correlated only with the water used for the steam explosion and the cooling water of the distillation columns with the equation
 
 WU = 0.001*W + 0.00519*COOL + 0.00412 with R\textsuperscript{2} = 0.998
 
 \item Energy Demand
-\label{sec:org4e51bd4}
+\label{sec:org5ac2f55}
 Energy demand was associated with every input variable with the equation
 
 ED = 0.234*OK + 3.117*W + 61.868*HEX + 1.413*HEAT + 0.0235*COOL + 68.867*H + 0.509 with R\textsuperscript{2} = 0.989
 
 \item Eutrophication
-\label{sec:org42aec7b}
+\label{sec:org2fe061d}
 Eutrophication was correlated only with olive kernel and hexane. Moreover, the impact of the olive kernel is very slight. The equation is:
 
 EP = 0.000582*OK + 0.0833*HEX + 0.0067 with R\textsuperscript{2} = 0.97
 
 \item Human Toxicity
-\label{sec:org6222a85}
+\label{sec:orge6d9cd3}
 Lastly, human toxicity was correlated with all parameters with the equation
 
 HT = 0.0106*OK + 0.03*W + 0.749*HEX + 0.0136*HEAT + 0.00088*COOL + 0.0021*H + 0.00654 with R\textsuperscript{2} = 0.99
 
 \item Range of each impact
-\label{sec:orgffb7d27}
+\label{sec:orgb97285e}
 From these equations, we can find the minimum and maximum value of each impact, which allows us to see the range in which the output is, compared to the range of the input.
 
 \begin{table}[htbp]
@@ -278,7 +278,7 @@ Human Toxicity & 0.196 & 0.562\\[0pt]
 \end{enumerate}
 
 \subsubsection{Sensitivity and Hot Spot Analysis}
-\label{sec:org983d791}
+\label{sec:orgd326472}
 Having seen how the uncertainty of the input affects the uncertainty of the output in a reasonably large domain, we now have a good metric of the sensitivity of the output to each input variable, which shows us what impacts the process most. However, this is not enough. We also need to see the hot spot of each process to see how much of an improvement each variable can truly cause. The diagrams shown below are indicators of these two metrics and allow us to make conclusions for what impacts the process the most and how it could be improved.
 
 \begin{figure}[htbp]
@@ -314,7 +314,7 @@ Having seen how the uncertainty of the input affects the uncertainty of the outp
 \pagebreak
 
 \subsection{Comparison}
-\label{sec:org33d9433}
+\label{sec:org6d3d0ef}
 Having seen the LCIA of our process, we can now compare it with the petrelaic process. The diagram shown below, shows the comparative value of each impact for the two processes. Moreover, it lists the worst possible scenario of the biomass process based on the uncertainty analysis.
 
 \begin{figure}[htbp]
@@ -327,13 +327,31 @@ Having seen the LCIA of our process, we can now compare it with the petrelaic pr
 
 We see that our process significantly outperforms the petrelaic one in all sectors besides water usage and that even in the worst scenario included in our uncertainty analysis, this conclusion does not change.
 
+\subsection{Scenario with Water Reuse}
+\label{sec:orge869034}
+Since we saw that water usage is the major problem of the process, we decided to investigate whether or not it is worth to integrate a refrigerator cycle in the process. Its use will be to cover the cooling needs of the distillation columns (which was shown to have the most impact in water usage) but using water that is in the refrigerator cycle and thus not consumed. This will significantly lower the water usage needs. Depending on the design, it might increase energy needs, due to the electricity needed to run the cycle, but by integrating the distillation columns in the cycle, it might decrease the total energy demand. And even if it increases, this area is not the worst part about the proposed process. Below is a graph showing the comparative LCIA of the two processes.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.9\linewidth]{./lcia_comparison_reuse.png}
+\caption{Comparative LCIA of the process with and without water reuse}
+\end{figure}
+
+It can be seen that water usage becomes 0.4 of its original value, while the carbon footprint, energy demand and human toxicity are slightly reduced, indicating that environmentally, this integration is worth the effort. However, there are some important tradeoffs. Firstly, the energy demand seems lower, but we need energy of higher quality in this equilibrium (electricity instead of heat), which may make the process more expensive. However, due to the assumption we are working under that the plant has a cogeneration system using the lignin of the olive kernel, we can safely assume that the electricity necessary is equivalently available to the heat. This will however lower the income of the plant, which will be able to sell less electricity as a co-product. Moreover, investing in this refrigeration cycle will have a cost for the equipment and especially the compressor of the process, which is an expensive piece of equipment. Due to these two economic concerns, a techno-economic analysis would need to be done to judge whether the decreased environmental impact makes up for the increased cost, but it definitely looks like an interesting proposal.
+
+\subsubsection{Reusing the other cooling water}
+\label{sec:org698a6e7}
+Besides the cooling water of the distillation columns, the other water usage that could be saved with reuse is the cooling right after the reactors. Due to this cooling being at a lower temperature (30 \(^oC\)), it is more troublesome. The first thought is to try and integrate this stream in the above refrigerating cycle. To do this however, we need a different material for cooling as water cannot achieve such a wide range. The easiest option is \(CH_3Cl\), which would allow us to lower water usage further. However, chloromethane is a health and environmental hazard and we believe that it will be environmentally taxing to change water in our cycle with chloromethane if the goal is to reduce the environmental impacts.
+
+The other option is to use a second refrigerator cycle for this and use the R-134 refrigerant. It is less toxic that chloromethane, but has a higher environmental impact than water. Furthermore, introducing a second refrigerator cycle starts making the economic problems more adverse. A second compressor is necessary and even more energy will need to be supplied to the process. We studied this scenario and found that it was feasible, however, we believe that its economic impact combined with that of the above cycle is almost certain to push our process in a more unfavourable range.
+
 \section{Conclusions}
-\label{sec:org0caf9d5}
+\label{sec:orgea3b909}
 We conclude that the proposed process is an environmentally friendly process for producing cyclopentanone from a waste material (olive kernel), which can effectively replace cyclopentanone production from adipic acid, which is very bad both for the environment and for the health of anyone in the factory producing that material.
 
 Furthermore, due to the sensitivity and hot spot analysis performed, we can also assess how the process can be improved.
 
-The biggest problem of the process is water usage. Improving the water usage isn't so easy, as half of the water needs are for cooling inside which is hard to decrease. From the ones we can control, the process is 5 times more sensitive to the cooling of the distillation column than the steam needed for the steam explosion. However, this is not very significant. The best way to decrease water usage is via optimization of water usage with Pinch point analysis or water reuse.
+The biggest problem of the process is water usage. The scenario mentioned above including the refrigeration cycle solves this to an extent. Further integration attempts for other cooling needs of the process, may help even further, so despite this increasing the cost of the process, it is definitely the way forward for decreasing the process water usage.
 
 The second most important parameter is decreasing the amount of olive kernel necessary for the process as it will help in almost all impacts. It is the hot spot of the carbon footprint and human toxicity and plays a role in energy demand and eutrophication potential of the process. The process is not so sensitive to this change as it is to others, but the extraction of xylose from the kernel is highly inefficient and improving that process has potential to significantly decrease the olive kernel requirements and as such lower these impacts.
 
@@ -346,7 +364,7 @@ Hexane is a parameter to which the system is very sensitive, showing that if we 
 Improving the distillation column design was shown to be the least significant of the parameters used. As mentioned above, it can help the water usage of the process, but besides that, it has a very low impact on everything else.
 
 \section{Bibliography}
-\label{sec:orgff54500}
+\label{sec:orgc2dd01f}
 [1] Thorpe, J. F., and G. A. R. Kon. “CYCLOPENTANONE.” Organic Syntheses 5 (1925): 37. \url{https://doi.org/10.15227/orgsyn.005.0037}.
 [2] Rohrborn, Hans-Joachim. Process for producing barium hydroxide. United States US4060585A, filed February 20, 1976, and issued November 29, 1977. \url{https://patents.google.com/patent/US4060585A/en}.
 \end{document}
