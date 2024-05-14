@@ -1,0 +1,207 @@
+B 2 C o m p i l a t i o n
+B 62 Equation Listing    SOLVE wastetreatment Using NLP From line 41
+D 63 costobj
+D 69 eiobj
+D 74 wastecon
+D 79 TOTAL_COST_FUN
+B 86 Column Listing      SOLVE wastetreatment Using NLP From line 41
+E 87 v
+E 103 CV
+E 111 EV
+E 119 Z
+B 128 Model Statistics    SOLVE wastetreatment Using NLP From line 41
+B 151 Solution Report     SOLVE wastetreatment Using NLP From line 41
+F 195 costobj
+F 196 eiobj
+F 197 wastecon
+F 198 TOTAL_COST_FUN
+G 199 v
+G 206 CV
+G 210 EV
+G 211 Z
+B 224 Equation Listing    SOLVE wastetreatment Using NLP From line 41
+D 225 costobj
+D 233 eiobj
+D 240 wastecon
+D 245 TOTAL_COST_FUN
+B 254 Column Listing      SOLVE wastetreatment Using NLP From line 41
+E 255 v
+E 271 CV
+E 279 EV
+E 287 Z
+B 296 Model Statistics    SOLVE wastetreatment Using NLP From line 41
+B 319 Solution Report     SOLVE wastetreatment Using NLP From line 41
+F 363 costobj
+F 364 eiobj
+F 365 wastecon
+F 366 TOTAL_COST_FUN
+G 367 v
+G 374 CV
+G 378 EV
+G 379 Z
+B 392 Equation Listing    SOLVE wastetreatment Using NLP From line 41
+D 393 costobj
+D 401 eiobj
+D 408 wastecon
+D 413 TOTAL_COST_FUN
+B 422 Column Listing      SOLVE wastetreatment Using NLP From line 41
+E 423 v
+E 440 CV
+E 448 EV
+E 456 Z
+B 465 Model Statistics    SOLVE wastetreatment Using NLP From line 41
+B 488 Solution Report     SOLVE wastetreatment Using NLP From line 41
+F 532 costobj
+F 533 eiobj
+F 534 wastecon
+F 535 TOTAL_COST_FUN
+G 536 v
+G 543 CV
+G 547 EV
+G 548 Z
+B 561 Equation Listing    SOLVE wastetreatment Using NLP From line 41
+D 562 costobj
+D 570 eiobj
+D 577 wastecon
+D 582 TOTAL_COST_FUN
+B 591 Column Listing      SOLVE wastetreatment Using NLP From line 41
+E 592 v
+E 609 CV
+E 617 EV
+E 625 Z
+B 634 Model Statistics    SOLVE wastetreatment Using NLP From line 41
+B 657 Solution Report     SOLVE wastetreatment Using NLP From line 41
+F 701 costobj
+F 702 eiobj
+F 703 wastecon
+F 704 TOTAL_COST_FUN
+G 705 v
+G 712 CV
+G 716 EV
+G 717 Z
+B 730 Equation Listing    SOLVE wastetreatment Using NLP From line 41
+D 731 costobj
+D 739 eiobj
+D 746 wastecon
+D 751 TOTAL_COST_FUN
+B 760 Column Listing      SOLVE wastetreatment Using NLP From line 41
+E 761 v
+E 778 CV
+E 786 EV
+E 794 Z
+B 803 Model Statistics    SOLVE wastetreatment Using NLP From line 41
+B 826 Solution Report     SOLVE wastetreatment Using NLP From line 41
+F 870 costobj
+F 871 eiobj
+F 872 wastecon
+F 873 TOTAL_COST_FUN
+G 874 v
+G 881 CV
+G 885 EV
+G 886 Z
+B 899 Equation Listing    SOLVE wastetreatment Using NLP From line 41
+D 900 costobj
+D 908 eiobj
+D 915 wastecon
+D 920 TOTAL_COST_FUN
+B 929 Column Listing      SOLVE wastetreatment Using NLP From line 41
+E 930 v
+E 947 CV
+E 955 EV
+E 963 Z
+B 972 Model Statistics    SOLVE wastetreatment Using NLP From line 41
+B 995 Solution Report     SOLVE wastetreatment Using NLP From line 41
+F 1039 costobj
+F 1040 eiobj
+F 1041 wastecon
+F 1042 TOTAL_COST_FUN
+G 1043 v
+G 1050 CV
+G 1054 EV
+G 1055 Z
+B 1068 Equation Listing    SOLVE wastetreatment Using NLP From line 41
+D 1069 costobj
+D 1077 eiobj
+D 1084 wastecon
+D 1089 TOTAL_COST_FUN
+B 1098 Column Listing      SOLVE wastetreatment Using NLP From line 41
+E 1099 v
+E 1116 CV
+E 1124 EV
+E 1132 Z
+B 1141 Model Statistics    SOLVE wastetreatment Using NLP From line 41
+B 1164 Solution Report     SOLVE wastetreatment Using NLP From line 41
+F 1208 costobj
+F 1209 eiobj
+F 1210 wastecon
+F 1211 TOTAL_COST_FUN
+G 1212 v
+G 1219 CV
+G 1223 EV
+G 1224 Z
+B 1237 Equation Listing    SOLVE wastetreatment Using NLP From line 41
+D 1238 costobj
+D 1246 eiobj
+D 1253 wastecon
+D 1258 TOTAL_COST_FUN
+B 1267 Column Listing      SOLVE wastetreatment Using NLP From line 41
+E 1268 v
+E 1285 CV
+E 1293 EV
+E 1301 Z
+B 1310 Model Statistics    SOLVE wastetreatment Using NLP From line 41
+B 1333 Solution Report     SOLVE wastetreatment Using NLP From line 41
+F 1377 costobj
+F 1378 eiobj
+F 1379 wastecon
+F 1380 TOTAL_COST_FUN
+G 1381 v
+G 1388 CV
+G 1392 EV
+G 1393 Z
+B 1406 Equation Listing    SOLVE wastetreatment Using NLP From line 41
+D 1407 costobj
+D 1415 eiobj
+D 1422 wastecon
+D 1427 TOTAL_COST_FUN
+B 1436 Column Listing      SOLVE wastetreatment Using NLP From line 41
+E 1437 v
+E 1454 CV
+E 1462 EV
+E 1470 Z
+B 1479 Model Statistics    SOLVE wastetreatment Using NLP From line 41
+B 1502 Solution Report     SOLVE wastetreatment Using NLP From line 41
+F 1546 costobj
+F 1547 eiobj
+F 1548 wastecon
+F 1549 TOTAL_COST_FUN
+G 1550 v
+G 1557 CV
+G 1561 EV
+G 1562 Z
+B 1575 Equation Listing    SOLVE wastetreatment Using NLP From line 41
+D 1576 costobj
+D 1584 eiobj
+D 1591 wastecon
+D 1596 TOTAL_COST_FUN
+B 1605 Column Listing      SOLVE wastetreatment Using NLP From line 41
+E 1606 v
+E 1623 CV
+E 1631 EV
+E 1638 Z
+B 1647 Model Statistics    SOLVE wastetreatment Using NLP From line 41
+B 1670 Solution Report     SOLVE wastetreatment Using NLP From line 41
+F 1714 costobj
+F 1715 eiobj
+F 1716 wastecon
+F 1717 TOTAL_COST_FUN
+G 1718 v
+G 1725 CV
+G 1729 EV
+G 1730 Z
+B 1743 E x e c u t i o n
+I 1744 v
+I 1750 z_par
+I 1757 CV_par
+I 1764 EV_par
+I 1771 Points

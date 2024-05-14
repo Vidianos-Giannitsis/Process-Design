@@ -1,0 +1,384 @@
+
+--- Job waste_model1.gms Start 12/05/23 13:21:54 24.8.5 r61358 WEX-WEI x86 64bit/MS Windows
+GAMS 24.8.5   Copyright (C) 1987-2017 GAMS Development. All rights reserved
+Licensee: Antonis Kokossis, Single User License          S160608:0610AO-GEN
+          National Technical University of Athens, Department of ProDC11329
+          License for teaching and research at degree granting institutions
+          akokossis@mail.ntua.gr                                           
+--- Starting compilation
+--- waste_model1.gms(52) 3 Mb
+--- Starting execution: elapsed 0:00:00.003
+--- waste_model1.gms(39) 4 Mb
+--- Generating NLP model wastetreatment
+--- waste_model1.gms(41) 6 Mb
+--- LOOPS FOR/WHILE = 1
+---   4 rows  5 columns  11 non-zeroes
+---   20 nl-code  4 nl-non-zeroes
+--- waste_model1.gms(41) 4 Mb
+--- Executing CONOPT: elapsed 0:00:00.006
+CONOPT 3         24.8.5 r61358 Released May 10, 2017 WEI x86 64bit/MS Windows 
+ 
+ 
+    C O N O P T 3   version 3.17C
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+      0   0        1.0000000000E+03 (Input point)
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  3
+ 
+      1   0        1.0000000000E+03 (After pre-processing)
+      2   0        1.9531250000E+00 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    4125000.00000
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+      4   3        3.9393939394E+06 0.0E+00     1
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Restarting execution
+--- waste_model1.gms(41) 2 Mb
+--- Reading solution for model wastetreatment
+--- Executing after solve: elapsed 0:00:00.061
+--- waste_model1.gms(39) 3 Mb
+--- Generating NLP model wastetreatment
+--- waste_model1.gms(41) 5 Mb
+--- LOOPS FOR/WHILE = 2
+---   4 rows  5 columns  11 non-zeroes
+---   20 nl-code  4 nl-non-zeroes
+--- waste_model1.gms(41) 3 Mb
+--- Executing CONOPT: elapsed 0:00:00.063
+CONOPT 3         24.8.5 r61358 Released May 10, 2017 WEI x86 64bit/MS Windows 
+ 
+ 
+    C O N O P T 3   version 3.17C
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+      0   0        5.5096418733E+05 (Input point)
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  3
+ 
+      1   0        0.0000000000E+00 (After pre-processing)
+      2   0        0.0000000000E+00 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    4490358.12672
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+      7   4        4.4444444444E+06 2.3E-09     1
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Restarting execution
+--- waste_model1.gms(41) 2 Mb
+--- Reading solution for model wastetreatment
+--- Executing after solve: elapsed 0:00:00.116
+--- waste_model1.gms(39) 3 Mb
+--- Generating NLP model wastetreatment
+--- waste_model1.gms(41) 5 Mb
+--- LOOPS FOR/WHILE = 3
+---   4 rows  5 columns  11 non-zeroes
+---   20 nl-code  4 nl-non-zeroes
+--- waste_model1.gms(41) 3 Mb
+--- Executing CONOPT: elapsed 0:00:00.186
+CONOPT 3         24.8.5 r61358 Released May 10, 2017 WEI x86 64bit/MS Windows 
+ 
+ 
+    C O N O P T 3   version 3.17C
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+      0   0        4.6296296296E+05 (Input point)
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  3
+ 
+      1   0        1.9326762413E-11 (After pre-processing)
+      2   0        3.7747582837E-14 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    4907407.40741
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+      4   3        4.8717948718E+06 1.9E-08     1
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Restarting execution
+--- waste_model1.gms(41) 2 Mb
+--- Reading solution for model wastetreatment
+--- Executing after solve: elapsed 0:00:00.239
+--- waste_model1.gms(39) 3 Mb
+--- Generating NLP model wastetreatment
+--- waste_model1.gms(41) 5 Mb
+--- LOOPS FOR/WHILE = 4
+---   4 rows  5 columns  11 non-zeroes
+---   20 nl-code  4 nl-non-zeroes
+--- waste_model1.gms(41) 3 Mb
+--- Executing CONOPT: elapsed 0:00:00.310
+CONOPT 3         24.8.5 r61358 Released May 10, 2017 WEI x86 64bit/MS Windows 
+ 
+ 
+    C O N O P T 3   version 3.17C
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+      0   0        3.9447731755E+05 (Input point)
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  3
+ 
+      1   0        1.9326762413E-11 (After pre-processing)
+      2   0        3.7747582837E-14 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    5266272.18935
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+      4   3        5.2380952381E+06 1.9E-08     1
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Restarting execution
+--- waste_model1.gms(41) 2 Mb
+--- Reading solution for model wastetreatment
+--- Executing after solve: elapsed 0:00:00.372
+--- waste_model1.gms(39) 3 Mb
+--- Generating NLP model wastetreatment
+--- waste_model1.gms(41) 5 Mb
+--- LOOPS FOR/WHILE = 5
+---   4 rows  5 columns  11 non-zeroes
+---   20 nl-code  4 nl-non-zeroes
+--- waste_model1.gms(41) 3 Mb
+--- Executing CONOPT: elapsed 0:00:00.443
+CONOPT 3         24.8.5 r61358 Released May 10, 2017 WEI x86 64bit/MS Windows 
+ 
+ 
+    C O N O P T 3   version 3.17C
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+      0   0        3.4013605442E+05 (Input point)
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  3
+ 
+      1   0        1.9326762413E-11 (After pre-processing)
+      2   0        3.7747582837E-14 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    5578231.29252
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+      4   3        5.5555555556E+06 9.8E-09     1
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Restarting execution
+--- waste_model1.gms(41) 2 Mb
+--- Reading solution for model wastetreatment
+--- Executing after solve: elapsed 0:00:00.495
+--- waste_model1.gms(39) 3 Mb
+--- Generating NLP model wastetreatment
+--- waste_model1.gms(41) 5 Mb
+--- LOOPS FOR/WHILE = 6
+---   4 rows  5 columns  11 non-zeroes
+---   20 nl-code  4 nl-non-zeroes
+--- waste_model1.gms(41) 3 Mb
+--- Executing CONOPT: elapsed 0:00:00.564
+CONOPT 3         24.8.5 r61358 Released May 10, 2017 WEI x86 64bit/MS Windows 
+ 
+ 
+    C O N O P T 3   version 3.17C
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+      0   0        2.9629629630E+05 (Input point)
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  3
+ 
+      1   0        1.9326762413E-11 (After pre-processing)
+      2   0        3.7747582837E-14 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    5851851.85185
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+      4   3        5.8333333333E+06 1.6E-08     1
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Restarting execution
+--- waste_model1.gms(41) 2 Mb
+--- Reading solution for model wastetreatment
+--- Executing after solve: elapsed 0:00:00.620
+--- waste_model1.gms(39) 3 Mb
+--- Generating NLP model wastetreatment
+--- waste_model1.gms(41) 5 Mb
+--- LOOPS FOR/WHILE = 7
+---   4 rows  5 columns  11 non-zeroes
+---   20 nl-code  4 nl-non-zeroes
+--- waste_model1.gms(41) 3 Mb
+--- Executing CONOPT: elapsed 0:00:00.685
+CONOPT 3         24.8.5 r61358 Released May 10, 2017 WEI x86 64bit/MS Windows 
+ 
+ 
+    C O N O P T 3   version 3.17C
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+      0   0        2.6041666667E+05 (Input point)
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  3
+ 
+      1   0        1.9326762413E-11 (After pre-processing)
+      2   0        3.7747582837E-14 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    6093750.00000
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+      4   3        6.0784313725E+06 1.9E-08     1
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Restarting execution
+--- waste_model1.gms(41) 2 Mb
+--- Reading solution for model wastetreatment
+--- Executing after solve: elapsed 0:00:00.739
+--- waste_model1.gms(39) 3 Mb
+--- Generating NLP model wastetreatment
+--- waste_model1.gms(41) 5 Mb
+--- LOOPS FOR/WHILE = 8
+---   4 rows  5 columns  11 non-zeroes
+---   20 nl-code  4 nl-non-zeroes
+--- waste_model1.gms(41) 3 Mb
+--- Executing CONOPT: elapsed 0:00:00.805
+CONOPT 3         24.8.5 r61358 Released May 10, 2017 WEI x86 64bit/MS Windows 
+ 
+ 
+    C O N O P T 3   version 3.17C
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+      0   0        2.3068050750E+05 (Input point)
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  3
+ 
+      1   0        1.9326762413E-11 (After pre-processing)
+      2   0        3.7747582837E-14 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    6309111.88005
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+      4   3        6.2962962963E+06 1.5E-08     1
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Restarting execution
+--- waste_model1.gms(41) 2 Mb
+--- Reading solution for model wastetreatment
+--- Executing after solve: elapsed 0:00:00.921
+--- waste_model1.gms(39) 3 Mb
+--- Generating NLP model wastetreatment
+--- waste_model1.gms(41) 5 Mb
+--- LOOPS FOR/WHILE = 9
+---   4 rows  5 columns  11 non-zeroes
+---   20 nl-code  4 nl-non-zeroes
+--- waste_model1.gms(41) 3 Mb
+--- Executing CONOPT: elapsed 0:00:00.989
+CONOPT 3         24.8.5 r61358 Released May 10, 2017 WEI x86 64bit/MS Windows 
+ 
+ 
+    C O N O P T 3   version 3.17C
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+      0   0        2.0576131687E+05 (Input point)
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  3
+ 
+      1   0        1.9326762413E-11 (After pre-processing)
+      2   0        3.7747582837E-14 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    6502057.61317
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+      4   3        6.4912280702E+06 2.2E-08     1
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Restarting execution
+--- waste_model1.gms(41) 2 Mb
+--- Reading solution for model wastetreatment
+--- Executing after solve: elapsed 0:00:01.041
+--- waste_model1.gms(39) 3 Mb
+--- Generating NLP model wastetreatment
+--- waste_model1.gms(41) 5 Mb
+--- LOOPS FOR/WHILE = 10
+---   4 rows  5 columns  10 non-zeroes
+---   20 nl-code  4 nl-non-zeroes
+--- waste_model1.gms(41) 3 Mb
+--- Executing CONOPT: elapsed 0:00:01.109
+CONOPT 3         24.8.5 r61358 Released May 10, 2017 WEI x86 64bit/MS Windows 
+ 
+ 
+    C O N O P T 3   version 3.17C
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+      0   0        1.8467220683E+05 (Input point)
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  3
+ 
+      1   0        1.9213075575E-11 (After pre-processing)
+      2   0        3.7525538232E-14 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    6675900.27701
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+      4   3        6.6666666667E+06 2.0E-08     1
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Restarting execution
+--- waste_model1.gms(41) 2 Mb
+--- Reading solution for model wastetreatment
+--- Executing after solve: elapsed 0:00:01.162
+--- waste_model1.gms(52) 3 Mb
+--- GDX File C:\Users\aspenplus\Desktop\optimization\WWTresults1.gdx
+*** Status: Normal completion
+--- Job waste_model1.gms Stop 12/05/23 13:21:55 elapsed 0:00:01.262

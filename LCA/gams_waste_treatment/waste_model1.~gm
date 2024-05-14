@@ -1,0 +1,30 @@
+sets
+i /1,2/;
+positive variables
+v(i)
+CV capital cost
+EV environmental impact;
+variable
+Z objective function;
+scalar
+w /0.5/;
+parameters
+c(i) /1 10, 2 20/
+e(i) /1 10, 2 5/
+total /1000/;
+equations
+costobj
+eiobj
+wastecon
+TOTAL_COST_FUN;
+
+TOTAL_COST_FUN.. Z =e= w*CV + (1-w)*EV;
+
+costobj.. sum(i, c(i)*v(i)**2) =e= CV;
+
+eiobj.. sum(i, e(i)*v(i)**2) =e= EV;
+
+wastecon.. sum(i, v(i)) =e= total
+
+model wastetreatment /all/;
+solve wastetreatment using NLP minimizing Z;

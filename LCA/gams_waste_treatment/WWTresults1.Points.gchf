@@ -1,0 +1,29 @@
+object TChart
+  Left = 0
+  Top = 33
+  Width = 802
+  Height = 590
+  HelpContext = 520
+  Legend.LegendStyle = lsSeries
+  Title.Text.Strings = (
+    'Points')
+  BottomAxis.LabelStyle = talValue
+  View3D = False
+  Align = alClient
+  Color = clWhite
+  TabOrder = 1
+  object TPointSeries
+    Tag = 120
+    Marks.Callout.Brush.Color = clBlack
+    Marks.Visible = True
+    Title = 'Points'
+    ClickableLine = False
+    Pointer.InflateMargins = True
+    Pointer.Style = psRectangle
+    Pointer.Visible = True
+    XValues.Name = 'X'
+    XValues.Order = loAscending
+    YValues.Name = 'Y'
+    YValues.Order = loNone
+  end
+end

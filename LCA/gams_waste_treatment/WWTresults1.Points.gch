@@ -1,0 +1,8 @@
+[CHART]
+VERID=GAMSIDE Chart(s) V1
+GDXFILE=WWTresults1.gdx
+TITLE=Points
+
+[SERIES1]
+SYMBOL=Points
+TYPE=scatter2d

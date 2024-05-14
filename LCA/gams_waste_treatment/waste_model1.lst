@@ -1,0 +1,1801 @@
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 1
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+   1  sets
+   2  i /1,2/;
+   3  positive variables
+   4  v(i)
+   5  CV capital cost
+   6  EV environmental impact;
+   7  variable
+   8  Z objective function;
+   9  scalar
+  10  w /0.5/;
+  11  parameters
+  12  c(i) /1 10, 2 20/
+  13  e(i) /1 10, 2 5/
+  14  total /1000/;
+  15  equations
+  16  costobj
+  17  eiobj
+  18  wastecon
+  19  TOTAL_COST_FUN;
+  20   
+  21  TOTAL_COST_FUN.. Z =e= w*CV + (1-w)*EV;
+  22   
+  23  costobj.. sum(i, c(i)*v(i)**2) =e= CV;
+  24   
+  25  eiobj.. sum(i, e(i)*v(i)**2) =e= EV;
+  26   
+  27  wastecon.. sum(i, v(i)) =e= total
+  28   
+  29  model wastetreatment /all/;
+  30  *solve wastetreatment using NLP minimizing Z;
+  31   
+  32  set par pareto points /1*10/;
+  33  parameters
+  34           z_par(par)
+  35           CV_par(par)
+  36           EV_par(par);
+  37  scalar pp;
+  38  parameter Points(par,*);
+  39  for (pp = 1 to 10,
+  40           w = pp*0.1;
+  41           solve wastetreatment using NLP minimizing Z;
+  42                   Z_par(par)$(ord(par) eq pp) = Z.l;
+  43                   CV_par(par)$(ord(par) eq pp) = CV.l;
+  44                   EV_par(par)$(ord(par) eq pp) = EV.l;
+  45   
+  46                   Points(par, "x")$(ord(par) eq pp) = CV.l;
+  47                   Points(par, "y")$(ord(par) eq pp) = EV.l;
+  48   
+  49  ) ;
+  50   
+  51  display v.l, Z_par, CV_par, EV_par, Points
+  52  execute_unload "WWTresults1.gdx" Points
+
+
+COMPILATION TIME     =        0.000 SECONDS      3 MB  24.8.5 r61358 WEX-WEI
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 2
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Equation Listing    SOLVE wastetreatment Using NLP From line 41
+
+
+---- costobj  =E=  
+
+costobj..  (0)*v(1) + (0)*v(2) - CV =E= 0 ; (LHS = 0)
+     
+
+---- eiobj  =E=  
+
+eiobj..  (0)*v(1) + (0)*v(2) - EV =E= 0 ; (LHS = 0)
+     
+
+---- wastecon  =E=  
+
+wastecon..  v(1) + v(2) =E= 1000 ; (LHS = 0, INFES = 1000 ****)
+     
+
+---- TOTAL_COST_FUN  =E=  
+
+TOTAL_COST_FUN..  - 0.1*CV - 0.9*EV + Z =E= 0 ; (LHS = 0)
+     
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 3
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Column Listing      SOLVE wastetreatment Using NLP From line 41
+
+
+---- v  
+
+v(1)
+                (.LO, .L, .UP, .M = 0, 0, +INF, 0)
+       (0)      costobj
+       (0)      eiobj
+        1       wastecon
+
+v(2)
+                (.LO, .L, .UP, .M = 0, 0, +INF, 0)
+       (0)      costobj
+       (0)      eiobj
+        1       wastecon
+
+
+---- CV  capital cost
+
+CV
+                (.LO, .L, .UP, .M = 0, 0, +INF, 0)
+       -1       costobj
+       -0.1     TOTAL_COST_FUN
+
+
+---- EV  environmental impact
+
+EV
+                (.LO, .L, .UP, .M = 0, 0, +INF, 0)
+       -1       eiobj
+       -0.9     TOTAL_COST_FUN
+
+
+---- Z  objective function
+
+Z
+                (.LO, .L, .UP, .M = -INF, 0, +INF, 0)
+        1       TOTAL_COST_FUN
+
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 4
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Model Statistics    SOLVE wastetreatment Using NLP From line 41
+
+
+LOOPS                            FOR/WHILE   1
+
+
+MODEL STATISTICS
+
+BLOCKS OF EQUATIONS           4     SINGLE EQUATIONS            4
+BLOCKS OF VARIABLES           4     SINGLE VARIABLES            5
+NON ZERO ELEMENTS            11     NON LINEAR N-Z              4
+DERIVATIVE POOL              20     CONSTANT POOL              17
+CODE LENGTH                  20
+
+
+GENERATION TIME      =        0.000 SECONDS      4 MB  24.8.5 r61358 WEX-WEI
+
+
+EXECUTION TIME       =        0.000 SECONDS      4 MB  24.8.5 r61358 WEX-WEI
+               L O O P S          FOR/WHILE 1
+
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 5
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Solution Report     SOLVE wastetreatment Using NLP From line 41
+
+
+               S O L V E      S U M M A R Y
+
+     MODEL   wastetreatment      OBJECTIVE  Z
+     TYPE    NLP                 DIRECTION  MINIMIZE
+     SOLVER  CONOPT              FROM LINE  41
+
+**** SOLVER STATUS     1 Normal Completion         
+**** MODEL STATUS      2 Locally Optimal           
+**** OBJECTIVE VALUE          3939393.9394
+
+ RESOURCE USAGE, LIMIT          0.000      1000.000
+ ITERATION COUNT, LIMIT         4    2000000000
+ EVALUATION ERRORS              0             0
+CONOPT 3         24.8.5 r61358 Released May 10, 2017 WEI x86 64bit/MS Windows 
+ 
+ 
+    C O N O P T 3   version 3.17C
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+    The model has 5 variables and 4 constraints
+    with 11 Jacobian elements, 4 of which are nonlinear.
+    The Hessian of the Lagrangian has 2 elements on the diagonal,
+    0 elements below the diagonal, and 2 nonlinear variables.
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  3
+ 
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+ 
+ CONOPT time Total                            0.004 seconds
+   of which: Function evaluations             0.000 =  0.0%
+             1st Derivative evaluations       0.000 =  0.0%
+ 
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- EQU costobj         .         .         .       -0.100      
+---- EQU eiobj           .         .         .       -0.900      
+---- EQU wastecon    1000.000  1000.000  1000.000  7878.788      
+---- EQU TOTAL_COS~      .         .         .        1.000      
+
+---- VAR v  
+
+     LOWER     LEVEL     UPPER    MARGINAL
+
+1      .      393.939     +INF       EPS       
+2      .      606.061     +INF       .         
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR CV              .    8.8981E+6     +INF       .         
+---- VAR EV              .    3.3884E+6     +INF       .         
+---- VAR Z              -INF  3.9394E+6     +INF       .         
+
+  CV  capital cost
+  EV  environmental impact
+  Z  objective function
+
+
+**** REPORT SUMMARY :        0     NONOPT
+                             0 INFEASIBLE
+                             0  UNBOUNDED
+                             0     ERRORS
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 6
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Equation Listing    SOLVE wastetreatment Using NLP From line 41
+
+
+---- costobj  =E=  
+
+costobj..  (7878.78787878787)*v(1) + (24242.4242424242)*v(2) - CV =E= 0 ;
+     
+      (LHS = 0)
+     
+
+---- eiobj  =E=  
+
+eiobj..  (7878.78787878787)*v(1) + (6060.60606060606)*v(2) - EV =E= 0 ;
+     
+      (LHS = 0)
+     
+
+---- wastecon  =E=  
+
+wastecon..  v(1) + v(2) =E= 1000 ; (LHS = 1000)
+     
+
+---- TOTAL_COST_FUN  =E=  
+
+TOTAL_COST_FUN..  - 0.2*CV - 0.8*EV + Z =E= 0 ;
+     
+      (LHS = -550964.187327824, INFES = 550964.187327824 ****)
+     
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 7
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Column Listing      SOLVE wastetreatment Using NLP From line 41
+
+
+---- v  
+
+v(1)
+                (.LO, .L, .UP, .M = 0, 393.939393939394, +INF, EPS)
+    (7878.7879) costobj
+    (7878.7879) eiobj
+        1       wastecon
+
+v(2)
+                (.LO, .L, .UP, .M = 0, 606.060606060606, +INF, 0)
+   (24242.4242) costobj
+    (6060.6061) eiobj
+        1       wastecon
+
+
+---- CV  capital cost
+
+CV
+                (.LO, .L, .UP, .M = 0, 8898071.62534435, +INF, 0)
+       -1       costobj
+       -0.2     TOTAL_COST_FUN
+
+
+---- EV  environmental impact
+
+EV
+                (.LO, .L, .UP, .M = 0, 3388429.75206611, +INF, 0)
+       -1       eiobj
+       -0.8     TOTAL_COST_FUN
+
+
+---- Z  objective function
+
+Z
+                (.LO, .L, .UP, .M = -INF, 3939393.93939394, +INF, 0)
+        1       TOTAL_COST_FUN
+
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 8
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Model Statistics    SOLVE wastetreatment Using NLP From line 41
+
+
+LOOPS                            FOR/WHILE   2
+
+
+MODEL STATISTICS
+
+BLOCKS OF EQUATIONS           4     SINGLE EQUATIONS            4
+BLOCKS OF VARIABLES           4     SINGLE VARIABLES            5
+NON ZERO ELEMENTS            11     NON LINEAR N-Z              4
+DERIVATIVE POOL              20     CONSTANT POOL              17
+CODE LENGTH                  20
+
+
+GENERATION TIME      =        0.016 SECONDS      3 MB  24.8.5 r61358 WEX-WEI
+
+
+EXECUTION TIME       =        0.016 SECONDS      3 MB  24.8.5 r61358 WEX-WEI
+               L O O P S          FOR/WHILE 2
+
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 9
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Solution Report     SOLVE wastetreatment Using NLP From line 41
+
+
+               S O L V E      S U M M A R Y
+
+     MODEL   wastetreatment      OBJECTIVE  Z
+     TYPE    NLP                 DIRECTION  MINIMIZE
+     SOLVER  CONOPT              FROM LINE  41
+
+**** SOLVER STATUS     1 Normal Completion         
+**** MODEL STATUS      2 Locally Optimal           
+**** OBJECTIVE VALUE          4444444.4444
+
+ RESOURCE USAGE, LIMIT          0.000      1000.000
+ ITERATION COUNT, LIMIT         7    2000000000
+ EVALUATION ERRORS              0             0
+CONOPT 3         24.8.5 r61358 Released May 10, 2017 WEI x86 64bit/MS Windows 
+ 
+ 
+    C O N O P T 3   version 3.17C
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+    The model has 5 variables and 4 constraints
+    with 11 Jacobian elements, 4 of which are nonlinear.
+    The Hessian of the Lagrangian has 2 elements on the diagonal,
+    0 elements below the diagonal, and 2 nonlinear variables.
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  3
+ 
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+ 
+ CONOPT time Total                            0.003 seconds
+   of which: Function evaluations             0.000 =  0.0%
+             1st Derivative evaluations       0.000 =  0.0%
+ 
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- EQU costobj         .         .         .       -0.200      
+---- EQU eiobj           .         .         .       -0.800      
+---- EQU wastecon    1000.000  1000.000  1000.000  8888.889      
+---- EQU TOTAL_COS~      .         .         .        1.000      
+
+---- VAR v  
+
+     LOWER     LEVEL     UPPER    MARGINAL
+
+1      .      444.444     +INF  9.095E-12      
+2      .      555.556     +INF       .         
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR CV              .    8.1481E+6     +INF       .         
+---- VAR EV              .    3.5185E+6     +INF       .         
+---- VAR Z              -INF  4.4444E+6     +INF       .         
+
+  CV  capital cost
+  EV  environmental impact
+  Z  objective function
+
+
+**** REPORT SUMMARY :        0     NONOPT
+                             0 INFEASIBLE
+                             0  UNBOUNDED
+                             0     ERRORS
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 10
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Equation Listing    SOLVE wastetreatment Using NLP From line 41
+
+
+---- costobj  =E=  
+
+costobj..  (8888.88888888906)*v(1) + (22222.2222222226)*v(2) - CV =E= 0 ;
+     
+      (LHS = 0)
+     
+
+---- eiobj  =E=  
+
+eiobj..  (8888.88888888906)*v(1) + (5555.55555555566)*v(2) - EV =E= 0 ;
+     
+      (LHS = 0)
+     
+
+---- wastecon  =E=  
+
+wastecon..  v(1) + v(2) =E= 1000 ; (LHS = 1000.00000000002)
+     
+
+---- TOTAL_COST_FUN  =E=  
+
+TOTAL_COST_FUN..  - 0.3*CV - 0.7*EV + Z =E= 0 ;
+     
+      (LHS = -462962.96296298, INFES = 462962.96296298 ****)
+     
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 11
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Column Listing      SOLVE wastetreatment Using NLP From line 41
+
+
+---- v  
+
+v(1)
+                (.LO, .L, .UP, .M = 0, 444.444444444453, +INF, 
+9.09494701772928E-12)
+    (8888.8889) costobj
+    (8888.8889) eiobj
+        1       wastecon
+
+v(2)
+                (.LO, .L, .UP, .M = 0, 555.555555555566, +INF, 0)
+   (22222.2222) costobj
+    (5555.5556) eiobj
+        1       wastecon
+
+
+---- CV  capital cost
+
+CV
+                (.LO, .L, .UP, .M = 0, 8148148.14814846, +INF, 0)
+       -1       costobj
+       -0.3     TOTAL_COST_FUN
+
+
+---- EV  environmental impact
+
+EV
+                (.LO, .L, .UP, .M = 0, 3518518.51851865, +INF, 0)
+       -1       eiobj
+       -0.7     TOTAL_COST_FUN
+
+
+---- Z  objective function
+
+Z
+                (.LO, .L, .UP, .M = -INF, 4444444.44444462, +INF, 0)
+        1       TOTAL_COST_FUN
+
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 12
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Model Statistics    SOLVE wastetreatment Using NLP From line 41
+
+
+LOOPS                            FOR/WHILE   3
+
+
+MODEL STATISTICS
+
+BLOCKS OF EQUATIONS           4     SINGLE EQUATIONS            4
+BLOCKS OF VARIABLES           4     SINGLE VARIABLES            5
+NON ZERO ELEMENTS            11     NON LINEAR N-Z              4
+DERIVATIVE POOL              20     CONSTANT POOL              17
+CODE LENGTH                  20
+
+
+GENERATION TIME      =        0.000 SECONDS      3 MB  24.8.5 r61358 WEX-WEI
+
+
+EXECUTION TIME       =        0.062 SECONDS      3 MB  24.8.5 r61358 WEX-WEI
+               L O O P S          FOR/WHILE 3
+
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 13
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Solution Report     SOLVE wastetreatment Using NLP From line 41
+
+
+               S O L V E      S U M M A R Y
+
+     MODEL   wastetreatment      OBJECTIVE  Z
+     TYPE    NLP                 DIRECTION  MINIMIZE
+     SOLVER  CONOPT              FROM LINE  41
+
+**** SOLVER STATUS     1 Normal Completion         
+**** MODEL STATUS      2 Locally Optimal           
+**** OBJECTIVE VALUE          4871794.8718
+
+ RESOURCE USAGE, LIMIT          0.000      1000.000
+ ITERATION COUNT, LIMIT         4    2000000000
+ EVALUATION ERRORS              0             0
+CONOPT 3         24.8.5 r61358 Released May 10, 2017 WEI x86 64bit/MS Windows 
+ 
+ 
+    C O N O P T 3   version 3.17C
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+    The model has 5 variables and 4 constraints
+    with 11 Jacobian elements, 4 of which are nonlinear.
+    The Hessian of the Lagrangian has 2 elements on the diagonal,
+    0 elements below the diagonal, and 2 nonlinear variables.
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  3
+ 
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+ 
+ CONOPT time Total                            0.001 seconds
+   of which: Function evaluations             0.000 =  0.0%
+             1st Derivative evaluations       0.000 =  0.0%
+ 
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- EQU costobj         .         .         .       -0.300      
+---- EQU eiobj           .         .         .       -0.700      
+---- EQU wastecon    1000.000  1000.000  1000.000  9743.590      
+---- EQU TOTAL_COS~      .         .         .        1.000      
+
+---- VAR v  
+
+     LOWER     LEVEL     UPPER    MARGINAL
+
+1      .      487.179     +INF       .         
+2      .      512.821     +INF  3.638E-11      
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR CV              .    7.6331E+6     +INF       .         
+---- VAR EV              .    3.6884E+6     +INF       .         
+---- VAR Z              -INF  4.8718E+6     +INF       .         
+
+  CV  capital cost
+  EV  environmental impact
+  Z  objective function
+
+
+**** REPORT SUMMARY :        0     NONOPT
+                             0 INFEASIBLE
+                             0  UNBOUNDED
+                             0     ERRORS
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 14
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Equation Listing    SOLVE wastetreatment Using NLP From line 41
+
+
+---- costobj  =E=  
+
+costobj..  (9743.58974358992)*v(1) + (20512.820512821)*v(2) - CV =E= 0 ;
+     
+      (LHS = 0)
+     
+
+---- eiobj  =E=  
+
+eiobj..  (9743.58974358992)*v(1) + (5128.20512820524)*v(2) - EV =E= 0 ;
+     
+      (LHS = 0)
+     
+
+---- wastecon  =E=  
+
+wastecon..  v(1) + v(2) =E= 1000 ; (LHS = 1000.00000000002)
+     
+
+---- TOTAL_COST_FUN  =E=  
+
+TOTAL_COST_FUN..  - 0.4*CV - 0.6*EV + Z =E= 0 ;
+     
+      (LHS = -394477.317554258, INFES = 394477.317554258 ****)
+     
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 15
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Column Listing      SOLVE wastetreatment Using NLP From line 41
+
+
+---- v  
+
+v(1)
+                (.LO, .L, .UP, .M = 0, 487.179487179495, +INF, 0)
+    (9743.5897) costobj
+    (9743.5897) eiobj
+        1       wastecon
+
+v(2)
+                (.LO, .L, .UP, .M = 0, 512.820512820524, +INF, 
+3.63797880709171E-11)
+   (20512.8205) costobj
+    (5128.2051) eiobj
+        1       wastecon
+
+
+---- CV  capital cost
+
+CV
+                (.LO, .L, .UP, .M = 0, 7633136.09467486, +INF, 0)
+       -1       costobj
+       -0.4     TOTAL_COST_FUN
+
+
+---- EV  environmental impact
+
+EV
+                (.LO, .L, .UP, .M = 0, 3688362.91913229, +INF, 0)
+       -1       eiobj
+       -0.6     TOTAL_COST_FUN
+
+
+---- Z  objective function
+
+Z
+                (.LO, .L, .UP, .M = -INF, 4871794.87179506, +INF, 0)
+        1       TOTAL_COST_FUN
+
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 16
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Model Statistics    SOLVE wastetreatment Using NLP From line 41
+
+
+LOOPS                            FOR/WHILE   4
+
+
+MODEL STATISTICS
+
+BLOCKS OF EQUATIONS           4     SINGLE EQUATIONS            4
+BLOCKS OF VARIABLES           4     SINGLE VARIABLES            5
+NON ZERO ELEMENTS            11     NON LINEAR N-Z              4
+DERIVATIVE POOL              20     CONSTANT POOL              17
+CODE LENGTH                  20
+
+
+GENERATION TIME      =        0.000 SECONDS      3 MB  24.8.5 r61358 WEX-WEI
+
+
+EXECUTION TIME       =        0.062 SECONDS      3 MB  24.8.5 r61358 WEX-WEI
+               L O O P S          FOR/WHILE 4
+
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 17
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Solution Report     SOLVE wastetreatment Using NLP From line 41
+
+
+               S O L V E      S U M M A R Y
+
+     MODEL   wastetreatment      OBJECTIVE  Z
+     TYPE    NLP                 DIRECTION  MINIMIZE
+     SOLVER  CONOPT              FROM LINE  41
+
+**** SOLVER STATUS     1 Normal Completion         
+**** MODEL STATUS      2 Locally Optimal           
+**** OBJECTIVE VALUE          5238095.2381
+
+ RESOURCE USAGE, LIMIT          0.000      1000.000
+ ITERATION COUNT, LIMIT         4    2000000000
+ EVALUATION ERRORS              0             0
+CONOPT 3         24.8.5 r61358 Released May 10, 2017 WEI x86 64bit/MS Windows 
+ 
+ 
+    C O N O P T 3   version 3.17C
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+    The model has 5 variables and 4 constraints
+    with 11 Jacobian elements, 4 of which are nonlinear.
+    The Hessian of the Lagrangian has 2 elements on the diagonal,
+    0 elements below the diagonal, and 2 nonlinear variables.
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  3
+ 
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+ 
+ CONOPT time Total                            0.001 seconds
+   of which: Function evaluations             0.000 =  0.0%
+             1st Derivative evaluations       0.000 =  0.0%
+ 
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- EQU costobj         .         .         .       -0.400      
+---- EQU eiobj           .         .         .       -0.600      
+---- EQU wastecon    1000.000  1000.000  1000.000 10476.190      
+---- EQU TOTAL_COS~      .         .         .        1.000      
+
+---- VAR v  
+
+     LOWER     LEVEL     UPPER    MARGINAL
+
+1      .      523.810     +INF       .         
+2      .      476.190     +INF  7.458E-11      
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR CV              .    7.2789E+6     +INF       .         
+---- VAR EV              .    3.8776E+6     +INF       .         
+---- VAR Z              -INF  5.2381E+6     +INF       .         
+
+  CV  capital cost
+  EV  environmental impact
+  Z  objective function
+
+
+**** REPORT SUMMARY :        0     NONOPT
+                             0 INFEASIBLE
+                             0  UNBOUNDED
+                             0     ERRORS
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 18
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Equation Listing    SOLVE wastetreatment Using NLP From line 41
+
+
+---- costobj  =E=  
+
+costobj..  (10476.1904761906)*v(1) + (19047.6190476195)*v(2) - CV =E= 0 ;
+     
+      (LHS = 0)
+     
+
+---- eiobj  =E=  
+
+eiobj..  (10476.1904761906)*v(1) + (4761.90476190487)*v(2) - EV =E= 0 ;
+     
+      (LHS = 0)
+     
+
+---- wastecon  =E=  
+
+wastecon..  v(1) + v(2) =E= 1000 ; (LHS = 1000.00000000002)
+     
+
+---- TOTAL_COST_FUN  =E=  
+
+TOTAL_COST_FUN..  - 0.5*CV - 0.5*EV + Z =E= 0 ;
+     
+      (LHS = -340136.054421784, INFES = 340136.054421784 ****)
+     
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 19
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Column Listing      SOLVE wastetreatment Using NLP From line 41
+
+
+---- v  
+
+v(1)
+                (.LO, .L, .UP, .M = 0, 523.809523809532, +INF, 0)
+   (10476.1905) costobj
+   (10476.1905) eiobj
+        1       wastecon
+
+v(2)
+                (.LO, .L, .UP, .M = 0, 476.190476190487, +INF, 
+7.45785655453801E-11)
+   (19047.619)  costobj
+    (4761.9048) eiobj
+        1       wastecon
+
+
+---- CV  capital cost
+
+CV
+                (.LO, .L, .UP, .M = 0, 7278911.56462614, +INF, 0)
+       -1       costobj
+       -0.5     TOTAL_COST_FUN
+
+
+---- EV  environmental impact
+
+EV
+                (.LO, .L, .UP, .M = 0, 3877551.0204083, +INF, 0)
+       -1       eiobj
+       -0.5     TOTAL_COST_FUN
+
+
+---- Z  objective function
+
+Z
+                (.LO, .L, .UP, .M = -INF, 5238095.23809544, +INF, 0)
+        1       TOTAL_COST_FUN
+
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 20
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Model Statistics    SOLVE wastetreatment Using NLP From line 41
+
+
+LOOPS                            FOR/WHILE   5
+
+
+MODEL STATISTICS
+
+BLOCKS OF EQUATIONS           4     SINGLE EQUATIONS            4
+BLOCKS OF VARIABLES           4     SINGLE VARIABLES            5
+NON ZERO ELEMENTS            11     NON LINEAR N-Z              4
+DERIVATIVE POOL              20     CONSTANT POOL              17
+CODE LENGTH                  20
+
+
+GENERATION TIME      =        0.000 SECONDS      3 MB  24.8.5 r61358 WEX-WEI
+
+
+EXECUTION TIME       =        0.078 SECONDS      3 MB  24.8.5 r61358 WEX-WEI
+               L O O P S          FOR/WHILE 5
+
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 21
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Solution Report     SOLVE wastetreatment Using NLP From line 41
+
+
+               S O L V E      S U M M A R Y
+
+     MODEL   wastetreatment      OBJECTIVE  Z
+     TYPE    NLP                 DIRECTION  MINIMIZE
+     SOLVER  CONOPT              FROM LINE  41
+
+**** SOLVER STATUS     1 Normal Completion         
+**** MODEL STATUS      2 Locally Optimal           
+**** OBJECTIVE VALUE          5555555.5556
+
+ RESOURCE USAGE, LIMIT          0.000      1000.000
+ ITERATION COUNT, LIMIT         4    2000000000
+ EVALUATION ERRORS              0             0
+CONOPT 3         24.8.5 r61358 Released May 10, 2017 WEI x86 64bit/MS Windows 
+ 
+ 
+    C O N O P T 3   version 3.17C
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+    The model has 5 variables and 4 constraints
+    with 11 Jacobian elements, 4 of which are nonlinear.
+    The Hessian of the Lagrangian has 2 elements on the diagonal,
+    0 elements below the diagonal, and 2 nonlinear variables.
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  3
+ 
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+ 
+ CONOPT time Total                            0.001 seconds
+   of which: Function evaluations             0.000 =  0.0%
+             1st Derivative evaluations       0.000 =  0.0%
+ 
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- EQU costobj         .         .         .       -0.500      
+---- EQU eiobj           .         .         .       -0.500      
+---- EQU wastecon    1000.000  1000.000  1000.000 11111.111      
+---- EQU TOTAL_COS~      .         .         .        1.000      
+
+---- VAR v  
+
+     LOWER     LEVEL     UPPER    MARGINAL
+
+1      .      555.556     +INF       .         
+2      .      444.444     +INF  3.820E-11      
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR CV              .    7.0370E+6     +INF       .         
+---- VAR EV              .    4.0741E+6     +INF       .         
+---- VAR Z              -INF  5.5556E+6     +INF       .         
+
+  CV  capital cost
+  EV  environmental impact
+  Z  objective function
+
+
+**** REPORT SUMMARY :        0     NONOPT
+                             0 INFEASIBLE
+                             0  UNBOUNDED
+                             0     ERRORS
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 22
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Equation Listing    SOLVE wastetreatment Using NLP From line 41
+
+
+---- costobj  =E=  
+
+costobj..  (11111.1111111113)*v(1) + (17777.7777777782)*v(2) - CV =E= 0 ;
+     
+      (LHS = 0)
+     
+
+---- eiobj  =E=  
+
+eiobj..  (11111.1111111113)*v(1) + (4444.44444444454)*v(2) - EV =E= 0 ;
+     
+      (LHS = 0)
+     
+
+---- wastecon  =E=  
+
+wastecon..  v(1) + v(2) =E= 1000 ; (LHS = 1000.00000000002)
+     
+
+---- TOTAL_COST_FUN  =E=  
+
+TOTAL_COST_FUN..  - 0.6*CV - 0.4*EV + Z =E= 0 ;
+     
+      (LHS = -296296.296296309, INFES = 296296.296296309 ****)
+     
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 23
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Column Listing      SOLVE wastetreatment Using NLP From line 41
+
+
+---- v  
+
+v(1)
+                (.LO, .L, .UP, .M = 0, 555.555555555565, +INF, 0)
+   (11111.1111) costobj
+   (11111.1111) eiobj
+        1       wastecon
+
+v(2)
+                (.LO, .L, .UP, .M = 0, 444.444444444454, +INF, 
+3.8198777474463E-11)
+   (17777.7778) costobj
+    (4444.4444) eiobj
+        1       wastecon
+
+
+---- CV  capital cost
+
+CV
+                (.LO, .L, .UP, .M = 0, 7037037.03703732, +INF, 0)
+       -1       costobj
+       -0.6     TOTAL_COST_FUN
+
+
+---- EV  environmental impact
+
+EV
+                (.LO, .L, .UP, .M = 0, 4074074.07407423, +INF, 0)
+       -1       eiobj
+       -0.4     TOTAL_COST_FUN
+
+
+---- Z  objective function
+
+Z
+                (.LO, .L, .UP, .M = -INF, 5555555.55555577, +INF, 0)
+        1       TOTAL_COST_FUN
+
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 24
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Model Statistics    SOLVE wastetreatment Using NLP From line 41
+
+
+LOOPS                            FOR/WHILE   6
+
+
+MODEL STATISTICS
+
+BLOCKS OF EQUATIONS           4     SINGLE EQUATIONS            4
+BLOCKS OF VARIABLES           4     SINGLE VARIABLES            5
+NON ZERO ELEMENTS            11     NON LINEAR N-Z              4
+DERIVATIVE POOL              20     CONSTANT POOL              17
+CODE LENGTH                  20
+
+
+GENERATION TIME      =        0.016 SECONDS      3 MB  24.8.5 r61358 WEX-WEI
+
+
+EXECUTION TIME       =        0.078 SECONDS      3 MB  24.8.5 r61358 WEX-WEI
+               L O O P S          FOR/WHILE 6
+
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 25
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Solution Report     SOLVE wastetreatment Using NLP From line 41
+
+
+               S O L V E      S U M M A R Y
+
+     MODEL   wastetreatment      OBJECTIVE  Z
+     TYPE    NLP                 DIRECTION  MINIMIZE
+     SOLVER  CONOPT              FROM LINE  41
+
+**** SOLVER STATUS     1 Normal Completion         
+**** MODEL STATUS      2 Locally Optimal           
+**** OBJECTIVE VALUE          5833333.3333
+
+ RESOURCE USAGE, LIMIT          0.000      1000.000
+ ITERATION COUNT, LIMIT         4    2000000000
+ EVALUATION ERRORS              0             0
+CONOPT 3         24.8.5 r61358 Released May 10, 2017 WEI x86 64bit/MS Windows 
+ 
+ 
+    C O N O P T 3   version 3.17C
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+    The model has 5 variables and 4 constraints
+    with 11 Jacobian elements, 4 of which are nonlinear.
+    The Hessian of the Lagrangian has 2 elements on the diagonal,
+    0 elements below the diagonal, and 2 nonlinear variables.
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  3
+ 
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+ 
+ CONOPT time Total                            0.000 seconds
+   of which: Function evaluations             0.000 =  0.0%
+             1st Derivative evaluations       0.000 =  0.0%
+ 
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- EQU costobj         .         .         .       -0.600      
+---- EQU eiobj           .         .         .       -0.400      
+---- EQU wastecon    1000.000  1000.000  1000.000 11666.667      
+---- EQU TOTAL_COS~      .         .         .        1.000      
+
+---- VAR v  
+
+     LOWER     LEVEL     UPPER    MARGINAL
+
+1      .      583.333     +INF       .         
+2      .      416.667     +INF  6.366E-11      
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR CV              .    6.8750E+6     +INF       .         
+---- VAR EV              .    4.2708E+6     +INF       .         
+---- VAR Z              -INF  5.8333E+6     +INF       .         
+
+  CV  capital cost
+  EV  environmental impact
+  Z  objective function
+
+
+**** REPORT SUMMARY :        0     NONOPT
+                             0 INFEASIBLE
+                             0  UNBOUNDED
+                             0     ERRORS
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 26
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Equation Listing    SOLVE wastetreatment Using NLP From line 41
+
+
+---- costobj  =E=  
+
+costobj..  (11666.6666666669)*v(1) + (16666.666666667)*v(2) - CV =E= 0 ;
+     
+      (LHS = 0)
+     
+
+---- eiobj  =E=  
+
+eiobj..  (11666.6666666669)*v(1) + (4166.66666666676)*v(2) - EV =E= 0 ;
+     
+      (LHS = 0)
+     
+
+---- wastecon  =E=  
+
+wastecon..  v(1) + v(2) =E= 1000 ; (LHS = 1000.00000000002)
+     
+
+---- TOTAL_COST_FUN  =E=  
+
+TOTAL_COST_FUN..  - 0.7*CV - 0.3*EV + Z =E= 0 ;
+     
+      (LHS = -260416.666666679, INFES = 260416.666666679 ****)
+     
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 27
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Column Listing      SOLVE wastetreatment Using NLP From line 41
+
+
+---- v  
+
+v(1)
+                (.LO, .L, .UP, .M = 0, 583.333333333343, +INF, 0)
+   (11666.6667) costobj
+   (11666.6667) eiobj
+        1       wastecon
+
+v(2)
+                (.LO, .L, .UP, .M = 0, 416.666666666676, +INF, 
+6.3664629124105E-11)
+   (16666.6667) costobj
+    (4166.6667) eiobj
+        1       wastecon
+
+
+---- CV  capital cost
+
+CV
+                (.LO, .L, .UP, .M = 0, 6875000.00000027, +INF, 0)
+       -1       costobj
+       -0.7     TOTAL_COST_FUN
+
+
+---- EV  environmental impact
+
+EV
+                (.LO, .L, .UP, .M = 0, 4270833.33333349, +INF, 0)
+       -1       eiobj
+       -0.3     TOTAL_COST_FUN
+
+
+---- Z  objective function
+
+Z
+                (.LO, .L, .UP, .M = -INF, 5833333.33333356, +INF, 0)
+        1       TOTAL_COST_FUN
+
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 28
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Model Statistics    SOLVE wastetreatment Using NLP From line 41
+
+
+LOOPS                            FOR/WHILE   7
+
+
+MODEL STATISTICS
+
+BLOCKS OF EQUATIONS           4     SINGLE EQUATIONS            4
+BLOCKS OF VARIABLES           4     SINGLE VARIABLES            5
+NON ZERO ELEMENTS            11     NON LINEAR N-Z              4
+DERIVATIVE POOL              20     CONSTANT POOL              17
+CODE LENGTH                  20
+
+
+GENERATION TIME      =        0.000 SECONDS      3 MB  24.8.5 r61358 WEX-WEI
+
+
+EXECUTION TIME       =        0.062 SECONDS      3 MB  24.8.5 r61358 WEX-WEI
+               L O O P S          FOR/WHILE 7
+
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 29
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Solution Report     SOLVE wastetreatment Using NLP From line 41
+
+
+               S O L V E      S U M M A R Y
+
+     MODEL   wastetreatment      OBJECTIVE  Z
+     TYPE    NLP                 DIRECTION  MINIMIZE
+     SOLVER  CONOPT              FROM LINE  41
+
+**** SOLVER STATUS     1 Normal Completion         
+**** MODEL STATUS      2 Locally Optimal           
+**** OBJECTIVE VALUE          6078431.3725
+
+ RESOURCE USAGE, LIMIT          0.000      1000.000
+ ITERATION COUNT, LIMIT         4    2000000000
+ EVALUATION ERRORS              0             0
+CONOPT 3         24.8.5 r61358 Released May 10, 2017 WEI x86 64bit/MS Windows 
+ 
+ 
+    C O N O P T 3   version 3.17C
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+    The model has 5 variables and 4 constraints
+    with 11 Jacobian elements, 4 of which are nonlinear.
+    The Hessian of the Lagrangian has 2 elements on the diagonal,
+    0 elements below the diagonal, and 2 nonlinear variables.
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  3
+ 
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+ 
+ CONOPT time Total                            0.001 seconds
+   of which: Function evaluations             0.000 =  0.0%
+             1st Derivative evaluations       0.000 =  0.0%
+ 
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- EQU costobj         .         .         .       -0.700      
+---- EQU eiobj           .         .         .       -0.300      
+---- EQU wastecon    1000.000  1000.000  1000.000 12156.863      
+---- EQU TOTAL_COS~      .         .         .        1.000      
+
+---- VAR v  
+
+     LOWER     LEVEL     UPPER    MARGINAL
+
+1      .      607.843     +INF       .         
+2      .      392.157     +INF  7.276E-11      
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR CV              .    6.7705E+6     +INF       .         
+---- VAR EV              .    4.4637E+6     +INF       .         
+---- VAR Z              -INF  6.0784E+6     +INF       .         
+
+  CV  capital cost
+  EV  environmental impact
+  Z  objective function
+
+
+**** REPORT SUMMARY :        0     NONOPT
+                             0 INFEASIBLE
+                             0  UNBOUNDED
+                             0     ERRORS
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 30
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Equation Listing    SOLVE wastetreatment Using NLP From line 41
+
+
+---- costobj  =E=  
+
+costobj..  (12156.8627450982)*v(1) + (15686.2745098043)*v(2) - CV =E= 0 ;
+     
+      (LHS = 0)
+     
+
+---- eiobj  =E=  
+
+eiobj..  (12156.8627450982)*v(1) + (3921.56862745107)*v(2) - EV =E= 0 ;
+     
+      (LHS = 0)
+     
+
+---- wastecon  =E=  
+
+wastecon..  v(1) + v(2) =E= 1000 ; (LHS = 1000.00000000002)
+     
+
+---- TOTAL_COST_FUN  =E=  
+
+TOTAL_COST_FUN..  - 0.8*CV - 0.2*EV + Z =E= 0 ;
+     
+      (LHS = -230680.507497127, INFES = 230680.507497127 ****)
+     
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 31
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Column Listing      SOLVE wastetreatment Using NLP From line 41
+
+
+---- v  
+
+v(1)
+                (.LO, .L, .UP, .M = 0, 607.843137254912, +INF, 0)
+   (12156.8627) costobj
+   (12156.8627) eiobj
+        1       wastecon
+
+v(2)
+                (.LO, .L, .UP, .M = 0, 392.156862745107, +INF, 
+7.27595761418343E-11)
+   (15686.2745) costobj
+    (3921.5686) eiobj
+        1       wastecon
+
+
+---- CV  capital cost
+
+CV
+                (.LO, .L, .UP, .M = 0, 6770472.89504064, +INF, 0)
+       -1       costobj
+       -0.8     TOTAL_COST_FUN
+
+
+---- EV  environmental impact
+
+EV
+                (.LO, .L, .UP, .M = 0, 4463667.82006937, +INF, 0)
+       -1       eiobj
+       -0.2     TOTAL_COST_FUN
+
+
+---- Z  objective function
+
+Z
+                (.LO, .L, .UP, .M = -INF, 6078431.37254925, +INF, 0)
+        1       TOTAL_COST_FUN
+
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 32
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Model Statistics    SOLVE wastetreatment Using NLP From line 41
+
+
+LOOPS                            FOR/WHILE   8
+
+
+MODEL STATISTICS
+
+BLOCKS OF EQUATIONS           4     SINGLE EQUATIONS            4
+BLOCKS OF VARIABLES           4     SINGLE VARIABLES            5
+NON ZERO ELEMENTS            11     NON LINEAR N-Z              4
+DERIVATIVE POOL              20     CONSTANT POOL              17
+CODE LENGTH                  20
+
+
+GENERATION TIME      =        0.000 SECONDS      3 MB  24.8.5 r61358 WEX-WEI
+
+
+EXECUTION TIME       =        0.062 SECONDS      3 MB  24.8.5 r61358 WEX-WEI
+               L O O P S          FOR/WHILE 8
+
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 33
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Solution Report     SOLVE wastetreatment Using NLP From line 41
+
+
+               S O L V E      S U M M A R Y
+
+     MODEL   wastetreatment      OBJECTIVE  Z
+     TYPE    NLP                 DIRECTION  MINIMIZE
+     SOLVER  CONOPT              FROM LINE  41
+
+**** SOLVER STATUS     1 Normal Completion         
+**** MODEL STATUS      2 Locally Optimal           
+**** OBJECTIVE VALUE          6296296.2963
+
+ RESOURCE USAGE, LIMIT          0.000      1000.000
+ ITERATION COUNT, LIMIT         4    2000000000
+ EVALUATION ERRORS              0             0
+CONOPT 3         24.8.5 r61358 Released May 10, 2017 WEI x86 64bit/MS Windows 
+ 
+ 
+    C O N O P T 3   version 3.17C
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+    The model has 5 variables and 4 constraints
+    with 11 Jacobian elements, 4 of which are nonlinear.
+    The Hessian of the Lagrangian has 2 elements on the diagonal,
+    0 elements below the diagonal, and 2 nonlinear variables.
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  3
+ 
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+ 
+ CONOPT time Total                            0.000 seconds
+   of which: Function evaluations             0.000 =  0.0%
+             1st Derivative evaluations       0.000 =  0.0%
+ 
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- EQU costobj         .         .         .       -0.800      
+---- EQU eiobj           .         .         .       -0.200      
+---- EQU wastecon    1000.000  1000.000  1000.000 12592.593      
+---- EQU TOTAL_COS~      .         .         .        1.000      
+
+---- VAR v  
+
+     LOWER     LEVEL     UPPER    MARGINAL
+
+1      .      629.630     +INF       .         
+2      .      370.370     +INF  5.821E-11      
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR CV              .    6.7078E+6     +INF       .         
+---- VAR EV              .    4.6502E+6     +INF       .         
+---- VAR Z              -INF  6.2963E+6     +INF       .         
+
+  CV  capital cost
+  EV  environmental impact
+  Z  objective function
+
+
+**** REPORT SUMMARY :        0     NONOPT
+                             0 INFEASIBLE
+                             0  UNBOUNDED
+                             0     ERRORS
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 34
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Equation Listing    SOLVE wastetreatment Using NLP From line 41
+
+
+---- costobj  =E=  
+
+costobj..  (12592.5925925928)*v(1) + (14814.8148148151)*v(2) - CV =E= 0 ;
+     
+      (LHS = 0)
+     
+
+---- eiobj  =E=  
+
+eiobj..  (12592.5925925928)*v(1) + (3703.70370370379)*v(2) - EV =E= 0 ;
+     
+      (LHS = 0)
+     
+
+---- wastecon  =E=  
+
+wastecon..  v(1) + v(2) =E= 1000 ; (LHS = 1000.00000000002)
+     
+
+---- TOTAL_COST_FUN  =E=  
+
+TOTAL_COST_FUN..  - 0.9*CV - 0.1*EV + Z =E= 0 ;
+     
+      (LHS = -205761.316872437, INFES = 205761.316872437 ****)
+     
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 35
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Column Listing      SOLVE wastetreatment Using NLP From line 41
+
+
+---- v  
+
+v(1)
+                (.LO, .L, .UP, .M = 0, 629.629629629641, +INF, 0)
+   (12592.5926) costobj
+   (12592.5926) eiobj
+        1       wastecon
+
+v(2)
+                (.LO, .L, .UP, .M = 0, 370.370370370379, +INF, 
+5.82076609134674E-11)
+   (14814.8148) costobj
+    (3703.7037) eiobj
+        1       wastecon
+
+
+---- CV  capital cost
+
+CV
+                (.LO, .L, .UP, .M = 0, 6707818.93004141, +INF, 0)
+       -1       costobj
+       -0.9     TOTAL_COST_FUN
+
+
+---- EV  environmental impact
+
+EV
+                (.LO, .L, .UP, .M = 0, 4650205.76131704, +INF, 0)
+       -1       eiobj
+       -0.1     TOTAL_COST_FUN
+
+
+---- Z  objective function
+
+Z
+                (.LO, .L, .UP, .M = -INF, 6296296.29629654, +INF, 0)
+        1       TOTAL_COST_FUN
+
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 36
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Model Statistics    SOLVE wastetreatment Using NLP From line 41
+
+
+LOOPS                            FOR/WHILE   9
+
+
+MODEL STATISTICS
+
+BLOCKS OF EQUATIONS           4     SINGLE EQUATIONS            4
+BLOCKS OF VARIABLES           4     SINGLE VARIABLES            5
+NON ZERO ELEMENTS            11     NON LINEAR N-Z              4
+DERIVATIVE POOL              20     CONSTANT POOL              17
+CODE LENGTH                  20
+
+
+GENERATION TIME      =        0.000 SECONDS      3 MB  24.8.5 r61358 WEX-WEI
+
+
+EXECUTION TIME       =        0.078 SECONDS      3 MB  24.8.5 r61358 WEX-WEI
+               L O O P S          FOR/WHILE 9
+
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 37
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Solution Report     SOLVE wastetreatment Using NLP From line 41
+
+
+               S O L V E      S U M M A R Y
+
+     MODEL   wastetreatment      OBJECTIVE  Z
+     TYPE    NLP                 DIRECTION  MINIMIZE
+     SOLVER  CONOPT              FROM LINE  41
+
+**** SOLVER STATUS     1 Normal Completion         
+**** MODEL STATUS      2 Locally Optimal           
+**** OBJECTIVE VALUE          6491228.0702
+
+ RESOURCE USAGE, LIMIT          0.000      1000.000
+ ITERATION COUNT, LIMIT         4    2000000000
+ EVALUATION ERRORS              0             0
+CONOPT 3         24.8.5 r61358 Released May 10, 2017 WEI x86 64bit/MS Windows 
+ 
+ 
+    C O N O P T 3   version 3.17C
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+    The model has 5 variables and 4 constraints
+    with 11 Jacobian elements, 4 of which are nonlinear.
+    The Hessian of the Lagrangian has 2 elements on the diagonal,
+    0 elements below the diagonal, and 2 nonlinear variables.
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  3
+ 
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+ 
+ CONOPT time Total                            0.001 seconds
+   of which: Function evaluations             0.000 =  0.0%
+             1st Derivative evaluations       0.000 =  0.0%
+ 
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- EQU costobj         .         .         .       -0.900      
+---- EQU eiobj           .         .         .       -0.100      
+---- EQU wastecon    1000.000  1000.000  1000.000 12982.456      
+---- EQU TOTAL_COS~      .         .         .        1.000      
+
+---- VAR v  
+
+     LOWER     LEVEL     UPPER    MARGINAL
+
+1      .      649.123     +INF       .         
+2      .      350.877     +INF  8.549E-11      
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR CV              .    6.6759E+6     +INF       .         
+---- VAR EV              .    4.8292E+6     +INF       .         
+---- VAR Z              -INF  6.4912E+6     +INF       .         
+
+  CV  capital cost
+  EV  environmental impact
+  Z  objective function
+
+
+**** REPORT SUMMARY :        0     NONOPT
+                             0 INFEASIBLE
+                             0  UNBOUNDED
+                             0     ERRORS
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 38
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Equation Listing    SOLVE wastetreatment Using NLP From line 41
+
+
+---- costobj  =E=  
+
+costobj..  (12982.4561403511)*v(1) + (14035.0877192986)*v(2) - CV =E= 0 ;
+     
+      (LHS = 0)
+     
+
+---- eiobj  =E=  
+
+eiobj..  (12982.4561403511)*v(1) + (3508.77192982464)*v(2) - EV =E= 0 ;
+     
+      (LHS = 0)
+     
+
+---- wastecon  =E=  
+
+wastecon..  v(1) + v(2) =E= 1000 ; (LHS = 1000.00000000002)
+     
+
+---- TOTAL_COST_FUN  =E=  
+
+TOTAL_COST_FUN..  - CV + Z =E= 0 ;
+     
+      (LHS = -184672.206832881, INFES = 184672.206832881 ****)
+     
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 39
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Column Listing      SOLVE wastetreatment Using NLP From line 41
+
+
+---- v  
+
+v(1)
+                (.LO, .L, .UP, .M = 0, 649.122807017555, +INF, 0)
+   (12982.4561) costobj
+   (12982.4561) eiobj
+        1       wastecon
+
+v(2)
+                (.LO, .L, .UP, .M = 0, 350.877192982464, +INF, 
+8.54925019666553E-11)
+   (14035.0877) costobj
+    (3508.7719) eiobj
+        1       wastecon
+
+
+---- CV  capital cost
+
+CV
+                (.LO, .L, .UP, .M = 0, 6675900.27700857, +INF, 0)
+       -1       costobj
+       -1       TOTAL_COST_FUN
+
+
+---- EV  environmental impact
+
+EV
+                (.LO, .L, .UP, .M = 0, 4829178.20867976, +INF, 0)
+       -1       eiobj
+
+
+---- Z  objective function
+
+Z
+                (.LO, .L, .UP, .M = -INF, 6491228.07017568, +INF, 0)
+        1       TOTAL_COST_FUN
+
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 40
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Model Statistics    SOLVE wastetreatment Using NLP From line 41
+
+
+LOOPS                            FOR/WHILE   10
+
+
+MODEL STATISTICS
+
+BLOCKS OF EQUATIONS           4     SINGLE EQUATIONS            4
+BLOCKS OF VARIABLES           4     SINGLE VARIABLES            5
+NON ZERO ELEMENTS            10     NON LINEAR N-Z              4
+DERIVATIVE POOL              20     CONSTANT POOL              17
+CODE LENGTH                  20
+
+
+GENERATION TIME      =        0.000 SECONDS      3 MB  24.8.5 r61358 WEX-WEI
+
+
+EXECUTION TIME       =        0.078 SECONDS      3 MB  24.8.5 r61358 WEX-WEI
+               L O O P S          FOR/WHILE 10
+
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 41
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Solution Report     SOLVE wastetreatment Using NLP From line 41
+
+
+               S O L V E      S U M M A R Y
+
+     MODEL   wastetreatment      OBJECTIVE  Z
+     TYPE    NLP                 DIRECTION  MINIMIZE
+     SOLVER  CONOPT              FROM LINE  41
+
+**** SOLVER STATUS     1 Normal Completion         
+**** MODEL STATUS      2 Locally Optimal           
+**** OBJECTIVE VALUE          6666666.6667
+
+ RESOURCE USAGE, LIMIT          0.000      1000.000
+ ITERATION COUNT, LIMIT         4    2000000000
+ EVALUATION ERRORS              0             0
+CONOPT 3         24.8.5 r61358 Released May 10, 2017 WEI x86 64bit/MS Windows 
+ 
+ 
+    C O N O P T 3   version 3.17C
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+    The model has 5 variables and 4 constraints
+    with 10 Jacobian elements, 4 of which are nonlinear.
+    The Hessian of the Lagrangian has 2 elements on the diagonal,
+    0 elements below the diagonal, and 2 nonlinear variables.
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  3
+ 
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+ 
+ CONOPT time Total                            0.001 seconds
+   of which: Function evaluations             0.000 =  0.0%
+             1st Derivative evaluations       0.000 =  0.0%
+ 
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- EQU costobj         .         .         .       -1.000      
+---- EQU eiobj           .         .         .         EPS       
+---- EQU wastecon    1000.000  1000.000  1000.000 13333.333      
+---- EQU TOTAL_COS~      .         .         .        1.000      
+
+---- VAR v  
+
+     LOWER     LEVEL     UPPER    MARGINAL
+
+1      .      666.667     +INF       .         
+2      .      333.333     +INF  8.004E-11      
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR CV              .    6.6667E+6     +INF       .         
+---- VAR EV              .    5.0000E+6     +INF       .         
+---- VAR Z              -INF  6.6667E+6     +INF       .         
+
+  CV  capital cost
+  EV  environmental impact
+  Z  objective function
+
+
+**** REPORT SUMMARY :        0     NONOPT
+                             0 INFEASIBLE
+                             0  UNBOUNDED
+                             0     ERRORS
+GAMS 24.8.5  r61358 Released May 10, 2017 WEX-WEI x86 64bit/MS Windows 12/05/23 13:21:54 Page 42
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+E x e c u t i o n
+
+
+----     51 VARIABLE v.L  
+
+1 666.667,    2 333.333
+
+
+----     51 PARAMETER z_par  
+
+1  3939393.939,    2  4444444.444,    3  4871794.872,    4  5238095.238
+5  5555555.556,    6  5833333.333,    7  6078431.373,    8  6296296.296
+9  6491228.070,    10 6666666.667
+
+
+----     51 PARAMETER CV_par  
+
+1  8898071.625,    2  8148148.148,    3  7633136.095,    4  7278911.565
+5  7037037.037,    6  6875000.000,    7  6770472.895,    8  6707818.930
+9  6675900.277,    10 6666666.667
+
+
+----     51 PARAMETER EV_par  
+
+1  3388429.752,    2  3518518.519,    3  3688362.919,    4  3877551.020
+5  4074074.074,    6  4270833.333,    7  4463667.820,    8  4650205.761
+9  4829178.209,    10 5000000.000
+
+
+----     51 PARAMETER Points  
+
+             x           y
+
+1  8898071.625 3388429.752
+2  8148148.148 3518518.519
+3  7633136.095 3688362.919
+4  7278911.565 3877551.020
+5  7037037.037 4074074.074
+6  6875000.000 4270833.333
+7  6770472.895 4463667.820
+8  6707818.930 4650205.761
+9  6675900.277 4829178.209
+10 6666666.667 5000000.000
+
+
+
+EXECUTION TIME       =        0.094 SECONDS      3 MB  24.8.5 r61358 WEX-WEI
+
+
+USER: Antonis Kokossis, Single User License          S160608:0610AO-GEN
+      National Technical University of Athens, Department of ProDC11329
+      License for teaching and research at degree granting institutions
+
+
+**** FILE SUMMARY
+
+Input      C:\Users\aspenplus\Desktop\optimization\waste_model1.gms
+Output     C:\Users\aspenplus\Desktop\optimization\waste_model1.lst
